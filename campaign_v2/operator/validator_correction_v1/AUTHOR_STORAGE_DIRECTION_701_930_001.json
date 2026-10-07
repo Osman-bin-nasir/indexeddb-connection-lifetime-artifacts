@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-06T01:08:00Z",
+  "authorization_source": "direct user instruction in this conversation",
+  "user_instruction_verbatim": "continue the last 230 experiments only upload to drive when we are low on space dont upload after each batch",
+  "scope": "assignments 701-930 only",
+  "effect": "append-only operational storage direction for the already authorized 421-930 continuation",
+  "scientific_design_or_assignment_changes": false,
+  "upload_policy": "Do not upload after every batch. Keep evidence locally while bounded operation resource checks pass; when storage approaches the registered reserve and requires offload, archive completed assignments and upload to the author-designated Drive folder before any permitted cleanup.",
+  "storage_safeguards": ["Maintain the registered 6 GiB floor and frozen operation headroom.", "Never delete raw records, hash inventories, failed or anomalous evidence.", "Only use the existing author-directed retention process after Drive upload completion is visibly confirmed and the local archive round-trip passes."],
+  "batch_limit": 20,
+  "scientific_retries_permitted": false
+}

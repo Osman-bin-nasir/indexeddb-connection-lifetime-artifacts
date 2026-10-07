@@ -1,0 +1,3 @@
+{
+  "observed": "1179ac7e17c71781009cd5487edd96fd792394b50a8cb478c075d9c1d8acfd9b  /opt/idbv2/operator/guest_worker.py\n5b3f7de6e26246c9ccf97450e997973f4daa360ca6d6c265551f56cd6101c23e  /opt/idbv2/worker/transaction.js\n839efe5fd8b6a773dd81b2e10afdc15f3c0a17316fb82b5908c0533306c4ed9e  /opt/idbv2/browsers/chromium-1243/chrome-linux-arm64/chrome\n"
+}

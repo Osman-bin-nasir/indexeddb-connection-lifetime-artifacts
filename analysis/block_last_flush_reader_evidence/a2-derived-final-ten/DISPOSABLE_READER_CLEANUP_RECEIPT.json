@@ -1,0 +1,12 @@
+{
+  "vm_stopped": true,
+  "only_analysis_derivatives": true,
+  "completed_receipts_preserved": true,
+  "files": {
+    "/tmp/idbv2-revision/a2-derived-final-ten/reader-root.qcow2": {
+      "sha256": "83533c5c4c02ac7cd509380992e186c5c496179917110d253d0b34679d61fd7a",
+      "logical_bytes": 32899072,
+      "allocated_bytes": 32849920
+    }
+  }
+}

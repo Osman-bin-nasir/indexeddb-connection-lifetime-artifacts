@@ -1,0 +1,1733 @@
+{
+  "role": "compact derived evidence copy; not relocated VM or scientific acquisition",
+  "new_scientific_units": 0,
+  "source_campaign_files_modified": false,
+  "copied": {
+    "analysis/block_reanalysis.py": {
+      "bytes": 19701,
+      "sha256": "e35f1fe528d4ca6578dacfa20e62bc5f1043d5c1a218d04c6c919741d9dc7b68",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_results.json": {
+      "bytes": 60195,
+      "sha256": "72ff8c7c2281a1add3709e739ec9d336583fe606665d829604a53f528a7722a2",
+      "source_destination_verified": true
+    },
+    "analysis/block_boundary_audit.json": {
+      "bytes": 14527,
+      "sha256": "f72b7846cbc55cd114642c4b27294d63bc24c41e143392a19741fd604544f837",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived/DISPOSABLE_READER_CLEANUP_RECEIPT.json": {
+      "bytes": 397,
+      "sha256": "587a3169266610c508165ef7f44407bdb1edb3f154891564707b4e6e48c8735f",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived/PLAN.json": {
+      "bytes": 1963,
+      "sha256": "e8ff19322e62f671b5af59e49a609ff874ea92a48445e9eb6d03679f6f5b7957",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived/SUMMARY.json": {
+      "bytes": 1558,
+      "sha256": "621141162131dc77e60d60f020e06e8a9fdb680612f84a7313808841e94e0dc5",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived/events.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/DISPOSABLE_READER_CLEANUP_RECEIPT.json": {
+      "bytes": 966,
+      "sha256": "e992c0bf2202ee1050f6304e90cdca0250755980f8e20c8d1e29a52c13c6ad2c",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/PLAN.json": {
+      "bytes": 1963,
+      "sha256": "468d5d1feac51ca0715c52c2b5612797b2a248fe38cb5d02aee0000bd6de015a",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/READER_INPUT_HASHES.json": {
+      "bytes": 351,
+      "sha256": "e326770d5c42c1a18fc2b7ee7a68f4321c0e823667a076a631b18f05b6448716",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/SUMMARY.json": {
+      "bytes": 1558,
+      "sha256": "621141162131dc77e60d60f020e06e8a9fdb680612f84a7313808841e94e0dc5",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/boot/console.txt": {
+      "bytes": 60281,
+      "sha256": "6e507ee26f47dba59eb5efc5990ad2a086d649bea38ea908b5e74e3f8511402d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/events.jsonl": {
+      "bytes": 6597,
+      "sha256": "5e00f43e11e86f3afe41e4786b0953e1071e18f7f572711e50f43569383925ba",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/APPEND_ONLY_ANALYSIS_RECEIPT.json": {
+      "bytes": 763,
+      "sha256": "ab193bc2ac8a32aa07967d997e8e515a0f5d14e5f3dd8dbe807e87b53b2318d1",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "99d5d9b5721d47533969c7691047f6436f26101837496c73b5033ddd06b04ed9",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/DISPOSABLE_READER_CLEANUP_RECEIPT.json": {
+      "bytes": 420,
+      "sha256": "b25df516bebf4520f3d89fd1da79f77512f52ce1ddf28b042b95a742dc066629",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/PLAN.json": {
+      "bytes": 1963,
+      "sha256": "e2785f90a0cefe3f34d6ce75366fb065e97154c28677bac72faaceb475031f8b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/READER_INPUT_HASHES.json": {
+      "bytes": 351,
+      "sha256": "e326770d5c42c1a18fc2b7ee7a68f4321c0e823667a076a631b18f05b6448716",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/SUMMARY.json": {
+      "bytes": 29454,
+      "sha256": "c56d40d9fead2e16162582fb341bb00647fcfb25048ff6d17ea83c960e7c1dbf",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/boot/console.txt": {
+      "bytes": 60419,
+      "sha256": "82ef5094bd3fec9b0bc2d029b3c89e0655283608e07aa401e220ccf0144bdc6a",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/events.jsonl": {
+      "bytes": 200052,
+      "sha256": "4cedf4b5be75911c290d3aed49d11ef745ee82c5a4e87ed8bd1a696cf9d36d5b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00004/ANALYSIS_RECEIPT.json": {
+      "bytes": 884,
+      "sha256": "997de09e3377da019bf7b28d44e96604f57b8b8aa04caed70ff3966a43d9a91b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00004/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00004/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00004/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "7bd3e709627e3991c1762b356965a5574e8c521d2a3d6fe9557f1634ea89aae4",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00004/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00004/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00004/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00004/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00007/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "6e43edeae9f021fc279f35644365099e9f89137503c420f54802699f3bca88f2",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00007/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00007/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00007/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "6bb39b1d8a38ab758d6eb9c63a77a227c6f5c32197eda308ae74b1c43bd336da",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00007/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00007/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00007/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00007/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00010/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "8d6cdda8f684dd3c00b2b97418e5a2b6e9b88623e41d2bf31f29139e610038fa",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00010/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00010/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00010/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "280b1a7386de3cbc5f34b2adfef15916a936c0bbc4636e68d1cc2dcae5be574d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00010/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00010/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00010/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00010/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00018/ANALYSIS_RECEIPT.json": {
+      "bytes": 884,
+      "sha256": "a8874ec74ad8a744cff52b4d1b947f29df560a532d141d100e9581828fae90f3",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00018/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00018/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00018/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "445947a21861ca1ad538038d5bcde6e646ab07c4f99d2ac8159f92e3f88cf664",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00018/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00018/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00018/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00018/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00019/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "5f7632b31d216fc6523d5747688f32136f395091314976d61d29ac8d769cbc40",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00019/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00019/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00019/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "129935d01fb703db114af5c96b1d12132118f4d90b9dfa612304d598e2ac8977",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00019/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00019/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00019/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00019/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00020/ANALYSIS_RECEIPT.json": {
+      "bytes": 876,
+      "sha256": "99e628f9e25ed592ee75065c6dabb2a6d0b0b920627827ac5d69274e39c85eca",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00020/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00020/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00020/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "cb17f673db27396ce2864aefbce8fb4273d8158447ba7d138714b5c2701bc1ed",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00020/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00020/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00020/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00020/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00024/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "ec9d2f05bacd4c8d56f915b4163c27c2279f22ce68223bb442a6303b306e462b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00024/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00024/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00024/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "ff848b35a6f78c1ef9e528af712ced00aaf12e0cbe0386be511f5ca010bacc89",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00024/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00024/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00024/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00024/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00026/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "d3153d4dee4e02a69097933824b533f6dac0562321877abce66fa18e4a6397bf",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00026/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00026/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00026/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "d70edbb4232ffe7ccf044bb702169a6cd748ae66830a77df12181828363944de",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00026/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00026/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00026/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00026/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00033/ANALYSIS_RECEIPT.json": {
+      "bytes": 876,
+      "sha256": "89904a508839768738bd2bb875a0c3535ca0d0d76d90fd2fd4a94602b498abd8",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00033/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00033/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00033/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "3c297a0d870135efcefcc615ed9398a4f0b7f982c8cfd2efd16144d3c534cf0b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00033/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00033/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00033/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00033/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00034/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "26295be2016af53b79a4fcbd73cd6f3a1f5f0443212387a80fd793afc099ac48",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00034/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00034/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00034/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "c7474fea6afa3e5abeccdec69cb22e3e0aa0aeb8e98c9ec3505a00661671d248",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00034/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00034/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00034/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00034/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00036/ANALYSIS_RECEIPT.json": {
+      "bytes": 879,
+      "sha256": "b88158108bda10a7a34e1ce4727e6dc5c00c3b2da40333f3dd6ca0fb42952675",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00036/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00036/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00036/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "08fc9372f1ff260dbd9ec4233c42813edeabf200d41174c08fcda8f2b3e8f133",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00036/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00036/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00036/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00036/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00040/ANALYSIS_RECEIPT.json": {
+      "bytes": 879,
+      "sha256": "ca77db18e63fb28c6960546663590750597268a8c60dbc0c610208b01dc417e8",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00040/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00040/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00040/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "bced2782bee9fbc5cbf7f89ce0034618d74b46b96f648ea54c9f76ea647db9a3",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00040/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00040/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00040/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00040/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00041/ANALYSIS_RECEIPT.json": {
+      "bytes": 876,
+      "sha256": "7ae53e01fb8c5521c770cb32eedfec269dfb224eecbb3c26ffe25fced1ba6eab",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00041/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00041/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00041/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "f1f9efc25eb40ffc83b7121c0adee41bf8b3c0661990686d68e96c0e1b42565b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00041/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00041/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00041/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00041/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00044/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "1832575041327873743cef94bc2d8ce797099c00443eae0fd85c4048477bc1a4",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00044/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00044/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00044/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "2958334bf27a953b0b4001f9a3ab02762c32fbbf675d963361decaef4d24fe79",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00044/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00044/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00044/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00044/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00045/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "f40cc23f2c3a6934cc1c92680a4d31d14cae93d75a6a71d09186c9ae0993d08b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00045/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00045/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00045/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "f18e368faa8606682938d498ff719223d9be6484f9f85d79812da7921f2db419",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00045/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00045/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00045/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00045/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00056/ANALYSIS_RECEIPT.json": {
+      "bytes": 879,
+      "sha256": "5e148d7a608e1dd4df53c8dda500d9c0d60c8336ace4d68f03c3daf35abdedde",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00056/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00056/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00056/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "5b4511160080e9e3cb1bf4e085f58a7df088ace789241ee1bc125d57a681a732",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00056/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00056/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00056/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00056/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00058/ANALYSIS_RECEIPT.json": {
+      "bytes": 876,
+      "sha256": "e4007934fe60d81966ed341491626ad8ed5f8136b9ae4858d31bd6aea68a68ad",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00058/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00058/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00058/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "a2260282dd77848bf8588cf43d49b75082d0abec63d19b332a9d4040ee5751f6",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00058/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00058/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00058/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00058/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00059/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "f10d98b22477044d7a27b1704afe1339bbe699509dcabcc09ac885747d342306",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00059/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00059/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00059/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "bb5ca5d2ee79401309a7d6b1c13d4297113256d9f73ea445cac8d6942f5fe523",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00059/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00059/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00059/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00059/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00060/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "bf43aef74a457ebf3612100e3d77c39fc66a8ae2126d7446d6ac916e45d29d8e",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00060/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00060/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00060/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "748045c3ac18eefe464869a67330269bbb22468891133acb4503f01a4b535cc5",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00060/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00060/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00060/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00060/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00064/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "05b182ad93ba8ca4739f3f37a0f0ccc328091ad1537c40802564974b3a4581eb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00064/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00064/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00064/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "1c68e4f4de8e47eb84c15c77bd3aa48891e39ce11f3a0643f405def562b0396a",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00064/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00064/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00064/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00064/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00067/ANALYSIS_RECEIPT.json": {
+      "bytes": 879,
+      "sha256": "264c1df667512e196356dcf5202affc1f74affe09206194d564ac511b041d530",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00067/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00067/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00067/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "0519efb2762087e90080338ace6962d613c8de2b0fe53ac5055db4a75022c064",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00067/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00067/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00067/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00067/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00071/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "12f30fffea0e54624539bcda2e1e66e280681b37cf0be69956ed32ea40ff55da",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00071/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00071/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00071/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "362239a176b03c2c2fa54ab61eb313d23ac5d1c473cd49ddb3912082426fbd7c",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00071/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00071/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00071/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00071/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00072/ANALYSIS_RECEIPT.json": {
+      "bytes": 876,
+      "sha256": "16a926f303199df645eb656a1509db7f74e4cec9cb43ea5be5b6882633ce159b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00072/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00072/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00072/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "dc97e01fe69fb4ff7084b62c9e7ea9e26a74f48226571e0e7eef6ae712f9fc7a",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00072/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00072/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00072/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00072/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00074/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "aa7c1f3c236713a7f94d6b587cd576fe4600e983bf2345b49328113c429dd0f3",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00074/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00074/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00074/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "964514e4a431820c14a6b4811c3ba731f57335bfc3d5c69fb3a48bd87c9dcc31",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00074/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00074/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00074/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00074/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00077/ANALYSIS_RECEIPT.json": {
+      "bytes": 876,
+      "sha256": "cb1d78f65587ad57f90cd3f52ee7ba71ee525136b9a2e7bc76a759d4042a8aa4",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00077/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00077/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00077/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "e2bd4d2b9c9c8b093365290ba43d28e0f0e770656f141a00fca819154d29c8f4",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00077/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00077/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00077/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00077/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00079/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "23f59aeb55e7f966beb6bb22ee086eb374e933774748aebdfd493e35859a7841",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00079/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00079/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00079/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "d5ad4267078834a35d772d64678d5fa7380e953c9a7ddabd5682928d2d21385a",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00079/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00079/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00079/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00079/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00083/ANALYSIS_RECEIPT.json": {
+      "bytes": 879,
+      "sha256": "681606874f2fbb7b8b468ea70ed2447cb0d74f4a490f3acf09e7a312e4531488",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00083/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00083/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00083/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "b320f4bc9088e524e5a2f4730ca58678d11f63ceb0841899caee3402210d0622",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00083/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00083/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00083/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00083/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00090/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "75403fc871820013526b61b9bf4d47525183b12e4e8bef153a61578410fa9ba8",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00090/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00090/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00090/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "e99680f797d0354a6f54f77ca39cfbce369fbef7db6017534ae5b9e320bc5e8b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00090/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00090/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00090/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00090/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00092/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "f6bb18f1ad51162abde6bca26d6abbf18937cce68ae638402c81027eee6b4760",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00092/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00092/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00092/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "6b7077dead8e0024bd4843ca3b3c19d44d0b1b630258b3993564dda0b2c20e15",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00092/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00092/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00092/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-remaining-prefixes/scientific-block_state_recovery-00092/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/DISPOSABLE_READER_CLEANUP_RECEIPT.json": {
+      "bytes": 345,
+      "sha256": "2aa523ba1e0f6279afed955781f9c6229bd5ae8f19b50a4c66b31c3260737dfe",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/PLAN.json": {
+      "bytes": 1963,
+      "sha256": "24a42cc37b96823b885b6b563d461e76644d640428dc05ec7294f36c2d001dc1",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/READER_INPUT_HASHES.json": {
+      "bytes": 351,
+      "sha256": "e326770d5c42c1a18fc2b7ee7a68f4321c0e823667a076a631b18f05b6448716",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/SUMMARY.json": {
+      "bytes": 11161,
+      "sha256": "64c75cf2d647e75bf7785cec49996a8a795fbfbae7c2068743effdd353fbc9dc",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/boot/console.txt": {
+      "bytes": 60423,
+      "sha256": "940cd260e39164f85d731fc6466ff0aff22c546c9bd9c131bfa614520356da8e",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/events.jsonl": {
+      "bytes": 66134,
+      "sha256": "75482945e456ebcb79d3cd11c4258c09965853eb8a7b8d72c57cc51c18fdcf45",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00094/ANALYSIS_RECEIPT.json": {
+      "bytes": 879,
+      "sha256": "aed7be3bcd62302c88e4a6575385b1dbfeed99a336098746d6e6b1f110d2e8bf",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00094/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00094/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00094/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "8184064d2c92713ef05c9b5afcc55e40e5d32741bf9339b06f942b23a7818483",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00094/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00094/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00094/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00094/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00096/ANALYSIS_RECEIPT.json": {
+      "bytes": 876,
+      "sha256": "99f709af7c818cd4a598026f4fff5b792e4857a08071f10964cb2ab52c0ec0f3",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00096/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00096/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00096/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "68172a40a11535bb91538e225eeb926d1f0a35dd222697b98dd827afe4173d99",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00096/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00096/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00096/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00096/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00097/ANALYSIS_RECEIPT.json": {
+      "bytes": 893,
+      "sha256": "bfcf75ea5c80330f8c136629f7f08a9a3887267d16245b0b7bedbc72127dc1d1",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00097/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00097/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00097/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "d81dd14b03ae993713a95d74513de80f1dac50302173b8d7b4dd3c93e45d5eb5",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00097/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00097/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00097/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00097/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00102/ANALYSIS_RECEIPT.json": {
+      "bytes": 887,
+      "sha256": "3b7207e7550c30fa56ade16216c9fb6ba073e57895f32505e3e0b0e16da5ac40",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00102/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00102/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00102/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "a7bfdb5d91db67a14397791e0cb30e2558ef0a223829773ccc07f990dc5da5f9",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00102/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00102/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00102/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00102/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00104/ANALYSIS_RECEIPT.json": {
+      "bytes": 879,
+      "sha256": "7f00032be051509f5eaad88cf843cbc1915305c938edc4bfc88802705d3c2c35",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00104/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00104/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00104/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "c8c65e7abbfe20091c7b2be1e32c05f3cb4f770fb4a495be13bde6050e911b2a",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00104/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00104/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00104/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00104/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00108/ANALYSIS_RECEIPT.json": {
+      "bytes": 876,
+      "sha256": "c48e2081b2946db0cb500bded3e030bebef9f394fede5903c0b776fc5958aa16",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00108/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00108/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00108/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "1b4d9770078bff3020d98e641b200f369329065f947e852c4a460efb20334ba5",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00108/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00108/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00108/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00108/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00111/ANALYSIS_RECEIPT.json": {
+      "bytes": 880,
+      "sha256": "7b079b89dd6c8eb8adf026681b9c46d3f75f40adb0dcf8866c4ce003093eb7be",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00111/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00111/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00111/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "a752a9afcc23853248c2fb97b4b3d5003b5193fa302e469ca1e49dcc7a8c6f5b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00111/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00111/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00111/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00111/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00113/ANALYSIS_RECEIPT.json": {
+      "bytes": 888,
+      "sha256": "9a3d56ed6f6fc951811ff12f878087d07ea3fa8e06b4284284b60d14d55535b4",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00113/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00113/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00113/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "b25448f8eba8c4c56570d4d9878812d073cc2d184a3da595165b31b8100105ec",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00113/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00113/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00113/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00113/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00114/ANALYSIS_RECEIPT.json": {
+      "bytes": 877,
+      "sha256": "eae94339884f7224f2f08ddb623f77b17c6a5d00a2bedb61e30ea0b7112e9cca",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00114/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00114/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00114/ORACLE.json": {
+      "bytes": 1019,
+      "sha256": "5398af33dd66b4eea47263da698e0ebc6ea6f95e45255eabd720414be83c10e1",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00114/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00114/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00114/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00114/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00118/ANALYSIS_RECEIPT.json": {
+      "bytes": 894,
+      "sha256": "e52e1012d0c7d05b7f7e1c8a63310f00be383ca32b3060013078bfec3d1c79bf",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00118/DISPOSABLE_DERIVATIVES_REMOVED.json": {
+      "bytes": 117,
+      "sha256": "78389d1e89f542a1fc050a05c3984b28614942ed438dc13793c47c74586c004b",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00118/MOUNT_RESPONSE.json": {
+      "bytes": 22,
+      "sha256": "1e3f6691f455051e8adb15d961e4bf3c7a17e83dd88b2afdd13315cc288250bb",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00118/ORACLE.json": {
+      "bytes": 3344,
+      "sha256": "d04cdb45c2543aacd86d96bc0b13ba8a281c6166ca1aea40bc8bb8d1f8c19831",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00118/UNMOUNT.json": {
+      "bytes": 54,
+      "sha256": "6379c17d798191f995d43b0950ea7787779fe29c9af7354b25de37a514ff207d",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00118/mount.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00118/mount.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    },
+    "analysis/block_last_flush_reader_evidence/a2-derived-final-ten/scientific-block_state_recovery-00118/reader-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_destination_verified": true
+    }
+  },
+  "completed_dependent_prefixes": 40,
+  "source_vs_destination_all_passed": true,
+  "full_private_log_volumes_excluded": true,
+  "writable_reader_derivatives_not_copied": "Disposable derivatives removed only after hashes and completed receipts; cleanup receipts retained",
+  "previous_reader_failures_and_partial_summaries_preserved": true,
+  "privacy_note": "Byte-exact retained receipts include non-secret absolute host paths; those are provenance, not runnable paths"
+}

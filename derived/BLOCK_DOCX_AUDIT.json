@@ -1,0 +1,40 @@
+{
+  "docx": "/Users/omerbinnasir/Desktop/Web Dev/research/Connection_Lifetime_IndexedDB_Research_Paper.docx",
+  "docx_sha256": "08742a8da82636eeb219a8afa1a2db1cc9cef7adfe038174a0585af5c7644d56",
+  "review_scope": "A1/A2 actual DOCX text, S5 and S6; no DOCX modifications",
+  "table_S5_matched_rows": 30,
+  "table_S5_all_values_match_recomputed": true,
+  "table_S6_original_trials": 40,
+  "table_S6_all_values_match": true,
+  "required_precision_fragments_present": 15,
+  "scientific_counts_unchanged": {
+    "assignments": 930,
+    "eligible": 925,
+    "recovered": 340,
+    "lost": 585
+  },
+  "new_scientific_units": 0,
+  "source_campaign_files_modified": false,
+  "visual_pages_reviewed": [
+    10,
+    11,
+    12,
+    13,
+    16,
+    17,
+    32,
+    33,
+    34
+  ],
+  "visual_A1_A2_relevant_pages": [
+    13,
+    16,
+    17,
+    32,
+    33,
+    34
+  ],
+  "visual_result": "Relevant results, figure4, allS5 rows and S6 readable without clipping/overlap",
+  "scientific_review": "Submission/completion, target-binding, early-cutoff versus reset, different filesystem and 0.1-s gap, paused capture/dispatch uncertainty and dependent-unit distinctions preserved",
+  "pass_all": true
+}

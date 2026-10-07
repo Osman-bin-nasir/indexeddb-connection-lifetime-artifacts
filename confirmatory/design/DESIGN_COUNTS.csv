@@ -1,0 +1,11 @@
+name,tier,cells,repetitions,assignments,qualification_assignments,optional,unit
+close_aligned_recovery_grid,1,18,10,180,18,False,fresh trial
+held_connection_recovery_sweep,1,7,10,70,7,False,fresh trial
+six_key_conditions,1,6,10,60,6,False,fresh trial
+target_byte_diagnostics,1,4,10,40,4,False,fresh trial
+trace_category_timelines,1,4,5,20,4,False,fresh trial
+fault_scope_comparison,2,12,10,120,12,False,fresh trial
+block_state_recovery,2,12,10,120,12,False,independent block-state capture; replay prefixes are dependent
+environment_sensitivity,2,16,10,160,16,False,fresh trial
+application_and_background_activity,2,16,10,160,16,False,fresh trial
+durability_cost,3,12,10,120,12,True,fresh profile/overlay; 100 measured transactions nested within trial

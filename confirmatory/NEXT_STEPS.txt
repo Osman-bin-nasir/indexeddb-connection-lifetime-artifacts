@@ -1,0 +1,60 @@
+STEP 1 REGISTRATION GATE: STOP. NO BUILD, QUALIFICATION OR SCIENTIFIC ACQUISITION.
+
+Use only version 2 in this directory. Version 1 is superseded.
+Mandatory scientific assignments: 930 (Tier 1 370, Tier 2 560).
+Excluded mandatory qualification: 95. Optional cost: 120 science + 12 qualification.
+Provisional overall mandatory machine-hours: about 27 to 50; qualification must correct this.
+Disk planning budget 35 GiB; measured about 31 GiB; hard stop 6 GiB.
+Offload destination: Google Drive, author-managed folder IndexedDB-Mac-Confirmatory-v2 (folder URL pending).
+No experimental-evidence upload now. Before acquisition, create that Drive folder and supply its URL; qualify upload/download verification.
+No PDF, manuscript, publication ZIP, new trial, cloud, x86 or source-built Chromium now.
+
+Post PREREGISTRATION.md and this complete active design/hash package to OSF.
+Suggested immutable tag: prereg-connection-lifetime-mac-v2.
+The final delivered commit and exact tag command are filled in the external desktop delivery
+receipt after the administrative commit exists. Do not tag another branch's HEAD.
+
+Command template, from the registration worktree only:
+cd '/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research'
+git status --short
+git rev-parse HEAD
+git tag -a prereg-connection-lifetime-mac-v2 FINAL_DELIVERED_COMMIT -m 'Register Mac-only connection-lifetime campaign v2'
+git push origin refs/tags/prereg-connection-lifetime-mac-v2
+
+Do not overwrite or force-move an existing tag. FINAL_DELIVERED_COMMIT is a placeholder,
+not a literal ref. Use the external delivery receipt's exact command.
+Reply with the OSF registration URL and repository tag. The current agent stops here.
+
+ONLY AFTER BOTH ARE VERIFIED:
+Step 2: provision pinned ARM64/HVF guest and exact packaged binary, toolchain, forensic
+snapshot, byte capture, SysRq reboot, mapper/filesystem/workload tools. One excluded
+qualification per registered cell. Preserve failures, report blocked cells/families, measure
+actual wall time/bytes, correct estimates, lock scientific inputs/scripts/hashes.
+Step 3: build smaller-agent runner status/preflight/run-batch N/verify/archive/disk-check,
+all under caffeinate, no retries/overwrite, unique attempt directories. Provide RUNBOOK.md,
+automatic STATUS.md/status.json and INCIDENT_TEMPLATE.md. End-to-end dry-run against one
+qualification cell, without a scientific acquisition or an undisclosed qualification retry.
+Step 4: stop with counts, corrected hours, disk/offload plan, blocked families, RUNBOOK path
+and exact smaller-agent prompt. This agent never begins the scientific campaign.
+
+All earlier datasets, including second-Mac records, remain pilot-only. Optional later
+second-host key replication requires supplied access, registered amendment and fresh data.
+Physical-power testing: not performed. Callback attribution: not established.
+
+WHEN TO UPLOAD TO GOOGLE DRIVE:
+Only when the operator reports ARCHIVE_READY after a completed family or declared
+intermediate archive boundary. It will give the exact filenames, paths and upload list.
+WHAT TO UPLOAD:
+Every numbered archive chunk (maximum 1 GiB each) and transfer/hash manifest on that list.
+They contain all raw JSON/event/capture streams, forensic extracts, hashes, incidents and
+qualification evidence, plus sampled and anomalous full overlays compressed with zstd.
+Exclude private SSH keys, passwords and credential files.
+After uploading, download each chunk back for SHA-256 and streaming member/round-trip
+verification. Local evidence remains until destination verification passes and is logged.
+Google Drive is storage only; no cloud experiment or cloud VM is authorized.
+
+Version-2 scientific-plan commit including the author-selected Google Drive destination:
+6ae8cd88f4951c8c5767b5a9a4fbe764dbb94fad
+Registration document SHA-256:
+a3dfb023a7fb9e4862edc4242a7cbac1b3b8865790dbcbb1156fddfd128b13b1
+The final administrative tag revision is in the external desktop delivery receipt.

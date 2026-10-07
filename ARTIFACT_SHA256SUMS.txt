@@ -1,0 +1,2 @@
+3f7391c54a8d3fee9e93e40d7a0d13fdfe81054d04626a17bef778920fa20e76  IndexedDB_930_Public_Artifacts_v1.0.0.zip
+ee5dd24cefabb0ea3ea682cd7368f4bad5dc6ccfdd21d6d8ad9c4deac5223a2f  OSF_REGISTRATION_V2_5a749734.zip

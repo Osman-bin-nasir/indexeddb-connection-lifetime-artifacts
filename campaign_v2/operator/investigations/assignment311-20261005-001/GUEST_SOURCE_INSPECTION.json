@@ -1,0 +1,85 @@
+{
+  "method": "read-only qemu-img virtual block reads and bounded ext4 extent walk",
+  "vm_booted": false,
+  "journal_replayed": false,
+  "images": [
+    {
+      "image": "overlay.qcow2",
+      "sha256_before": "03a7b73f9f36c3d7e1882872968dd8f4cc68835d27c97410baede17233bc8775",
+      "files": [
+        {
+          "guest_path": "/opt/idbv2/operator/guest_worker.py",
+          "present": true,
+          "inode": 264959,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "extracted_path": "guest_source_extracts/overlay.qcow2/opt/idbv2/operator/guest_worker.py"
+        },
+        {
+          "guest_path": "/opt/idbv2/worker/guest_worker.py",
+          "present": true,
+          "inode": 264935,
+          "bytes": 6365,
+          "sha256": "055980789fa5993910dce05eebdec01fcbc026ed94680c2182865ed5ce0b0fda",
+          "extracted_path": "guest_source_extracts/overlay.qcow2/opt/idbv2/worker/guest_worker.py"
+        },
+        {
+          "guest_path": "/opt/idbv2/worker/transaction.js",
+          "present": true,
+          "inode": 264936,
+          "bytes": 6857,
+          "sha256": "5b3f7de6e26246c9ccf97450e997973f4daa360ca6d6c265551f56cd6101c23e",
+          "extracted_path": "guest_source_extracts/overlay.qcow2/opt/idbv2/worker/transaction.js"
+        }
+      ],
+      "root_partition": {
+        "number": 1,
+        "first_lba": 2099200,
+        "last_lba": 33554398
+      },
+      "block_size": 4096,
+      "virtual_blocks_read": 12,
+      "sha256_after": "03a7b73f9f36c3d7e1882872968dd8f4cc68835d27c97410baede17233bc8775",
+      "image_unchanged": true
+    },
+    {
+      "image": "recovery.qcow2",
+      "sha256_before": "8784a2ce6ceef8972dc807cfda67f3a712e000d4f78c15b8047efd23e35251e1",
+      "files": [
+        {
+          "guest_path": "/opt/idbv2/operator/guest_worker.py",
+          "present": true,
+          "inode": 264959,
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "extracted_path": "guest_source_extracts/recovery.qcow2/opt/idbv2/operator/guest_worker.py"
+        },
+        {
+          "guest_path": "/opt/idbv2/worker/guest_worker.py",
+          "present": true,
+          "inode": 264935,
+          "bytes": 6365,
+          "sha256": "055980789fa5993910dce05eebdec01fcbc026ed94680c2182865ed5ce0b0fda",
+          "extracted_path": "guest_source_extracts/recovery.qcow2/opt/idbv2/worker/guest_worker.py"
+        },
+        {
+          "guest_path": "/opt/idbv2/worker/transaction.js",
+          "present": true,
+          "inode": 264936,
+          "bytes": 6857,
+          "sha256": "5b3f7de6e26246c9ccf97450e997973f4daa360ca6d6c265551f56cd6101c23e",
+          "extracted_path": "guest_source_extracts/recovery.qcow2/opt/idbv2/worker/transaction.js"
+        }
+      ],
+      "root_partition": {
+        "number": 1,
+        "first_lba": 2099200,
+        "last_lba": 33554398
+      },
+      "block_size": 4096,
+      "virtual_blocks_read": 12,
+      "sha256_after": "8784a2ce6ceef8972dc807cfda67f3a712e000d4f78c15b8047efd23e35251e1",
+      "image_unchanged": true
+    }
+  ]
+}

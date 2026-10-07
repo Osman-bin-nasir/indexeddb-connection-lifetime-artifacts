@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-05T02:34:26.232224+00:00",
+  "version": "append-only-operational-continuation-v4",
+  "original_final_lock_sha256": "6b41534b91721debdfb664cf0296e22c32ac5debc22f345df75ef41914f00798",
+  "base_addendum": "operator/validator_correction_v1/LOCK_ADDENDUM_003.json",
+  "base_addendum_sha256": "287861a467ffd6ebdd566efc81ac455555e6d2e7b59f66979f71774fd87bc785",
+  "author_direction_receipt": "operator/validator_correction_v1/AUTHOR_CONTINUATION_354_420_WITH_UNKNOWN_001.json",
+  "author_direction_receipt_sha256": "65391889ed036ee2894e4b0fb705e73d7e4cea8c7d9062a8dd04fd3e51183036",
+  "continuation_entrypoint": "operator/validator_correction_v1/operator_validator_v4.py",
+  "continuation_entrypoint_sha256": "4fa37a1d5950cf9920e3c9047f4a124e2f946b47d86bd2950644b0b93f2d8dae",
+  "authorized_assignments": [
+    312,
+    420
+  ],
+  "new_assignments_to_execute": "sequentially select only unstarted frozen assignments through420; consume completed technically ineligible/unknown attempts without retry",
+  "assignment_353": "preserved as unknown; excluded from eligible scientific count; never retried",
+  "design_inputs_or_measurement_source_changed": false,
+  "unknown_or_technically_ineligible_endpoints_reclassified": false,
+  "raw_inventory_and_source_hash_failure_still_stops": true,
+  "storage_and_frozen_preflight_gates_still_apply": true,
+  "assignments_above420_authorized": false,
+  "osf_posting": "deferred; no post made"
+}

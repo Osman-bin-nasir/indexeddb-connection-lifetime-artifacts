@@ -1,0 +1,70 @@
+{
+  "host_send_ns": 310042231918333,
+  "host_receive_ns": 310042240189333,
+  "guest": {
+    "endpoint": "recovered",
+    "sentinel_valid": true,
+    "direct": [
+      {
+        "id": "scientific-block_state_recovery-00018:0",
+        "trial": "scientific-block_state_recovery-00018",
+        "payload": "d00d16376954dd07f50123b1fb46a875655dfd90f0885551c604880c8039c3288448efea0ac2661db4abf169592620c09cce4812861162c1af9d8e7f93ae5d9ef22db7bc8167b93ce810e5a3b9a37e860b04e42da717900592400bec25a695a1919e64a4d4abdd4fb8be6a0d200f7e987fbebfbdc221dc5a3b9190762c5fafce",
+        "metadata": {
+          "campaign": "indexeddb-connection-lifetime-mac-20261003-v2",
+          "trial": "scientific-block_state_recovery-00018",
+          "record": "0",
+          "record_count": 1,
+          "payload_bytes": 256,
+          "sentinel": false
+        },
+        "checksum": "3c8d4dd8e1acd70d45edcd746b853ca58820f055020380a9f28d47161b8f0ffe"
+      }
+    ],
+    "indexed": [
+      {
+        "id": "scientific-block_state_recovery-00018:0",
+        "trial": "scientific-block_state_recovery-00018",
+        "payload": "d00d16376954dd07f50123b1fb46a875655dfd90f0885551c604880c8039c3288448efea0ac2661db4abf169592620c09cce4812861162c1af9d8e7f93ae5d9ef22db7bc8167b93ce810e5a3b9a37e860b04e42da717900592400bec25a695a1919e64a4d4abdd4fb8be6a0d200f7e987fbebfbdc221dc5a3b9190762c5fafce",
+        "metadata": {
+          "campaign": "indexeddb-connection-lifetime-mac-20261003-v2",
+          "trial": "scientific-block_state_recovery-00018",
+          "record": "0",
+          "record_count": 1,
+          "payload_bytes": 256,
+          "sentinel": false
+        },
+        "checksum": "3c8d4dd8e1acd70d45edcd746b853ca58820f055020380a9f28d47161b8f0ffe"
+      }
+    ],
+    "all": [
+      {
+        "id": "scientific-block_state_recovery-00018:0",
+        "trial": "scientific-block_state_recovery-00018",
+        "payload": "d00d16376954dd07f50123b1fb46a875655dfd90f0885551c604880c8039c3288448efea0ac2661db4abf169592620c09cce4812861162c1af9d8e7f93ae5d9ef22db7bc8167b93ce810e5a3b9a37e860b04e42da717900592400bec25a695a1919e64a4d4abdd4fb8be6a0d200f7e987fbebfbdc221dc5a3b9190762c5fafce",
+        "metadata": {
+          "campaign": "indexeddb-connection-lifetime-mac-20261003-v2",
+          "trial": "scientific-block_state_recovery-00018",
+          "record": "0",
+          "record_count": 1,
+          "payload_bytes": 256,
+          "sentinel": false
+        },
+        "checksum": "3c8d4dd8e1acd70d45edcd746b853ca58820f055020380a9f28d47161b8f0ffe"
+      },
+      {
+        "id": "scientific-block_state_recovery-00018:sentinel-0",
+        "trial": "scientific-block_state_recovery-00018:sentinel",
+        "payload": "9f2b9a6fff44a7c1d2a225aaa7c4b0e60ba2e23c06a262be1f0a92f6bc3806ca068a8187088700bb75ec962fa5131f46faf8082038cdf73dece9b64d314643318132ae2a32d4660e153a2b8ecfd19fece2a4ab86c8ed144f3d58aff5e04740007760273ed767de66131ebd1a0d787e03705e9bbec2f93229fb4e357b1f637b39",
+        "metadata": {
+          "campaign": "indexeddb-connection-lifetime-mac-20261003-v2",
+          "trial": "scientific-block_state_recovery-00018",
+          "record": "sentinel-0",
+          "record_count": 1,
+          "payload_bytes": 256,
+          "sentinel": true
+        },
+        "checksum": "a40a4f446b370e34c4a8b7914e7f0e5a27d9135c18cd3decbe016f64113fde6c"
+      }
+    ]
+  }
+}

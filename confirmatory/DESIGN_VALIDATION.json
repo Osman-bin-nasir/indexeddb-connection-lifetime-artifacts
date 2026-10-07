@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "required_scientific_assignments": 930,
+  "excluded_required_qualification_attempts": 95,
+  "optional_cost_assignments": 120,
+  "optional_cost_qualification_attempts": 12,
+  "tier_1_assignments": 370,
+  "tier_2_assignments": 560,
+  "active_families": 10,
+  "required_seeded_full_overlays": 51,
+  "optional_seeded_full_overlays": 6,
+  "balanced_complete_blocks": true,
+  "grid_cells": 18,
+  "timeline_block_exception": 5,
+  "assignments_are_not_observations": true,
+  "new_acquisition_attempts": 0
+}

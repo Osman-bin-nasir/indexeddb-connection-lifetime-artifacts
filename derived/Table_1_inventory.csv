@@ -1,0 +1,10 @@
+family,registered_cells,blocks,assigned,results,eligible,recovered,lost,unknown_result,premeasurement,ACK
+close_aligned_recovery_grid,18,10,180,180,180,83,97,0,0,180
+held_connection_recovery_sweep,7,10,70,70,70,22,48,0,0,70
+six_key_conditions,6,10,60,60,60,30,30,0,0,60
+target_byte_diagnostics,4,10,40,40,40,12,28,0,0,40
+trace_category_timelines,4,5,20,19,16,5,11,3,1,19
+fault_scope_comparison,12,10,120,120,119,62,57,1,0,120
+block_state_recovery,12,10,120,120,120,24,96,0,0,120
+environment_sensitivity,16,10,160,160,160,60,100,0,0,160
+application_and_background_activity,16,10,160,160,160,42,118,0,0,160

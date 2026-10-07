@@ -1,0 +1,20 @@
+[
+  {
+    "path": "sources/ubuntu_20260926_SHA256SUMS",
+    "url": "https://cloud-images.ubuntu.com/releases/noble/release-20260926/SHA256SUMS",
+    "sha256": "cd8934d937d1509d047798e6a5acfb839c0a2d29f3e5fc87b8ec7096ffe587ca",
+    "retrieved_utc": "2026-10-03T12:56:55.456817+00:00"
+  },
+  {
+    "path": "sources/ubuntu_arm64_packages.manifest",
+    "url": "https://cloud-images.ubuntu.com/releases/noble/release-20260926/ubuntu-24.04-server-cloudimg-arm64.manifest",
+    "sha256": "be8373ae3b3be49905c1e9984196196cc9148c6437ec96a735e90428ee8b8ac6",
+    "retrieved_utc": "2026-10-03T12:56:56.130619+00:00"
+  },
+  {
+    "path": "sources/pinned_chrome_VERSION",
+    "url": "https://raw.githubusercontent.com/chromium/chromium/971a7443b0c9b0a9b2860529b33331b76077ec62/chrome/VERSION",
+    "sha256": "683873b882b98d8ed3180da2e61d0b51391c3b8852b0d640cafee4a2591072b0",
+    "retrieved_utc": "2026-10-03T12:56:58.170267+00:00"
+  }
+]

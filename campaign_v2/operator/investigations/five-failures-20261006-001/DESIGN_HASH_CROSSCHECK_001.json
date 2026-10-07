@@ -1,0 +1,154 @@
+{
+  "utc": "2026-10-06T17:55:32.034100+00:00",
+  "protocol_tag": "prereg-connection-lifetime-mac-v2",
+  "design_hash_checks": [
+    {
+      "path": "confirmatory/design/close_aligned_recovery_grid.json",
+      "expected_sha256": "35d800e452169c6bab4e309929c4cb6a976eef606c54ac78bbf3e5cd9c29cc63",
+      "actual_sha256": "35d800e452169c6bab4e309929c4cb6a976eef606c54ac78bbf3e5cd9c29cc63",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/held_connection_recovery_sweep.json",
+      "expected_sha256": "9256faee2e7e5f283c15cdeed9c479ebb43e6b1c88039706553314767e15bb22",
+      "actual_sha256": "9256faee2e7e5f283c15cdeed9c479ebb43e6b1c88039706553314767e15bb22",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/six_key_conditions.json",
+      "expected_sha256": "4f3dec95171a7b1da8ba6fc7e0284198a73272f69f92896982d3cc00f01793a6",
+      "actual_sha256": "4f3dec95171a7b1da8ba6fc7e0284198a73272f69f92896982d3cc00f01793a6",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/target_byte_diagnostics.json",
+      "expected_sha256": "c82432cd123809f95c60cb5bdeea43c274c20de49a2788058a6bc1e563e5736c",
+      "actual_sha256": "c82432cd123809f95c60cb5bdeea43c274c20de49a2788058a6bc1e563e5736c",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/trace_category_timelines.json",
+      "expected_sha256": "4cef3a307722a31febefd8621c44a3f321e46b3021c49266a0accd25463d22d2",
+      "actual_sha256": "4cef3a307722a31febefd8621c44a3f321e46b3021c49266a0accd25463d22d2",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/fault_scope_comparison.json",
+      "expected_sha256": "7161068b8401dec6651edc6e31c2795f2e8f8dcbea34c3b2ff3be68a9b8fb0c5",
+      "actual_sha256": "7161068b8401dec6651edc6e31c2795f2e8f8dcbea34c3b2ff3be68a9b8fb0c5",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/block_state_recovery.json",
+      "expected_sha256": "cca0c3f8342202461069ff44556063aa3e1e7efd7302f656322cd3609155c9b7",
+      "actual_sha256": "cca0c3f8342202461069ff44556063aa3e1e7efd7302f656322cd3609155c9b7",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/environment_sensitivity.json",
+      "expected_sha256": "bd7619641fa5aa8595244b5d442561b650239f1597099217cc02c9011bb61d4f",
+      "actual_sha256": "bd7619641fa5aa8595244b5d442561b650239f1597099217cc02c9011bb61d4f",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/application_and_background_activity.json",
+      "expected_sha256": "515608a147bf02a528f3ce20fefc71571f96c3f76cda468deba803e3deb0fdad",
+      "actual_sha256": "515608a147bf02a528f3ce20fefc71571f96c3f76cda468deba803e3deb0fdad",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    },
+    {
+      "path": "confirmatory/design/durability_cost.json",
+      "expected_sha256": "0a76874d2764ec4e110de8457a5c4dcaa97ccec1999e7c948982f26ec8b7aea6",
+      "actual_sha256": "0a76874d2764ec4e110de8457a5c4dcaa97ccec1999e7c948982f26ec8b7aea6",
+      "manifest_hash_matches": true,
+      "matches_tagged_bytes": true
+    }
+  ],
+  "design_manifest_matches_repository_tag": true,
+  "affected_cell_assigned_eligible_counts": {
+    "trace_category_timelines": {
+      "qmp_reset:held_fifteen_seconds": {
+        "assigned": 5,
+        "eligible": 4
+      },
+      "qmp_reset:held_five_seconds": {
+        "assigned": 5,
+        "eligible": 5
+      },
+      "qmp_reset:delayed_close_short_interval": {
+        "assigned": 5,
+        "eligible": 3
+      },
+      "qmp_reset:immediate_close_late_deadline": {
+        "assigned": 5,
+        "eligible": 4
+      }
+    },
+    "fault_scope_comparison": {
+      "sysrq_reboot:held_five_seconds": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "sysrq_reboot:held_fifteen_seconds": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "qmp_reset:delayed_close_short_interval": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "qmp_reset:immediate_close_late_deadline": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "qmp_reset:held_fifteen_seconds": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "sysrq_reboot:immediate_close_late_deadline": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "qmp_reset:held_five_seconds": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "sysrq_reboot:delayed_close_short_interval": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "browser_sigkill:held_fifteen_seconds": {
+        "assigned": 10,
+        "eligible": 9
+      },
+      "browser_sigkill:held_five_seconds": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "browser_sigkill:delayed_close_short_interval": {
+        "assigned": 10,
+        "eligible": 10
+      },
+      "browser_sigkill:immediate_close_late_deadline": {
+        "assigned": 10,
+        "eligible": 10
+      }
+    }
+  },
+  "global_slots": {
+    "scientific-trace_category_timelines-00003": 353,
+    "scientific-trace_category_timelines-00004": 354,
+    "scientific-trace_category_timelines-00014": 364,
+    "scientific-trace_category_timelines-00020": 370,
+    "scientific-fault_scope_comparison-00020": 390
+  }
+}

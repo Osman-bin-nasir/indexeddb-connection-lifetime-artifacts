@@ -1,0 +1,47 @@
+{
+  "derived_from": "campaign_v2/operator/investigations/five-failures-20261006-001/INVESTIGATION_RESULTS.json",
+  "raw_endpoints_unchanged": true,
+  "five_consumed_noneligible_assignments": [
+    {
+      "trial_id": "scientific-trace_category_timelines-00003",
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "resolution_reason": "Guest trace writes failed and the required trace-stop response was absent; the assigned QMP reset and oracle never ran. Cleanup shut down the VM. Reinterpreting trace fragments cannot reconstruct an unperformed fault/recovery."
+    },
+    {
+      "trial_id": "scientific-trace_category_timelines-00004",
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "resolution_reason": "No VM or scientific measurement launched; no missing observation exists to recover."
+    },
+    {
+      "trial_id": "scientific-trace_category_timelines-00014",
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "resolution_reason": "Guest trace writes failed and the required trace-stop response was absent; the assigned QMP reset and oracle never ran. Cleanup shut down the VM. Reinterpreting trace fragments cannot reconstruct an unperformed fault/recovery."
+    },
+    {
+      "trial_id": "scientific-trace_category_timelines-00020",
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "resolution_reason": "Guest trace writes failed and the required trace-stop response was absent; the assigned QMP reset and oracle never ran. Cleanup shut down the VM. Reinterpreting trace fragments cannot reconstruct an unperformed fault/recovery."
+    },
+    {
+      "trial_id": "scientific-fault_scope_comparison-00020",
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "resolution_reason": "The immutable no-replay ext4 view had an inode checksum error. The pinned extractor refused substitution, and the original guest was quit before its same-guest oracle. Preserved disks cannot restore that live kernel/RAM/boot identity. Later replay or boot may support separately labelled forensic diagnosis, but cannot supply this registered SIGKILL endpoint."
+    }
+  ],
+  "validator_correction": "Original failed byte audit retained alongside append-only REVALIDATION_311.json; unchanged LOST endpoint accepted, no retry."
+}

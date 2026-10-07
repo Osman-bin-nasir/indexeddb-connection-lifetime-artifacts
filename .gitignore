@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+reproduced/
+*.qcow2
+*.iso
+*.zip

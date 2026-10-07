@@ -1,0 +1,257 @@
+{
+  "status": "PROVISIONAL_SCENARIOS_NOT_QUALIFIED",
+  "scientific_observations": 0,
+  "pilot_event_span_summary": {
+    "n": 90,
+    "min_seconds": 18.391461375,
+    "median_seconds": 37.018543354,
+    "mean_seconds": 36.4938460083,
+    "max_seconds": 67.570418,
+    "total_seconds": 3284.446140747
+  },
+  "assumptions_seconds_per_attempt": {
+    "close_aligned_recovery_grid": [
+      60,
+      90
+    ],
+    "held_connection_recovery_sweep": [
+      60,
+      90
+    ],
+    "six_key_conditions": [
+      60,
+      90
+    ],
+    "target_byte_diagnostics": [
+      120,
+      240
+    ],
+    "trace_category_timelines": [
+      90,
+      180
+    ],
+    "fault_scope_comparison": [
+      60,
+      120
+    ],
+    "block_state_recovery": [
+      180,
+      300
+    ],
+    "environment_sensitivity": [
+      120,
+      210
+    ],
+    "application_and_background_activity": [
+      60,
+      120
+    ],
+    "durability_cost": [
+      90,
+      180
+    ]
+  },
+  "families": [
+    {
+      "family": "close_aligned_recovery_grid",
+      "scientific": 180,
+      "qualification": 18,
+      "attempts": 198,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        60,
+        90
+      ],
+      "hours_including_qualification": [
+        3.3,
+        4.95
+      ]
+    },
+    {
+      "family": "held_connection_recovery_sweep",
+      "scientific": 70,
+      "qualification": 7,
+      "attempts": 77,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        60,
+        90
+      ],
+      "hours_including_qualification": [
+        1.2833333333333334,
+        1.925
+      ]
+    },
+    {
+      "family": "six_key_conditions",
+      "scientific": 60,
+      "qualification": 6,
+      "attempts": 66,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        60,
+        90
+      ],
+      "hours_including_qualification": [
+        1.1,
+        1.65
+      ]
+    },
+    {
+      "family": "target_byte_diagnostics",
+      "scientific": 40,
+      "qualification": 4,
+      "attempts": 44,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        120,
+        240
+      ],
+      "hours_including_qualification": [
+        1.4666666666666666,
+        2.933333333333333
+      ]
+    },
+    {
+      "family": "trace_category_timelines",
+      "scientific": 20,
+      "qualification": 4,
+      "attempts": 24,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        90,
+        180
+      ],
+      "hours_including_qualification": [
+        0.6,
+        1.2
+      ]
+    },
+    {
+      "family": "fault_scope_comparison",
+      "scientific": 120,
+      "qualification": 12,
+      "attempts": 132,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        60,
+        120
+      ],
+      "hours_including_qualification": [
+        2.2,
+        4.4
+      ]
+    },
+    {
+      "family": "block_state_recovery",
+      "scientific": 120,
+      "qualification": 12,
+      "attempts": 132,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        180,
+        300
+      ],
+      "hours_including_qualification": [
+        6.6,
+        11.0
+      ]
+    },
+    {
+      "family": "environment_sensitivity",
+      "scientific": 160,
+      "qualification": 16,
+      "attempts": 176,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        120,
+        210
+      ],
+      "hours_including_qualification": [
+        5.866666666666666,
+        10.266666666666667
+      ]
+    },
+    {
+      "family": "application_and_background_activity",
+      "scientific": 160,
+      "qualification": 16,
+      "attempts": 176,
+      "optional": false,
+      "seconds_per_attempt_scenario": [
+        60,
+        120
+      ],
+      "hours_including_qualification": [
+        2.933333333333333,
+        5.866666666666666
+      ]
+    },
+    {
+      "family": "durability_cost",
+      "scientific": 120,
+      "qualification": 12,
+      "attempts": 132,
+      "optional": true,
+      "seconds_per_attempt_scenario": [
+        90,
+        180
+      ],
+      "hours_including_qualification": [
+        3.3,
+        6.6
+      ]
+    }
+  ],
+  "mandatory_attempt_hours": [
+    25.349999999999998,
+    44.19166666666667
+  ],
+  "optional_attempt_hours": [
+    3.3,
+    6.6
+  ],
+  "additional_provision_archive_verify_hours": [
+    2,
+    6
+  ],
+  "mandatory_total_hours": [
+    27.349999999999998,
+    50.19166666666667
+  ],
+  "disk": {
+    "planning_free_GiB": 35,
+    "measured_revision_free_GiB": 31.001754760742188,
+    "hard_stop_GiB": 6,
+    "offload_destination": "Google Drive, author-managed folder IndexedDB-Mac-Confirmatory-v2 (folder URL pending)",
+    "pilot_overlay_mean_MiB": 54.11,
+    "pilot_raw_mean_MiB": 0.74,
+    "all_mandatory_overlays_uncompressed_GiB": 54.162841796875,
+    "largest_family_198_overlays_GiB": 10.46267578125,
+    "largest_family_at_pilot_max_61_75_MiB_GiB": 11.93994140625,
+    "all_mandatory_raw_at_pilot_mean_GiB": 0.74072265625,
+    "retained_seeded_51_overlays_before_zstd_GiB": 2.694931640625,
+    "anomaly_overlay_count": "UNKNOWN; all anomalies retained; stop if capacity exhausted",
+    "forensic_capture_budget_MiB_per_attempt": [
+      1,
+      8
+    ],
+    "forensic_capture_total_GiB": [
+      1.0009765625,
+      8.0078125
+    ],
+    "new_base_tools_reservation_GiB": [
+      3,
+      6
+    ],
+    "archive_scratch_reservation_GiB": 2,
+    "zstd_ratio_measured": false,
+    "retained_seeded_overlays_zstd_scenarios_GiB": {
+      "0.1": 0.2694931640625,
+      "0.25": 0.67373291015625,
+      "1.0": 2.694931640625
+    },
+    "largest_family_conservative_peak_GiB": 21.62990234375,
+    "zstd_scenarios_are_not_pilot_measurements": true
+  }
+}

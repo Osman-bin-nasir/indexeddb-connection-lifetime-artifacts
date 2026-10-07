@@ -1,0 +1,23 @@
+{
+  "protocol_version": "2.0",
+  "prepared_utc": "2026-10-03T14:37:15Z",
+  "baseline_commit": "136aa1cbb4808606cba6049efc4f1c77268a9cb6",
+  "superseded_draft_commit": "022fd9fd359f1093e92c0a25dd4364cd3563d5a8",
+  "scientific_plan_commit": "6ae8cd88f4951c8c5767b5a9a4fbe764dbb94fad",
+  "registration_document_sha256": "a3dfb023a7fb9e4862edc4242a7cbac1b3b8865790dbcbb1156fddfd128b13b1",
+  "design_manifest_sha256": "5584eb171e36f5e3df890bc3879f2658f84414652849ef44ed6db0540f68ee42",
+  "scientific_content_changed_from_version_1": true,
+  "external_registration_confirmed": false,
+  "repository_tag_confirmed": false,
+  "expected_tag": "prereg-connection-lifetime-mac-v2",
+  "new_acquisition_attempts": 0,
+  "new_qualification_attempts": 0,
+  "new_paper_text": false,
+  "new_PDF_generation": false,
+  "offload_destination": "Google Drive, author-managed folder IndexedDB-Mac-Confirmatory-v2 (folder URL pending)",
+  "tag_target": "Final delivered administrative revision is identified in the external desktop NEXT_STEPS.txt, avoiding a self-referential commit hash.",
+  "scientific_inputs_unchanged_since_initial_version_2_commit": true,
+  "receipt_is_administrative_only": true,
+  "previous_unposted_version_2_delivery_commit": "5888f9d93a9105ce3b16e37db6553f15764218c5",
+  "identity_comparison_basis": "6ae8cd88f4951c8c5767b5a9a4fbe764dbb94fad, the author-selected offload revision"
+}
