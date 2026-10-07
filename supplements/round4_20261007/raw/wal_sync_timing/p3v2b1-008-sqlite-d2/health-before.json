@@ -1,0 +1,27 @@
+{
+  "agent_session": "09875532-399e-445d-b3f0-a7240f3a657f",
+  "agent_source_sha256": "b95218dfa69055dc5ba684ddeb2d8ceb70512d7472d9c3d9962d29a3c11003f5",
+  "agent_version": "0.1.0",
+  "architecture": "aarch64",
+  "boot_id": "2bb659aa-8402-431b-9c6b-81fc260e1596",
+  "browsers": [
+    "chromium",
+    "firefox",
+    "webkit"
+  ],
+  "cpu_count": 4,
+  "guest_id": "browser-storage-research-vm",
+  "memory_bytes": 6194032640,
+  "ok": true,
+  "os_name": "Ubuntu",
+  "os_version": "24.04",
+  "readiness_identity": {
+    "experiment_id": "paper3v2_mechanism_b1",
+    "nonce": "7f69ad4688a74d0c9e77a9848fe875dd3ec625e294a8ee3d27672bc8f492cfd4",
+    "origin": "http://127.0.0.1:5173",
+    "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-008-sqlite-d2.qcow2",
+    "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+    "trial_id": "p3v2b1-008-sqlite-d2"
+  },
+  "ready": true
+}

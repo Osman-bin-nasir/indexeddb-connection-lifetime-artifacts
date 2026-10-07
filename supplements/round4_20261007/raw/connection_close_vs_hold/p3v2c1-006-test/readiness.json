@@ -1,0 +1,39 @@
+{
+  "consecutive_successes": 11,
+  "established_ns": 188960633570250,
+  "final_health": {
+    "agent_session": "c1f80f35-db79-4b5f-bb79-007b432c718b",
+    "agent_source_sha256": "b95218dfa69055dc5ba684ddeb2d8ceb70512d7472d9c3d9962d29a3c11003f5",
+    "agent_version": "0.1.0",
+    "architecture": "aarch64",
+    "boot_id": "7dc2936c-d5c9-4cb4-90e1-90dc4f163765",
+    "browsers": [
+      "chromium",
+      "firefox",
+      "webkit"
+    ],
+    "cpu_count": 4,
+    "guest_id": "browser-storage-research-vm",
+    "memory_bytes": 6194094080,
+    "ok": true,
+    "os_name": "Ubuntu",
+    "os_version": "24.04",
+    "readiness_identity": {
+      "experiment_id": "paper3v2_mechanism_c1",
+      "nonce": "eb23c9b5b8d3d01191fbf9be9aaf9ec8a1e2b2392df5a47b01818de74047b75c",
+      "origin": "http://127.0.0.1:5173",
+      "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_c1/overlays/paper3v2_mechanism_c1/p3v2c1-006-test.qcow2",
+      "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+      "trial_id": "p3v2c1-006-test"
+    },
+    "ready": true
+  },
+  "post_agent_session": "c1f80f35-db79-4b5f-bb79-007b432c718b",
+  "post_boot_id": "7dc2936c-d5c9-4cb4-90e1-90dc4f163765",
+  "pre_boot_id": "efd30d32-eeb1-4af6-b89e-315e2025f0cb",
+  "primary_passed": true,
+  "shadow_observed_down": true,
+  "shadow_passed": true,
+  "shadow_scope": "same health stream, truncated at primary completion/failure; no independent polling",
+  "stable_since": 188955.581749583
+}

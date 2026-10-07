@@ -1,0 +1,7 @@
+{
+  "classification": "SENTINEL_SURVIVED_TARGET_SURVIVED",
+  "pre_state": "verified-present",
+  "primary_endpoint_eligible": true,
+  "target_survived": true,
+  "valid": true
+}

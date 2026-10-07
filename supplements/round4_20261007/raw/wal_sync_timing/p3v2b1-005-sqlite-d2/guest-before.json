@@ -1,0 +1,86 @@
+{
+  "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+  "boot_id": "47953918-df19-4846-b900-1f740d95ea1f",
+  "browser_pids": [
+    1727
+  ],
+  "events": [
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 9257135712,
+      "message": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-005-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+      "type": "NAVIGATION"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 9273481129,
+      "message": "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "type": "console"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 9275882462,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 9277498337,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 11673267171,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 11684953171,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 11693161713,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 11711904171,
+      "message": "POST http://127.0.0.1:8787/api/v1/ack: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 11721675713,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 11722283880,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "9910b32e-b67b-4944-845b-103cfdb1005c",
+      "guest_ns": 11722735005,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    }
+  ],
+  "mounts": "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=2987608k,nr_inodes=746902,mode=755,inode64 0 0\ndevpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0\ntmpfs /run tmpfs rw,nosuid,nodev,noexec,relatime,size=604888k,mode=755,inode64 0 0\nefivarfs /sys/firmware/efi/efivars efivarfs rw,nosuid,nodev,noexec,relatime 0 0\n/dev/vda1 / ext4 rw,relatime,discard,errors=remount-ro,commit=30 0 0\nsecurityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0\ntmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0\ntmpfs /run/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=5120k,inode64 0 0\ncgroup2 /sys/fs/cgroup cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot 0 0\npstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0\nbpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0\nsystemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=32,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=4390 0 0\nhugetlbfs /dev/hugepages hugetlbfs rw,nosuid,nodev,relatime,pagesize=2M 0 0\nmqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0\ndebugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0\ntracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0\nfusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0\nconfigfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0\n/dev/vda16 /boot ext4 rw,relatime 0 0\n/dev/vda15 /boot/efi vfat rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0\nbinfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=604884k,nr_inodes=151221,mode=700,uid=1000,gid=1000,inode64 0 0\ntracefs /sys/kernel/debug/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0\n",
+  "ok": true,
+  "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+  "readiness_identity": {
+    "experiment_id": "paper3v2_mechanism_b1",
+    "nonce": "7f69ad4688a74d0c9e77a9848fe875dd3ec625e294a8ee3d27672bc8f492cfd4",
+    "origin": "http://127.0.0.1:5173",
+    "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-005-sqlite-d2.qcow2",
+    "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+    "trial_id": "p3v2b1-005-sqlite-d2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "action": "reset",
+  "backend": "sqlite",
+  "boot_integrity": {
+    "details": {
+      "reason": "readiness not yet established"
+    },
+    "status": "unknown"
+  },
+  "classification": "HARNESS_ERROR",
+  "dataset_role": "paper3v2_mechanism_b1",
+  "delay_s": 2.25,
+  "errors": [],
+  "experiment_id": "paper3v2_mechanism_b1",
+  "held": false,
+  "mode": "relaxed",
+  "ordinal": 10,
+  "primary_endpoint_eligible": false,
+  "probe": false,
+  "requested_delay_ns": 2250000000,
+  "resolved": false,
+  "role": "main",
+  "started_ns": 183694987327041,
+  "technical_valid": false,
+  "timing_valid": false,
+  "trace_pipeline_ok": false,
+  "traced": true,
+  "trial_id": "p3v2b1-010-sqlite-d2p25"
+}

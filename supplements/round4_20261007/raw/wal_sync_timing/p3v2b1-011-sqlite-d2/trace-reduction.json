@@ -1,0 +1,200 @@
+{
+  "ack_guest_monotonic_ns": 11535065088,
+  "ack_guest_realtime_ms": 1790630769897.0,
+  "ack_guest_uptime_s": 11.53,
+  "blockdev_flush_events": [
+    {
+      "device": "vda",
+      "flushes_delta": 4,
+      "guest_monotonic_ns": 10018345504,
+      "guest_realtime_ns": 1790630768388776588,
+      "guest_time_rel_ack_s": -1.516719584,
+      "guest_uptime_s": 10.01,
+      "host_received_ns": 183750467738958,
+      "sample_index": 11,
+      "sectors_written_delta": 648,
+      "source": "blockdev",
+      "writes_delta": 6
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 78,
+      "guest_monotonic_ns": 11165101421,
+      "guest_realtime_ns": 1790630769535532463,
+      "guest_time_rel_ack_s": -0.369963667,
+      "guest_uptime_s": 11.16,
+      "host_received_ns": 183751614151500,
+      "sample_index": 34,
+      "sectors_written_delta": 2504,
+      "source": "blockdev",
+      "writes_delta": 110
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 12,
+      "guest_monotonic_ns": 11465132338,
+      "guest_realtime_ns": 1790630769835563255,
+      "guest_time_rel_ack_s": -0.06993275,
+      "guest_uptime_s": 11.46,
+      "host_received_ns": 183751950833791,
+      "sample_index": 40,
+      "sectors_written_delta": 296,
+      "source": "blockdev",
+      "writes_delta": 18
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 2,
+      "guest_monotonic_ns": 11564982046,
+      "guest_realtime_ns": 1790630769935413047,
+      "guest_time_rel_ack_s": 0.029916958,
+      "guest_uptime_s": 11.56,
+      "host_received_ns": 183752013953083,
+      "sample_index": 42,
+      "sectors_written_delta": 176,
+      "source": "blockdev",
+      "writes_delta": 3
+    }
+  ],
+  "blockdev_write_events": [
+    {
+      "device": "vda",
+      "flushes_delta": 4,
+      "guest_monotonic_ns": 10018345504,
+      "guest_realtime_ns": 1790630768388776588,
+      "guest_time_rel_ack_s": -1.516719584,
+      "guest_uptime_s": 10.01,
+      "host_received_ns": 183750467738958,
+      "sample_index": 11,
+      "sectors_written_delta": 648,
+      "source": "blockdev",
+      "writes_delta": 6
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 78,
+      "guest_monotonic_ns": 11165101421,
+      "guest_realtime_ns": 1790630769535532463,
+      "guest_time_rel_ack_s": -0.369963667,
+      "guest_uptime_s": 11.16,
+      "host_received_ns": 183751614151500,
+      "sample_index": 34,
+      "sectors_written_delta": 2504,
+      "source": "blockdev",
+      "writes_delta": 110
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 12,
+      "guest_monotonic_ns": 11465132338,
+      "guest_realtime_ns": 1790630769835563255,
+      "guest_time_rel_ack_s": -0.06993275,
+      "guest_uptime_s": 11.46,
+      "host_received_ns": 183751950833791,
+      "sample_index": 40,
+      "sectors_written_delta": 296,
+      "source": "blockdev",
+      "writes_delta": 18
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 2,
+      "guest_monotonic_ns": 11564982046,
+      "guest_realtime_ns": 1790630769935413047,
+      "guest_time_rel_ack_s": 0.029916958,
+      "guest_uptime_s": 11.56,
+      "host_received_ns": 183752013953083,
+      "sample_index": 42,
+      "sectors_written_delta": 176,
+      "source": "blockdev",
+      "writes_delta": 3
+    }
+  ],
+  "capture_exit_codes": {
+    "bpftrace": 255,
+    "observer": 255,
+    "strace": 255
+  },
+  "clean_before_reset": false,
+  "clock_anchors": {
+    "ack_realtime_vs_monotonic_offset_note": "page Date.now() and the uptime RPC are separate guest samples; their residual offset is bounded by the ACK-to-RPC round trip",
+    "blockdev_clock": "CLOCK_MONOTONIC + /proc/uptime, relative to guest-agent uptime RPC monotonic at ACK",
+    "cachestat_clock": "CLOCK_MONOTONIC + /proc/uptime, relative to guest-agent uptime RPC monotonic at ACK",
+    "ebpf_clock": "CLOCK_MONOTONIC (bpftrace nsecs), relative to guest-agent uptime RPC monotonic at ACK",
+    "note": "within-guest anchoring only; no host clock used to convert a guest time",
+    "strace_clock": "CLOCK_REALTIME (-ttt), relative to page browserRealtimeMs at ACK"
+  },
+  "earliest_clean_rel_ack_s": null,
+  "ebpf_events_on_wal_fd_not_in_strace": [],
+  "ebpf_events_total": 541,
+  "ebpf_unmatched_lines": 1,
+  "gate_released_host_ns": 183751847016625,
+  "ledger_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/raw/paper3v2_mechanism_b1/p3v2b1-011-sqlite-d2/trace-ledger.jsonl",
+  "ledger_rows": 5,
+  "prewrite_gate_state": "released_after_tracer_activation",
+  "realtime_to_monotonic_offset_ns": 1790630758370431232,
+  "sampling": {
+    "cachestat_samples": 82,
+    "median_interval_ms": 50.042708,
+    "sampled_files": 1
+  },
+  "strace_clock_basis": "guest_monotonic via the sampler's realtime-monotonic offset",
+  "strace_events_total": 53,
+  "strace_resumed_lines": 23,
+  "strace_unfinished_lines": 23,
+  "strace_unmatched_lines": 10,
+  "target_write_start_guest_realtime_ms": 1790630769888,
+  "target_write_start_to_ack_ms": 9.0,
+  "trace_end_host_ns": 183772433073625,
+  "trace_start_host_ns": 183749836295833,
+  "traced_fd_paths": {
+    "101": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal",
+    "105": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts",
+    "107": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts-journal",
+    "121": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS",
+    "123": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS-wal",
+    "124": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor",
+    "125": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal",
+    "126": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db",
+    "127": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal",
+    "129": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/.org.chromium.Chromium.BookmarkMergedSurfaceOrdering.wIzdNT",
+    "130": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000001.dbtmp",
+    "133": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log",
+    "136": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal",
+    "139": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173",
+    "90": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db"
+  },
+  "wal_descriptors": [
+    136
+  ],
+  "wal_dirty_to_clean_spacing_s": [],
+  "wal_dirty_to_clean_transitions": [],
+  "wal_fd_paths": {
+    "136": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal"
+  },
+  "wal_paths": [
+    "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal"
+  ],
+  "wal_sync_events": [
+    {
+      "bytes": null,
+      "clock_basis": "guest_monotonic",
+      "comm": "ThreadPoolForeg",
+      "completed": true,
+      "duration_s": 0.000834,
+      "fd": 136,
+      "fd_path": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal",
+      "guest_monotonic_ns_est": 11524015872,
+      "guest_realtime_completed_s": null,
+      "guest_realtime_s": 1790630769.894447,
+      "guest_time_rel_ack_s": -0.011049216,
+      "issuing_process": "ThreadPoolForeg",
+      "on_wal_descriptor": true,
+      "pid": 1742,
+      "resumed": false,
+      "return_value": 0,
+      "source": "strace",
+      "syscall": "fdatasync"
+    }
+  ]
+}

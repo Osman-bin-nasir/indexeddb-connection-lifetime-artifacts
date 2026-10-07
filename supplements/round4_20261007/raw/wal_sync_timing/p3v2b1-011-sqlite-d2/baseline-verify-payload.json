@@ -1,0 +1,33 @@
+{
+  "action": "baseline-verify",
+  "browser": "Chromium",
+  "browserEngine": "Blink",
+  "browserMonotonicMs": 31.5,
+  "browserVersion": "153.0.0.0",
+  "browserWallClockIso": "2026-09-28T21:26:07.130Z",
+  "databaseName": "browser-storage-crash-research-v1",
+  "databaseVersion": 2,
+  "event": "RECOVERY",
+  "experimentId": "paper3v2_mechanism_b1",
+  "faultModel": "none",
+  "objectStoreNames": [
+    "metadata",
+    "quotaChunks",
+    "records"
+  ],
+  "protocol": "targeted-single-transaction-v1",
+  "requestedDelayNs": 0,
+  "requestedDurability": "strict",
+  "sentinel": {
+    "checksum": "6f4ab04924bd8f48125a5eac83e387f71562a904d93096a3620ee2531015e2f0",
+    "experimentId": "targeted-baseline-v1",
+    "payload": "browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-stor",
+    "sequenceNumber": 1,
+    "transactionId": "__targeted_baseline_transaction_v1__",
+    "trialId": "__targeted_baseline_sentinel_v1__"
+  },
+  "sentinelRecordCount": 1,
+  "targetRecords": [],
+  "trialId": "p3v2b1-011-sqlite-d2-baseline-verify",
+  "workload": "target-transaction"
+}

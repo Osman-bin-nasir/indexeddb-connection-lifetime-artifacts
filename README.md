@@ -2,6 +2,10 @@
 
 This public artifact package contains data, analysis code, frozen design files, and retained diagnostic evidence for a completed prospective campaign using packaged Chromium 153.0.8010.12 with SQLite explicitly enabled, an ARM64 Ubuntu guest, and one Apple Silicon host. The registered experimental conditions and original evidence are preserved. The package is an evidence and analysis copy, not a relocated runnable VM environment.
 
+## Current revision supplement
+
+[Version 1.1.0](https://github.com/Osman-bin-nasir/indexeddb-connection-lifetime-artifacts/releases/tag/v1.1.0) adds verified unpublished supporting syscall evidence, acquisition and filesystem context, revised named figures and current manuscript table exports. It is also deposited in [OSF svrjy](https://osf.io/svrjy/). See [the supplement README](supplements/round4_20261007/README.md) for byte verification, reproduction commands, separate denominators and limits. The original v1.0.0 complete campaign assets remain unchanged and are still required for all-930 reproduction.
+
 ## Obtain the complete artifact package
 
 Download `IndexedDB_930_Public_Artifacts_v1.0.0.zip`, `OSF_REGISTRATION_V2_5a749734.zip`, and `ARTIFACT_SHA256SUMS.txt` from the [versioned release](https://github.com/Osman-bin-nasir/indexeddb-connection-lifetime-artifacts/releases/tag/v1.0.0). Verify both ZIPs before extracting the evidence package:
@@ -19,11 +23,11 @@ The Git repository contains the protocol, analysis scripts, derived tables and f
 
 There are 930 assigned scientific slots, 929 result records, and 925 technically eligible complete/absent endpoint oracles across 95 mandatory cells. Eligible endpoints comprise 340 recovered and 585 lost observations. Four result endpoints remain unknown, and one slot was consumed before measurement. These inventory totals cover different conditions and must not be pooled into a recovery rate.
 
-Pilot, second-host pilot, support, smoke and qualification datasets contribute no scientific endpoints here. The frozen protocol contains the original optional cost design and pilot-derived resource estimates as prospective provenance; that optional family was not acquired. Dependent log-prefix reconstructions add zero scientific units. Unknown and premeasurement slots are retained, never converted into losses or replaced by retries.
+Pilot, second-host pilot, support, smoke and qualification datasets contribute no registered scientific endpoints. The v1.1.0 supplement presents 32 earlier supporting syscall observations separately, with their original collection dates and denominators; they are not pooled with the 930 registered assignments. The frozen protocol contains the original optional cost design and pilot-derived resource estimates as prospective provenance; that optional family was not acquired. Dependent log-prefix reconstructions add zero scientific units. Unknown and premeasurement slots are retained, never converted into losses or replaced by retries.
 
 ## Registration and publication chronology
 
-The public OSF registration is [b3xpe](https://osf.io/b3xpe/), DOI [10.17605/OSF.IO/B3XPE](https://doi.org/10.17605/OSF.IO/B3XPE), registered on 3 October 2026. Its initial immutable file snapshot did not contain the later complete hashed file package. Historical associated-project upload and return-check records remain distinct from that registration snapshot.
+The public OSF registration is [b3xpe](https://osf.io/b3xpe/), DOI [10.17605/OSF.IO/B3XPE](https://doi.org/10.17605/OSF.IO/B3XPE), registered on 3 October 2026 at 18:48:13.446328 UTC. Scientific acquisition started on 4 October 2026 at 14:03:18.148755 UTC and ended with the last integration-completion receipt on 6 October 2026 at 10:57:40.678224 UTC. These bounds refer to administrative attempt receipts, not ACK or fault timestamps. Its initial immutable file snapshot did not contain the later complete hashed file package. Historical associated-project upload and return-check records remain distinct from that registration snapshot.
 
 This public GitHub release was prepared on 7 October 2026 after scientific acquisition and analysis. It does not create a retrospective preregistration timestamp. The separately supplied `OSF_REGISTRATION_V2_5a749734.zip` is the exact retained original frozen package: SHA-256 `ee5dd24cefabb0ea3ea682cd7368f4bad5dc6ccfdd21d6d8ad9c4deac5223a2f`. All 30 files listed in its inventory match the frozen repository tag `prereg-connection-lifetime-mac-v2` and the authoritative source. The ZIP also includes `SHA256SUMS` itself.
 
@@ -45,9 +49,9 @@ python3 analysis/block_reanalysis.py \
 
 | Manuscript item | Reproduction output |
 |---|---|
-| Table 1 assignment inventory | `Table_1_inventory.csv` |
-| Table 2 primary comparisons | `Table_2_primary_tests.csv` |
-| Table 3 significant secondary comparisons | `Table_3_secondary_significant.csv` |
+| Current Table 3 assignment inventory | `Table_1_inventory.csv` |
+| Current Table 4 primary comparisons; complete intervals in S7 | `Table_2_primary_tests.csv` |
+| Current Table 5 significant secondary comparisons | `Table_3_secondary_significant.csv` |
 | All secondary comparisons, including nonsignificant results | `All_registered_secondary_tests.csv` |
 | Tables A1 to A9, all 95 cells | `Table_A1_cells.csv` through `Table_A9_cells.csv` |
 | Table A12 pinned hashes | `Table_A12_hashes.csv` |
@@ -74,7 +78,7 @@ python3 analysis/rebuild_figures.py \
   --out /tmp/idbv2-reproduced/figures
 ```
 
-The reference PNGs are in `figures/`. Rendering differences can arise from different library or font versions even when numerical series agree. Intervals are pointwise, and the achieved-time panel uses recorded mapping half-RTT rather than a calibrated total timing-error bound.
+The original v1.0.0 reference PNGs are in `figures/`. Current named presentation figures are in `supplements/round4_20261007/figures/`; use that supplement’s `rebuild_figures_round4.py` for the revised presentation. All numerical series are unchanged. Rendering differences can arise from different library or font versions even when numerical series agree. Intervals are pointwise, and the achieved-time panel uses recorded mapping half-RTT rather than a calibrated total timing-error bound.
 
 ## Original failures and audit correction
 

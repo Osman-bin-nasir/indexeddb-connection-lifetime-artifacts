@@ -1,0 +1,174 @@
+{
+  "ack_guest_monotonic_ns": 11950274755,
+  "ack_guest_realtime_ms": 1790630901300.0,
+  "ack_guest_uptime_s": 11.95,
+  "blockdev_flush_events": [
+    {
+      "device": "vda",
+      "flushes_delta": 73,
+      "guest_monotonic_ns": 11509021755,
+      "guest_realtime_ns": 1790630900882896630,
+      "guest_time_rel_ack_s": -0.441253,
+      "guest_uptime_s": 11.5,
+      "host_received_ns": 183883276594416,
+      "sample_index": 33,
+      "sectors_written_delta": 2616,
+      "source": "blockdev",
+      "writes_delta": 105
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 12,
+      "guest_monotonic_ns": 11808238130,
+      "guest_realtime_ns": 1790630901182113088,
+      "guest_time_rel_ack_s": -0.142036625,
+      "guest_uptime_s": 11.8,
+      "host_received_ns": 183883670067958,
+      "sample_index": 39,
+      "sectors_written_delta": 296,
+      "source": "blockdev",
+      "writes_delta": 18
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 2,
+      "guest_monotonic_ns": 11958176588,
+      "guest_realtime_ns": 1790630901332051463,
+      "guest_time_rel_ack_s": 0.007901833,
+      "guest_uptime_s": 11.95,
+      "host_received_ns": 183883725863458,
+      "sample_index": 42,
+      "sectors_written_delta": 200,
+      "source": "blockdev",
+      "writes_delta": 3
+    }
+  ],
+  "blockdev_write_events": [
+    {
+      "device": "vda",
+      "flushes_delta": 73,
+      "guest_monotonic_ns": 11509021755,
+      "guest_realtime_ns": 1790630900882896630,
+      "guest_time_rel_ack_s": -0.441253,
+      "guest_uptime_s": 11.5,
+      "host_received_ns": 183883276594416,
+      "sample_index": 33,
+      "sectors_written_delta": 2616,
+      "source": "blockdev",
+      "writes_delta": 105
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 12,
+      "guest_monotonic_ns": 11808238130,
+      "guest_realtime_ns": 1790630901182113088,
+      "guest_time_rel_ack_s": -0.142036625,
+      "guest_uptime_s": 11.8,
+      "host_received_ns": 183883670067958,
+      "sample_index": 39,
+      "sectors_written_delta": 296,
+      "source": "blockdev",
+      "writes_delta": 18
+    },
+    {
+      "device": "vda",
+      "flushes_delta": 2,
+      "guest_monotonic_ns": 11958176588,
+      "guest_realtime_ns": 1790630901332051463,
+      "guest_time_rel_ack_s": 0.007901833,
+      "guest_uptime_s": 11.95,
+      "host_received_ns": 183883725863458,
+      "sample_index": 42,
+      "sectors_written_delta": 200,
+      "source": "blockdev",
+      "writes_delta": 3
+    }
+  ],
+  "capture_exit_codes": {
+    "bpftrace": 255,
+    "observer": 255,
+    "strace": 255
+  },
+  "clean_before_reset": false,
+  "clock_anchors": {
+    "ack_realtime_vs_monotonic_offset_note": "page Date.now() and the uptime RPC are separate guest samples; their residual offset is bounded by the ACK-to-RPC round trip",
+    "blockdev_clock": "CLOCK_MONOTONIC + /proc/uptime, relative to guest-agent uptime RPC monotonic at ACK",
+    "cachestat_clock": "CLOCK_MONOTONIC + /proc/uptime, relative to guest-agent uptime RPC monotonic at ACK",
+    "ebpf_clock": "CLOCK_MONOTONIC (bpftrace nsecs), relative to guest-agent uptime RPC monotonic at ACK",
+    "note": "within-guest anchoring only; no host clock used to convert a guest time",
+    "strace_clock": "CLOCK_REALTIME (-ttt), relative to page browserRealtimeMs at ACK"
+  },
+  "earliest_clean_rel_ack_s": null,
+  "ebpf_events_on_wal_fd_not_in_strace": [],
+  "ebpf_events_total": 552,
+  "ebpf_unmatched_lines": 1,
+  "gate_released_host_ns": 183883555832541,
+  "ledger_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/raw/paper3v2_mechanism_b1/p3v2b1-014-sqlite-d2/trace-ledger.jsonl",
+  "ledger_rows": 4,
+  "prewrite_gate_state": "released_after_tracer_activation",
+  "realtime_to_monotonic_offset_ns": 1790630889373875456,
+  "sampling": {
+    "cachestat_samples": 82,
+    "median_interval_ms": 50.01525,
+    "sampled_files": 1
+  },
+  "strace_clock_basis": "guest_monotonic via the sampler's realtime-monotonic offset",
+  "strace_events_total": 53,
+  "strace_resumed_lines": 22,
+  "strace_unfinished_lines": 22,
+  "strace_unmatched_lines": 10,
+  "target_write_start_guest_realtime_ms": 1790630901290,
+  "target_write_start_to_ack_ms": 10.0,
+  "trace_end_host_ns": 183905192797125,
+  "trace_start_host_ns": 183881540675250,
+  "traced_fd_paths": {
+    "100": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal",
+    "102": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db",
+    "104": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS",
+    "108": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts",
+    "117": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS-wal",
+    "123": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts-journal",
+    "124": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor",
+    "126": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal",
+    "127": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db",
+    "128": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal",
+    "129": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/.org.chromium.Chromium.BookmarkMergedSurfaceOrdering.NK9QY3",
+    "131": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000001.dbtmp",
+    "133": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log",
+    "140": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal",
+    "141": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173"
+  },
+  "wal_descriptors": [
+    140
+  ],
+  "wal_dirty_to_clean_spacing_s": [],
+  "wal_dirty_to_clean_transitions": [],
+  "wal_fd_paths": {
+    "140": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal"
+  },
+  "wal_paths": [
+    "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal"
+  ],
+  "wal_sync_events": [
+    {
+      "bytes": null,
+      "clock_basis": "guest_monotonic",
+      "comm": "ThreadPoolForeg",
+      "completed": true,
+      "duration_s": 0.001461,
+      "fd": 140,
+      "fd_path": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal",
+      "guest_monotonic_ns_est": 11922567424,
+      "guest_realtime_completed_s": null,
+      "guest_realtime_s": 1790630901.296443,
+      "guest_time_rel_ack_s": -0.027707331,
+      "issuing_process": "ThreadPoolForeg",
+      "on_wal_descriptor": true,
+      "pid": 1734,
+      "resumed": false,
+      "return_value": 0,
+      "source": "strace",
+      "syscall": "fdatasync"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "after": {
+    "connectionHeld": false,
+    "events": [
+      {
+        "browserMonotonicMs": 17.899999999999636,
+        "browserRealtimeMs": 1790630362647,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "PAGE_READY",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 1,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 22.399999999999636,
+        "browserRealtimeMs": 1790630362651,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "pageshow",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 2,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2458.5999999999985,
+        "browserRealtimeMs": 1790630365087,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 3,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2470.7999999999993,
+        "browserRealtimeMs": 1790630365100,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 4,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2480,
+        "browserRealtimeMs": 1790630365109,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 5,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2499.5999999999985,
+        "browserRealtimeMs": 1790630365128,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "ACK_RESPONSE_RETURNED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 6,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2500.0999999999985,
+        "browserRealtimeMs": 1790630365129,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "ORIGINAL_CONNECTION_CLOSE_CALL",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 7,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2500.2999999999993,
+        "browserRealtimeMs": 1790630365129,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "WORKLOAD_RETURNED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 8,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_b1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+    "trialId": "p3v2b1-001-sqlite-d2",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-001-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+    "visibility": "visible"
+  },
+  "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+  "before": {
+    "connectionHeld": false,
+    "events": [
+      {
+        "browserMonotonicMs": 17.899999999999636,
+        "browserRealtimeMs": 1790630362647,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "PAGE_READY",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 1,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 22.399999999999636,
+        "browserRealtimeMs": 1790630362651,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "pageshow",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 2,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2458.5999999999985,
+        "browserRealtimeMs": 1790630365087,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 3,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2470.7999999999993,
+        "browserRealtimeMs": 1790630365100,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 4,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2480,
+        "browserRealtimeMs": 1790630365109,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 5,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2499.5999999999985,
+        "browserRealtimeMs": 1790630365128,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "ACK_RESPONSE_RETURNED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 6,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2500.0999999999985,
+        "browserRealtimeMs": 1790630365129,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "ORIGINAL_CONNECTION_CLOSE_CALL",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 7,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2500.2999999999993,
+        "browserRealtimeMs": 1790630365129,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "WORKLOAD_RETURNED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 8,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_b1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+    "trialId": "p3v2b1-001-sqlite-d2",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-001-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+    "visibility": "visible"
+  },
+  "boot_id": "9acb18d4-a57d-4db6-ab75-adc769e87b55",
+  "browser_pids": [
+    1735
+  ],
+  "events": [
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 9284153045,
+      "message": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-001-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+      "type": "NAVIGATION"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 9309250712,
+      "message": "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "type": "console"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 9309422045,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 9312774129,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 11741838755,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 11753514255,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 11762247963,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 11782115088,
+      "message": "POST http://127.0.0.1:8787/api/v1/ack: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 11790779630,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 11793526588,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "b9c53525-3e8d-40a7-ad27-fc8f06ebc8dd",
+      "guest_ns": 11795456921,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    }
+  ],
+  "ok": true,
+  "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+  "readiness_identity": {
+    "experiment_id": "paper3v2_mechanism_b1",
+    "nonce": "7f69ad4688a74d0c9e77a9848fe875dd3ec625e294a8ee3d27672bc8f492cfd4",
+    "origin": "http://127.0.0.1:5173",
+    "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-001-sqlite-d2.qcow2",
+    "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+    "trial_id": "p3v2b1-001-sqlite-d2"
+  },
+  "value": {
+    "connectionHeld": false,
+    "events": [
+      {
+        "browserMonotonicMs": 17.899999999999636,
+        "browserRealtimeMs": 1790630362647,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "PAGE_READY",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 1,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 22.399999999999636,
+        "browserRealtimeMs": 1790630362651,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "pageshow",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 2,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2458.5999999999985,
+        "browserRealtimeMs": 1790630365087,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 3,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2470.7999999999993,
+        "browserRealtimeMs": 1790630365100,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 4,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2480,
+        "browserRealtimeMs": 1790630365109,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 5,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2499.5999999999985,
+        "browserRealtimeMs": 1790630365128,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "ACK_RESPONSE_RETURNED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 6,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2500.0999999999985,
+        "browserRealtimeMs": 1790630365129,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "ORIGINAL_CONNECTION_CLOSE_CALL",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 7,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2500.2999999999993,
+        "browserRealtimeMs": 1790630365129,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "WORKLOAD_RETURNED",
+        "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+        "sequence": 8,
+        "trialId": "p3v2b1-001-sqlite-d2"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_b1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "ec43f07f-dab9-4fae-a220-f85371584521",
+    "trialId": "p3v2b1-001-sqlite-d2",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-001-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+    "visibility": "visible"
+  }
+}

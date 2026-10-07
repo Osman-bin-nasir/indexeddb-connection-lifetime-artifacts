@@ -1,0 +1,190 @@
+{
+  "received_ns": 183693094256958,
+  "response": {
+    "after": {
+      "connectionHeld": false,
+      "events": [
+        {
+          "browserMonotonicMs": 23.19999999999891,
+          "browserRealtimeMs": 1790630711062,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "PAGE_READY",
+          "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+          "sequence": 1,
+          "trialId": "p3v2b1-009-sqlite-d2p25"
+        },
+        {
+          "browserMonotonicMs": 27.299999999999272,
+          "browserRealtimeMs": 1790630711066,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "pageshow",
+          "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+          "sequence": 2,
+          "trialId": "p3v2b1-009-sqlite-d2p25"
+        },
+        {
+          "browserMonotonicMs": 67.69999999999891,
+          "browserRealtimeMs": 1790630711106,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "TEMPORARY_CONNECTION_CLOSE_CALL",
+          "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+          "sequence": 3,
+          "trialId": "p3v2b1-009-sqlite-d2p25"
+        },
+        {
+          "browserMonotonicMs": 68,
+          "browserRealtimeMs": 1790630711107,
+          "details": {
+            "usedOriginalConnection": false
+          },
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "READ_COMPLETE",
+          "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+          "sequence": 4,
+          "trialId": "p3v2b1-009-sqlite-d2p25"
+        }
+      ],
+      "experimentId": "paper3v2_mechanism_b1",
+      "origin": "http://127.0.0.1:5173",
+      "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+      "trialId": "p3v2b1-009-sqlite-d2p25",
+      "url": "http://127.0.0.1:5173/?action=recover&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-009-sqlite-d2p25&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+      "visibility": "visible"
+    },
+    "agent_session": "a84f81ca-f58c-4c2b-a0a3-0696bf2d947e",
+    "before": {
+      "connectionHeld": false,
+      "events": [
+        {
+          "browserMonotonicMs": 23.19999999999891,
+          "browserRealtimeMs": 1790630711062,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "PAGE_READY",
+          "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+          "sequence": 1,
+          "trialId": "p3v2b1-009-sqlite-d2p25"
+        },
+        {
+          "browserMonotonicMs": 27.299999999999272,
+          "browserRealtimeMs": 1790630711066,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "pageshow",
+          "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+          "sequence": 2,
+          "trialId": "p3v2b1-009-sqlite-d2p25"
+        }
+      ],
+      "experimentId": "paper3v2_mechanism_b1",
+      "origin": "http://127.0.0.1:5173",
+      "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+      "trialId": "p3v2b1-009-sqlite-d2p25",
+      "url": "http://127.0.0.1:5173/?action=recover&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-009-sqlite-d2p25&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+      "visibility": "visible"
+    },
+    "boot_id": "f837a6aa-66ec-405e-a575-312d0ac7bd0b",
+    "browser_pids": [
+      882
+    ],
+    "events": [
+      {
+        "agent_session": "a84f81ca-f58c-4c2b-a0a3-0696bf2d947e",
+        "guest_ns": 10669314921,
+        "message": "http://127.0.0.1:5173/?action=recover&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-009-sqlite-d2p25&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+        "type": "NAVIGATION"
+      },
+      {
+        "agent_session": "a84f81ca-f58c-4c2b-a0a3-0696bf2d947e",
+        "guest_ns": 10699197921,
+        "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+        "type": "requestfailed"
+      },
+      {
+        "agent_session": "a84f81ca-f58c-4c2b-a0a3-0696bf2d947e",
+        "guest_ns": 10699477838,
+        "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+        "type": "requestfailed"
+      },
+      {
+        "agent_session": "a84f81ca-f58c-4c2b-a0a3-0696bf2d947e",
+        "guest_ns": 10707568588,
+        "message": "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "type": "console"
+      },
+      {
+        "agent_session": "a84f81ca-f58c-4c2b-a0a3-0696bf2d947e",
+        "guest_ns": 10730699421,
+        "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+        "type": "requestfailed"
+      }
+    ],
+    "ok": true,
+    "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+    "readiness_identity": {
+      "experiment_id": "paper3v2_mechanism_b1",
+      "nonce": "7f69ad4688a74d0c9e77a9848fe875dd3ec625e294a8ee3d27672bc8f492cfd4",
+      "origin": "http://127.0.0.1:5173",
+      "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-009-sqlite-d2p25.qcow2",
+      "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+      "trial_id": "p3v2b1-009-sqlite-d2p25"
+    },
+    "value": {
+      "connectionHeld": false,
+      "databaseName": "browser-storage-crash-research-v1",
+      "databaseVersion": 2,
+      "event": "DIAGNOSTIC_READ",
+      "experimentId": "paper3v2_mechanism_b1",
+      "metadata": {
+        "experimentId": "paper3v2_mechanism_b1",
+        "lastSequenceNumber": 1,
+        "recordCount": 1,
+        "requestedDurability": "relaxed",
+        "trialId": "p3v2b1-009-sqlite-d2p25",
+        "workload": "target-transaction"
+      },
+      "objectStoreNames": [
+        "metadata",
+        "quotaChunks",
+        "records"
+      ],
+      "origin": "http://127.0.0.1:5173",
+      "pageId": "6c581e02-6f58-4733-886d-fd97c61f84f8",
+      "readCompletedMs": 67.69999999999891,
+      "readStartedMs": 60.69999999999891,
+      "sentinel": {
+        "checksum": "6f4ab04924bd8f48125a5eac83e387f71562a904d93096a3620ee2531015e2f0",
+        "experimentId": "targeted-baseline-v1",
+        "payload": "browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-stor",
+        "sequenceNumber": 1,
+        "transactionId": "__targeted_baseline_transaction_v1__",
+        "trialId": "__targeted_baseline_sentinel_v1__"
+      },
+      "sentinelRecordCount": 1,
+      "targetDirect": {
+        "checksum": "24e67e179cc2ae0c48adf9c74b46e1d5fdc8210de87f79f9801e8833aaa84072",
+        "experimentId": "paper3v2_mechanism_b1",
+        "payload": "paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechani",
+        "sequenceNumber": 1,
+        "transactionId": "p3v2b1-009-sqlite-d2p25-target-tx-1",
+        "trialId": "p3v2b1-009-sqlite-d2p25"
+      },
+      "targetRecords": [
+        {
+          "checksum": "24e67e179cc2ae0c48adf9c74b46e1d5fdc8210de87f79f9801e8833aaa84072",
+          "experimentId": "paper3v2_mechanism_b1",
+          "payload": "paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-009-sqlite-d2p25|1|paper3v2_mechani",
+          "sequenceNumber": 1,
+          "transactionId": "p3v2b1-009-sqlite-d2p25-target-tx-1",
+          "trialId": "p3v2b1-009-sqlite-d2p25"
+        }
+      ],
+      "trialId": "p3v2b1-009-sqlite-d2p25",
+      "usedOriginalConnection": false
+    }
+  },
+  "sent_ns": 183693078582291
+}

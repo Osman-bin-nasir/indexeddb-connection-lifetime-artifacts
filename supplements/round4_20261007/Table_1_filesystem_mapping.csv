@@ -1,0 +1,12 @@
+Family / arms,Browser-data filesystem,Acquisition volume
+Close-aligned grid,"ext4; commit=30,discard",Root /dev/vda1
+Held sweep and close controls,"ext4; commit=30,discard",Root /dev/vda1
+Six key conditions,"ext4; commit=30,discard",Root /dev/vda1
+Byte capture and forensics,"ext4; commit=30,discard",Root /dev/vda1
+Trace-category timelines,"ext4; commit=30,discard",Root /dev/vda1
+"Fault scope: QMP, SysRq, SIGKILL","ext4; commit=30,discard",Root /dev/vda1
+"Block state: linear, logging, drop writes",ext4 defaults; ordinary 5 s commit interval,/dev/mapper/idbv2-browser; /var/lib/idbv2
+"Environment: custom ext4, fixed uptime","ext4; commit=30,discard",/dev/vdc; /var/lib/idbv2
+"Environment: default ext4, fixed/random uptime",ext4 defaults; ordinary 5 s commit interval,/dev/vdc; /var/lib/idbv2
+"Environment: XFS, fixed uptime",XFS defaults,/dev/vdc; /var/lib/idbv2
+"Workload: quiet, fsync, ten records, four connections","ext4; commit=30,discard",Root /dev/vda1

@@ -1,0 +1,5 @@
+Supporting population / condition,R / n,Post-ACK WAL fdatasync,WAL unlink after sync
+Timing: closed; 2.00 s,0 / 8,0 / 8,Not captured
+Timing: closed; 2.25 s,8 / 8,8 / 8,Not captured
+Close versus held: closed; 2.25 s,8 / 8,8 / 8,8 / 8
+Close versus held: held; 2.25 s,0 / 8,0 / 8,0 / 8

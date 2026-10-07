@@ -1,0 +1,28 @@
+{
+  "bpftrace_alive": true,
+  "browser_main_pid": 1724,
+  "checked_host_ns": 183712531446166,
+  "ebpf_command": "sudo -n timeout -s INT 20s bpftrace /tmp/paper3v2b1-trace.bt",
+  "observer_alive": true,
+  "observer_command": "python3 -u /tmp/paper3v2b1-observer.py --directory /var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB --duration-s 20 --interval-ms 50",
+  "passed": true,
+  "pids": [
+    1724,
+    1731,
+    1732,
+    1754,
+    1758,
+    1799,
+    1812,
+    1814,
+    1870
+  ],
+  "strace_alive": true,
+  "strace_command": "sudo -n timeout -s INT 20s strace -f -ttt -T -yy -s 0 -e trace=fsync,fdatasync,sync_file_range,msync -p 1724 -p 1731 -p 1732 -p 1754 -p 1758 -p 1799 -p 1812 -p 1814 -p 1870",
+  "tracers_alive": {
+    "bpftrace": true,
+    "observer": true,
+    "strace": true
+  },
+  "tracing_pipeline_sha256": "82b936c9a2a721cd6cfd0e22e194a4d71525d73bba1f2f54058ad4399816e35d"
+}

@@ -1,0 +1,5 @@
+{
+  "bpftrace": 255,
+  "observer": 255,
+  "strace": 255
+}

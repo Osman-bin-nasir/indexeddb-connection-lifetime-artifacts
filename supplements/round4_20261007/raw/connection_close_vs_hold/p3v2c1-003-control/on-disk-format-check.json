@@ -1,0 +1,9 @@
+{
+  "expected": "sqlite",
+  "files": 1,
+  "leveldb_files": false,
+  "matched": true,
+  "observed": "sqlite",
+  "sqlite_signature": true,
+  "sqlite_signature_expected": "53514c69746520666f726d6174203300"
+}

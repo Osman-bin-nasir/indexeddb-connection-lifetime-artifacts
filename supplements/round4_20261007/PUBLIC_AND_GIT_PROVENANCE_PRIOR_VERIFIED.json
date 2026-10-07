@@ -1,0 +1,162 @@
+{
+  "read_only": true,
+  "new_trials": 0,
+  "new_qualification": 0,
+  "review_date": "2026-10-07",
+  "git": {
+    "v2_initial_commit": "56d9d7a36643074068384921a728182e84df21cb",
+    "v2_initial_author_utc": "2026-10-03T14:33:19Z",
+    "v2_initial_committer_utc": "2026-10-03T14:33:19Z",
+    "protocol_last_change_commit": "6ae8cd88f4951c8c5767b5a9a4fbe764dbb94fad",
+    "protocol_last_author_utc": "2026-10-03T14:37:16Z",
+    "protocol_last_committer_utc": "2026-10-03T14:37:16Z",
+    "manifest_last_change_commit": "56d9d7a36643074068384921a728182e84df21cb",
+    "tag": "prereg-connection-lifetime-mac-v2",
+    "tag_commit": "5a749734a0a63f3e1c662bb91dd829e6f288dc5c",
+    "tagger_utc": "2026-10-03T18:56:14Z",
+    "externally_independent_timestamp": false
+  },
+  "hash_comparison": {
+    "confirmatory/PREREGISTRATION.md": {
+      "sha256": "a3dfb023a7fb9e4862edc4242a7cbac1b3b8865790dbcbb1156fddfd128b13b1",
+      "tag_equal": true
+    },
+    "confirmatory/design/MANIFEST.json": {
+      "sha256": "5584eb171e36f5e3df890bc3879f2658f84414652849ef44ed6db0540f68ee42",
+      "tag_equal": true
+    }
+  },
+  "osf": {
+    "registration_api": "https://api.osf.io/v2/registrations/b3xpe/",
+    "public": true,
+    "pending_approval": false,
+    "date_registered": "2026-10-03T18:48:13.446328",
+    "date_modified": "2026-10-03T20:22:14.789910",
+    "doi": "10.17605/OSF.IO/B3XPE",
+    "exact_package_in_original_snapshot": false,
+    "package_url": "https://osf.io/br39v/",
+    "package_api_result": "401 Unauthorized",
+    "project_api_result": "401 Unauthorized",
+    "new_package_hash_verification": false,
+    "timestamp_distinction": "Public registration timestamp verified; exact later-uploaded package public upload date and bytes not reverified"
+  },
+  "chrome156": {
+    "checked_cft_timestamp": "2026-10-06T18:26:09.740Z",
+    "beta": "156.0.8078.4",
+    "stable": "155.0.8059.39",
+    "beta_linux_arm64_manifest_url": "https://storage.googleapis.com/chrome-for-testing-public/156.0.8078.4/linux-arm64/chrome-linux-arm64.zip",
+    "artifact_downloaded": false,
+    "tag_commit": "f842f52ef39fd97b449eb27cff414bf05a98ddce",
+    "kIdbSqliteBackingStore_compiled_default": "disabled",
+    "kIdbSqliteOnDiskRollout_compiled_default": "disabled",
+    "on_disk_default_stage": "UseLevelDbOnly",
+    "in_memory_default": "SQLite",
+    "default_live_field_trials_observed": false,
+    "grace_seconds": 2,
+    "default_sqlite_prerequisite": "Active default rollout feature and non-LevelDB stage, confirmed on fresh on-disk files; no explicit backend overrides"
+  },
+  "wall_reference": {
+    "block_state_recovery": {
+      "n": 120,
+      "min": 73.029838417,
+      "median": 81.4986116875,
+      "mean": 97.209654040275,
+      "max": 147.283642709
+    },
+    "close_aligned_recovery_grid": {
+      "n": 180,
+      "min": 68.566974666,
+      "median": 72.26213043749999,
+      "mean": 72.04628910505,
+      "max": 74.275024208
+    },
+    "six_key_conditions": {
+      "n": 60,
+      "min": 68.426438666,
+      "median": 73.23802877099999,
+      "mean": 78.5517073576,
+      "max": 100.7215645
+    },
+    "environment_sensitivity": {
+      "n": 160,
+      "min": 113.844443625,
+      "median": 123.4118174375,
+      "mean": 140.5430214195,
+      "max": 244.354545625
+    },
+    "application_and_background_activity": {
+      "n": 160,
+      "min": 69.770993792,
+      "median": 72.99376877099999,
+      "mean": 75.28643291670625,
+      "max": 85.426770791
+    },
+    "fault_scope_comparison": {
+      "n": 120,
+      "min": 56.489056417,
+      "median": 72.374184562,
+      "mean": 74.16109279895,
+      "max": 87.054015167
+    },
+    "target_byte_diagnostics": {
+      "n": 40,
+      "min": 72.750445666,
+      "median": 76.813739521,
+      "mean": 79.161074405225,
+      "max": 90.080458292
+    },
+    "held_connection_recovery_sweep": {
+      "n": 70,
+      "min": 72.535117375,
+      "median": 79.5657898545,
+      "mean": 79.5680741565,
+      "max": 86.828682167
+    },
+    "trace_category_timelines": {
+      "n": 19,
+      "min": 35.7262,
+      "median": 73.305096375,
+      "mean": 70.43040514905263,
+      "max": 85.788275125
+    }
+  },
+  "snapshots": {
+    "osfidentifiers.txt": {
+      "bytes": 485,
+      "sha256": "08d19eb5439b7951d8717178b637d3b4724125d36e7a346d1afbb8a3b4c06d17"
+    },
+    "bucket156.txt": {
+      "bytes": 59417,
+      "sha256": "6fecd75f63ba92f5ae48f8ee624e97c94ed42780ee8a99399d2544df0171b450"
+    },
+    "tag156.txt": {
+      "bytes": 7499,
+      "sha256": "afba3d5fa8bf37ab118115b7fbbd6853994d436beb0bb5c6748e5df4a3cab2e9"
+    },
+    "buildlinux.txt": {
+      "bytes": 35326,
+      "sha256": "b1516575e2ab1ceeece3246b16ff0cd105d671fa7e23f8fb5ca6c9584bb6d7dc"
+    },
+    "buildsysroot.txt": {
+      "bytes": 2725,
+      "sha256": "321f44b7a38a780fda2796c6fef5b80e04fbffbc551d9bea35b57fb14c3c7a0a"
+    },
+    "connection156.txt": {
+      "bytes": 115558,
+      "sha256": "2611e781765553bd6e120be5b3e4a94d0ea81104725917d12929746804d37cf9"
+    },
+    "cftlatest.txt": {
+      "bytes": 10431,
+      "sha256": "7fe436bfddaa2bf94ec766ffd1d70436c9d80e43072b2472e70b10674bab2593"
+    },
+    "features156.txt": {
+      "bytes": 74920,
+      "sha256": "392e24d777b3e8200325ff6523fd184b2ce633f27e442264558681480d65b259"
+    },
+    "osfregistration.txt": {
+      "bytes": 79759,
+      "sha256": "494eb0d3f02c9d83428155d3247bb54afffab299d9a5d423d49b1f9300526ca9"
+    }
+  },
+  "scope_note": "Verified provenance only; abandoned larger proposed counts omitted from this derivative. Follow-up draft is a separate author-review document, not part of the930-trial design."
+}

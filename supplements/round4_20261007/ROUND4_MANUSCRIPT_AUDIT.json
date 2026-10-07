@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "manuscript_sha256": "edec25a515686f94b8cdfaf1392a8c12cc669a4c794c11decb892dbe8c0d9238",
+  "original_scientific_tables_preserved": 19,
+  "primary_pvalues_and_point_estimates_unchanged": true,
+  "primary_intervals_retained_in_S7": true,
+  "plotted_cell_series_unchanged": 81,
+  "achieved_points_unchanged": 20,
+  "support_input_hashes_and_originals_verified": 1732,
+  "portable_context_reproduction_matches": true,
+  "registered_assignments": 930,
+  "registered_eligible": 925,
+  "supporting_trials_separate": 32,
+  "new_trials": 0,
+  "conclusion_paragraphs": 2,
+  "figures": 6,
+  "abstract_and_author_details_preserved": true,
+  "em_dashes": 0,
+  "visual_qa": {
+    "pages": 36,
+    "all_v2_pages_inspected_at_original_resolution": true,
+    "v3_unchanged_images_carried_over": 31,
+    "v3_changed_pages_directly_inspected": [
+      "page-20.png",
+      "page-34.png",
+      "page-35.png",
+      "page-36.png",
+      "page-8.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "baseline-init_browser_monotonic_ms": 87.60000000000036,
+  "baseline-init_received_ns": 188816857736041,
+  "baseline-verify_browser_monotonic_ms": 31.5,
+  "baseline-verify_received_ns": 188817128632000
+}

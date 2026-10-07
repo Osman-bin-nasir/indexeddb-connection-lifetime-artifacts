@@ -1,0 +1,45 @@
+{
+  "backing_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/targeted-chromium-baseline.qcow2",
+  "backing_sha256": "e04f0a9cb2348dd1de283321bc726754f9feadb8674dd331452f257bf1ee6e9f",
+  "created_at": "2026-09-28T21:24:34.449783+00:00",
+  "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-009-sqlite-d2p25.qcow2",
+  "qemu_img_info": {
+    "actual-size": 200704,
+    "backing-filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/targeted-chromium-baseline.qcow2",
+    "backing-filename-format": "qcow2",
+    "children": [
+      {
+        "info": {
+          "actual-size": 200704,
+          "children": [],
+          "dirty-flag": false,
+          "filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-009-sqlite-d2p25.qcow2",
+          "format": "file",
+          "format-specific": {
+            "data": {},
+            "type": "file"
+          },
+          "virtual-size": 197120
+        },
+        "name": "file"
+      }
+    ],
+    "cluster-size": 65536,
+    "dirty-flag": false,
+    "filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-009-sqlite-d2p25.qcow2",
+    "format": "qcow2",
+    "format-specific": {
+      "data": {
+        "compat": "1.1",
+        "compression-type": "zlib",
+        "corrupt": false,
+        "extended-l2": false,
+        "lazy-refcounts": false,
+        "refcount-bits": 16
+      },
+      "type": "qcow2"
+    },
+    "full-backing-filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/targeted-chromium-baseline.qcow2",
+    "virtual-size": 34359738368
+  }
+}

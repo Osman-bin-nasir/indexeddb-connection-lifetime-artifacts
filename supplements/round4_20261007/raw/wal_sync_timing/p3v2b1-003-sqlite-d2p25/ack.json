@@ -1,0 +1,97 @@
+{
+  "browser": "Chromium",
+  "browserEngine": "Blink",
+  "browserMonotonicMs": 2460,
+  "browserVersion": "153.0.0.0",
+  "browserWallClockIso": "2026-09-28T21:20:44.147Z",
+  "diagnosticIdentity": {
+    "connectionHeld": false,
+    "events": [
+      {
+        "browserMonotonicMs": 17.899999999999636,
+        "browserRealtimeMs": 1790630441705,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "PAGE_READY",
+        "pageId": "cd63095d-343b-4f90-9696-2ab293684573",
+        "sequence": 1,
+        "trialId": "p3v2b1-003-sqlite-d2p25"
+      },
+      {
+        "browserMonotonicMs": 18.80000000000109,
+        "browserRealtimeMs": 1790630441706,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "pageshow",
+        "pageId": "cd63095d-343b-4f90-9696-2ab293684573",
+        "sequence": 2,
+        "trialId": "p3v2b1-003-sqlite-d2p25"
+      },
+      {
+        "browserMonotonicMs": 2438.8999999999996,
+        "browserRealtimeMs": 1790630444126,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "cd63095d-343b-4f90-9696-2ab293684573",
+        "sequence": 3,
+        "trialId": "p3v2b1-003-sqlite-d2p25"
+      },
+      {
+        "browserMonotonicMs": 2451.1000000000004,
+        "browserRealtimeMs": 1790630444138,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "cd63095d-343b-4f90-9696-2ab293684573",
+        "sequence": 4,
+        "trialId": "p3v2b1-003-sqlite-d2p25"
+      },
+      {
+        "browserMonotonicMs": 2459.6000000000004,
+        "browserRealtimeMs": 1790630444147,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "cd63095d-343b-4f90-9696-2ab293684573",
+        "sequence": 5,
+        "trialId": "p3v2b1-003-sqlite-d2p25"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_b1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "cd63095d-343b-4f90-9696-2ab293684573",
+    "trialId": "p3v2b1-003-sqlite-d2p25",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-003-sqlite-d2p25&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+    "visibility": "visible"
+  },
+  "durabilityAccepted": true,
+  "event": "ACK",
+  "experimentId": "paper3v2_mechanism_b1",
+  "faultModel": "qemu-reset",
+  "indexedDbCompleteMonotonicMs": 2459.6000000000004,
+  "protocol": "targeted-single-transaction-v1",
+  "reportedDurability": "relaxed",
+  "requestedDelayNs": 2250000000,
+  "requestedDurability": "relaxed",
+  "sentinelBefore": {
+    "checksum": "6f4ab04924bd8f48125a5eac83e387f71562a904d93096a3620ee2531015e2f0",
+    "experimentId": "targeted-baseline-v1",
+    "payload": "browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-stor",
+    "sequenceNumber": 1,
+    "transactionId": "__targeted_baseline_transaction_v1__",
+    "trialId": "__targeted_baseline_sentinel_v1__"
+  },
+  "sequenceNumber": 1,
+  "targetRecord": {
+    "checksum": "62a7e08c73244f5b6648bded2b85d2f4d531ae6522413bfaefea73950e71062b",
+    "experimentId": "paper3v2_mechanism_b1",
+    "payload": "paper3v2_mechanism_b1|p3v2b1-003-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-003-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-003-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-003-sqlite-d2p25|1|paper3v2_mechanism_b1|p3v2b1-003-sqlite-d2p25|1|paper3v2_mechani",
+    "sequenceNumber": 1,
+    "transactionId": "p3v2b1-003-sqlite-d2p25-target-tx-1",
+    "trialId": "p3v2b1-003-sqlite-d2p25"
+  },
+  "transactionId": "p3v2b1-003-sqlite-d2p25-target-tx-1",
+  "trialId": "p3v2b1-003-sqlite-d2p25",
+  "workload": "target-transaction"
+}

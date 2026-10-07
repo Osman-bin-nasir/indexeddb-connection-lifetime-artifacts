@@ -1,0 +1,15 @@
+{
+  "exit_evidence": {
+    "boot_id": "fbf42e15-5b04-4e2b-af8d-f365976dd283",
+    "close_requested_guest_ns": 8545158920,
+    "exit_observed_guest_ns": 8589040086,
+    "pids_after": [],
+    "pids_before": [
+      1330
+    ],
+    "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1"
+  },
+  "host_call_ns": 183671317194958,
+  "host_exit_observed_ns": 183671363919125,
+  "ok": true
+}

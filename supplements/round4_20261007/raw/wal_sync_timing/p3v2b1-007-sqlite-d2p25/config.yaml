@@ -1,0 +1,59 @@
+version: 2
+experiment_name: paper3v2_mechanism_b1-20260929
+vm:
+  id: browser-storage-research-vm
+  architecture: aarch64
+  cpus: 4
+  memory_mb: 6144
+  disk_image: /Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/targeted-chromium-baseline.qcow2
+  seed_image: /Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/seed.iso
+  disk_format: qcow2
+  disk_cache: none
+  acceleration: auto
+  qemu_binary: qemu-system-aarch64
+  firmware: null
+  qmp_socket: /Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/runtime/qmp.sock
+  qmp_host: 127.0.0.1
+  qmp_port: 4535
+  ssh_forward_port: 2222
+  guest_agent_forward_port: 8788
+  guest_agent_port: 8788
+  boot_timeout_seconds: 180
+  reset_timeout_seconds: 30
+experiment:
+  browser: chromium
+  mode: relaxed
+  workload: target-transaction
+  record_count: 1
+  payload_bytes: 256
+  crash_after_sequence: 1
+  delays:
+  - 2000ms
+  - 2250ms
+  repetitions: 8
+  ack_bind_host: 0.0.0.0
+  ack_port: 8787
+  host_address_from_guest: 127.0.0.1
+  frontend_port: 5173
+matrix:
+  browsers:
+  - chromium
+  modes:
+  - relaxed
+  workloads:
+  - target-transaction
+  fault_models:
+  - qemu-reset
+paths:
+  frontend_dir: /Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/backend_sync_trace_01/frontend
+  raw_data_dir: /Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/raw
+  processed_data_dir: /Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/analysis-output
+  figures_dir: /Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/analysis-output
+  browser_profile_root_guest: /var/lib/browser-storage-research/profiles
+metadata:
+  study_phase: paper3v2_mechanism_b1
+  protocol_version: targeted-single-transaction-v1
+  dataset_role: paper3v2_mechanism_b1
+  backend_under_test: sqlite
+  durability: relaxed
+  note: Experiment B1 - traced SQLite relaxed 2.00 s and 2.25 s population; separate from every untraced population

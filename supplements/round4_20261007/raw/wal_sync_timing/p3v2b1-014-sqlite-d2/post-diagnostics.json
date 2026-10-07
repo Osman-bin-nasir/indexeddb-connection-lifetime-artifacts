@@ -1,0 +1,71 @@
+{
+  "received_ns": 183902384724708,
+  "response": {
+    "agent_session": "eecd6606-ad62-4718-a3ac-2822815d5c85",
+    "boot": {
+      "boot_mount_unit": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "Where=/boot\nResult=success\nExecMount={ path=/usr/bin/mount ; argv[]=/usr/bin/mount /dev/vda16 /boot -t ext4 ; ignore_errors=no ; start_time=[Mon 2026-09-28 21:28:31 UTC] ; stop_time=[Mon 2026-09-28 21:28:31 UTC] ; pid=444 ; code=exited ; status=0 }\nActiveState=active\n"
+      },
+      "by_label": {
+        "UEFI": "../../vda15",
+        "cidata": "../../vdb",
+        "cloudimg-rootfs": "../../vda1"
+      },
+      "cmdline": "BOOT_IMAGE=/vmlinuz-6.8.0-139-generic root=LABEL=cloudimg-rootfs ro console=tty1 console=ttyAMA0",
+      "failed_units": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": ""
+      },
+      "fstab": "LABEL=cloudimg-rootfs\t/\t ext4\tdiscard,commit=30,errors=remount-ro\t0 1\n/dev/vda16\t/boot\text4\tdefaults\t0\t2\nLABEL=UEFI\t/boot/efi\tvfat\tumask=0077\t0 1\n",
+      "kernel_boot_log": {
+        "returncode": 1,
+        "stderr": "dmesg: read kernel buffer failed: Operation not permitted\n",
+        "stdout": ""
+      },
+      "kernel_release": "6.8.0-139-generic",
+      "kernel_version": "#139-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 03:32:48 UTC 2026",
+      "lsblk": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "NAME    MAJ:MIN LABEL           UUID                                 FSTYPE   SIZE MOUNTPOINTS\nvda     253:0                                                                  32G \n\u251c\u2500vda1  253:1   cloudimg-rootfs 9289b03d-c179-4efb-9c35-e5de4058bd22 ext4      31G /\n\u251c\u2500vda15 253:15  UEFI            E84E-E7AB                            vfat      99M /boot/efi\n\u2514\u2500vda16 259:0                                                                 923M /boot\nvdb     253:16  cidata          2026-09-20-15-25-08-00               iso9660  900K \n"
+      },
+      "mounted": {
+        "/": {
+          "device": "/dev/vda1",
+          "fstype": "ext4"
+        },
+        "/boot": {
+          "device": "/dev/vda16",
+          "fstype": "ext4"
+        },
+        "/boot/efi": {
+          "device": "/dev/vda15",
+          "fstype": "vfat"
+        }
+      },
+      "os_release": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+      "system_state": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "running\n"
+      },
+      "uptime_seconds": "10.77"
+    },
+    "boot_id": "cb853243-9459-4e2d-b168-1c0fb7c653be",
+    "mounts": "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=2987636k,nr_inodes=746909,mode=755,inode64 0 0\ndevpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0\ntmpfs /run tmpfs rw,nosuid,nodev,noexec,relatime,size=604892k,mode=755,inode64 0 0\nefivarfs /sys/firmware/efi/efivars efivarfs rw,nosuid,nodev,noexec,relatime 0 0\n/dev/vda1 / ext4 rw,relatime,discard,errors=remount-ro,commit=30 0 0\nsecurityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0\ntmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0\ntmpfs /run/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=5120k,inode64 0 0\ncgroup2 /sys/fs/cgroup cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot 0 0\npstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0\nbpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0\nsystemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=32,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=936 0 0\nhugetlbfs /dev/hugepages hugetlbfs rw,nosuid,nodev,relatime,pagesize=2M 0 0\nmqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0\ndebugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0\ntracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0\nfusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0\nconfigfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0\n/dev/vda16 /boot ext4 rw,relatime 0 0\n/dev/vda15 /boot/efi vfat rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0\nbinfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime 0 0\n",
+    "ok": true,
+    "profile": null,
+    "readiness_identity": {
+      "experiment_id": "paper3v2_mechanism_b1",
+      "nonce": "7f69ad4688a74d0c9e77a9848fe875dd3ec625e294a8ee3d27672bc8f492cfd4",
+      "origin": "http://127.0.0.1:5173",
+      "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-014-sqlite-d2.qcow2",
+      "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+      "trial_id": "p3v2b1-014-sqlite-d2"
+    }
+  },
+  "sent_ns": 183902354288666
+}

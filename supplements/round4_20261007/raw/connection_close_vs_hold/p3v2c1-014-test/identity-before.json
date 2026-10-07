@@ -1,0 +1,358 @@
+{
+  "after": {
+    "connectionHeld": true,
+    "events": [
+      {
+        "browserMonotonicMs": 24.100000000000364,
+        "browserRealtimeMs": 1790636300804,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "PAGE_READY",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 1,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 26.100000000000364,
+        "browserRealtimeMs": 1790636300806,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "pageshow",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 2,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2640.7000000000007,
+        "browserRealtimeMs": 1790636303420,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 3,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2653.5,
+        "browserRealtimeMs": 1790636303433,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 4,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2662.5,
+        "browserRealtimeMs": 1790636303442,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 5,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2674.8999999999996,
+        "browserRealtimeMs": 1790636303454,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "ACK_RESPONSE_RETURNED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 6,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2675.1000000000004,
+        "browserRealtimeMs": 1790636303455,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "ORIGINAL_CONNECTION_RETAINED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 7,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2675.5,
+        "browserRealtimeMs": 1790636303455,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "WORKLOAD_RETURNED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 8,
+        "trialId": "p3v2c1-014-test"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_c1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+    "trialId": "p3v2c1-014-test",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_c1&trialId=p3v2c1-014-test&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=held",
+    "visibility": "visible"
+  },
+  "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+  "before": {
+    "connectionHeld": true,
+    "events": [
+      {
+        "browserMonotonicMs": 24.100000000000364,
+        "browserRealtimeMs": 1790636300804,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "PAGE_READY",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 1,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 26.100000000000364,
+        "browserRealtimeMs": 1790636300806,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "pageshow",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 2,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2640.7000000000007,
+        "browserRealtimeMs": 1790636303420,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 3,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2653.5,
+        "browserRealtimeMs": 1790636303433,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 4,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2662.5,
+        "browserRealtimeMs": 1790636303442,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 5,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2674.8999999999996,
+        "browserRealtimeMs": 1790636303454,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "ACK_RESPONSE_RETURNED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 6,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2675.1000000000004,
+        "browserRealtimeMs": 1790636303455,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "ORIGINAL_CONNECTION_RETAINED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 7,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2675.5,
+        "browserRealtimeMs": 1790636303455,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "WORKLOAD_RETURNED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 8,
+        "trialId": "p3v2c1-014-test"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_c1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+    "trialId": "p3v2c1-014-test",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_c1&trialId=p3v2c1-014-test&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=held",
+    "visibility": "visible"
+  },
+  "boot_id": "40a2de70-f82c-4d0e-9d36-b5b8074a91bd",
+  "browser_pids": [
+    1722
+  ],
+  "events": [
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 9439245379,
+      "message": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_c1&trialId=p3v2c1-014-test&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=held",
+      "type": "NAVIGATION"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 9461148421,
+      "message": "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "type": "console"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 9465360796,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 9465499962,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 12076641464,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 12087983255,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 12098037339,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 12119646547,
+      "message": "POST http://127.0.0.1:8787/api/v1/ack: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 12137527005,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 12138100797,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    },
+    {
+      "agent_session": "1c3360d5-3f1a-4e98-a7e7-11e5af84926e",
+      "guest_ns": 12138535880,
+      "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+      "type": "requestfailed"
+    }
+  ],
+  "ok": true,
+  "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+  "readiness_identity": {
+    "experiment_id": "paper3v2_mechanism_c1",
+    "nonce": "eb23c9b5b8d3d01191fbf9be9aaf9ec8a1e2b2392df5a47b01818de74047b75c",
+    "origin": "http://127.0.0.1:5173",
+    "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_c1/overlays/paper3v2_mechanism_c1/p3v2c1-014-test.qcow2",
+    "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+    "trial_id": "p3v2c1-014-test"
+  },
+  "value": {
+    "connectionHeld": true,
+    "events": [
+      {
+        "browserMonotonicMs": 24.100000000000364,
+        "browserRealtimeMs": 1790636300804,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "PAGE_READY",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 1,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 26.100000000000364,
+        "browserRealtimeMs": 1790636300806,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "pageshow",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 2,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2640.7000000000007,
+        "browserRealtimeMs": 1790636303420,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 3,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2653.5,
+        "browserRealtimeMs": 1790636303433,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 4,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2662.5,
+        "browserRealtimeMs": 1790636303442,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 5,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2674.8999999999996,
+        "browserRealtimeMs": 1790636303454,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "ACK_RESPONSE_RETURNED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 6,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2675.1000000000004,
+        "browserRealtimeMs": 1790636303455,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "ORIGINAL_CONNECTION_RETAINED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 7,
+        "trialId": "p3v2c1-014-test"
+      },
+      {
+        "browserMonotonicMs": 2675.5,
+        "browserRealtimeMs": 1790636303455,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "WORKLOAD_RETURNED",
+        "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+        "sequence": 8,
+        "trialId": "p3v2c1-014-test"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_c1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "d4204e6f-62b7-4561-bd54-bf8cc0dae719",
+    "trialId": "p3v2c1-014-test",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_c1&trialId=p3v2c1-014-test&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=held",
+    "visibility": "visible"
+  }
+}
