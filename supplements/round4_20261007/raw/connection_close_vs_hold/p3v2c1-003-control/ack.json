@@ -1,0 +1,97 @@
+{
+  "browser": "Chromium",
+  "browserEngine": "Blink",
+  "browserMonotonicMs": 2705.3999999999996,
+  "browserVersion": "153.0.0.0",
+  "browserWallClockIso": "2026-09-28T22:50:38.741Z",
+  "diagnosticIdentity": {
+    "connectionHeld": false,
+    "events": [
+      {
+        "browserMonotonicMs": 15.300000000001091,
+        "browserRealtimeMs": 1790635836051,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "PAGE_READY",
+        "pageId": "972f7388-1eb3-4d8b-bb33-2b77b30d3423",
+        "sequence": 1,
+        "trialId": "p3v2c1-003-control"
+      },
+      {
+        "browserMonotonicMs": 16.30000000000109,
+        "browserRealtimeMs": 1790635836052,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "pageshow",
+        "pageId": "972f7388-1eb3-4d8b-bb33-2b77b30d3423",
+        "sequence": 2,
+        "trialId": "p3v2c1-003-control"
+      },
+      {
+        "browserMonotonicMs": 2678,
+        "browserRealtimeMs": 1790635838714,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "972f7388-1eb3-4d8b-bb33-2b77b30d3423",
+        "sequence": 3,
+        "trialId": "p3v2c1-003-control"
+      },
+      {
+        "browserMonotonicMs": 2692.2000000000007,
+        "browserRealtimeMs": 1790635838728,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "972f7388-1eb3-4d8b-bb33-2b77b30d3423",
+        "sequence": 4,
+        "trialId": "p3v2c1-003-control"
+      },
+      {
+        "browserMonotonicMs": 2705,
+        "browserRealtimeMs": 1790635838741,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_c1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "972f7388-1eb3-4d8b-bb33-2b77b30d3423",
+        "sequence": 5,
+        "trialId": "p3v2c1-003-control"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_c1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "972f7388-1eb3-4d8b-bb33-2b77b30d3423",
+    "trialId": "p3v2c1-003-control",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_c1&trialId=p3v2c1-003-control&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2250000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+    "visibility": "visible"
+  },
+  "durabilityAccepted": true,
+  "event": "ACK",
+  "experimentId": "paper3v2_mechanism_c1",
+  "faultModel": "qemu-reset",
+  "indexedDbCompleteMonotonicMs": 2705,
+  "protocol": "targeted-single-transaction-v1",
+  "reportedDurability": "relaxed",
+  "requestedDelayNs": 2250000000,
+  "requestedDurability": "relaxed",
+  "sentinelBefore": {
+    "checksum": "6f4ab04924bd8f48125a5eac83e387f71562a904d93096a3620ee2531015e2f0",
+    "experimentId": "targeted-baseline-v1",
+    "payload": "browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-stor",
+    "sequenceNumber": 1,
+    "transactionId": "__targeted_baseline_transaction_v1__",
+    "trialId": "__targeted_baseline_sentinel_v1__"
+  },
+  "sequenceNumber": 1,
+  "targetRecord": {
+    "checksum": "fe77a539b92f7850814bb281299ae667a45f93b96a07f3028fa7d76d5fccbdbf",
+    "experimentId": "paper3v2_mechanism_c1",
+    "payload": "paper3v2_mechanism_c1|p3v2c1-003-control|1|paper3v2_mechanism_c1|p3v2c1-003-control|1|paper3v2_mechanism_c1|p3v2c1-003-control|1|paper3v2_mechanism_c1|p3v2c1-003-control|1|paper3v2_mechanism_c1|p3v2c1-003-control|1|paper3v2_mechanism_c1|p3v2c1-003-control|",
+    "sequenceNumber": 1,
+    "transactionId": "p3v2c1-003-control-target-tx-1",
+    "trialId": "p3v2c1-003-control"
+  },
+  "transactionId": "p3v2c1-003-control-target-tx-1",
+  "trialId": "p3v2c1-003-control",
+  "workload": "target-transaction"
+}

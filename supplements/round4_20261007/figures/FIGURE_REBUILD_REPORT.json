@@ -1,0 +1,45 @@
+{
+  "role": "Portable read-only scientific figure reproduction",
+  "new_scientific_units": 0,
+  "matplotlib_version": "3.11.2",
+  "numpy_version": "2.5.3",
+  "backend": "Agg",
+  "source_records_modified": false,
+  "plot_color_scheme": "grayscale",
+  "plotted_cell_estimates": 81,
+  "figure1_achieved_points": 20,
+  "output": "/private/tmp/idbv2-round4-20261007/figures",
+  "figures": [
+    {
+      "name": "01_grid.png",
+      "sha256": "092794005996b90d748fcd17c019641653137b9558edc56046cd77fed35d1e86",
+      "bytes": 102342
+    },
+    {
+      "name": "02_held.png",
+      "sha256": "bac0c173614277a32410a820549f180f49fa84bfadf687f573ff4cc6c7c8ee1c",
+      "bytes": 56865
+    },
+    {
+      "name": "03_fault.png",
+      "sha256": "b3b4f97ea8581f050c003b4bdb9c23a2878e554c63cba4e3bba0855ffc98ecee",
+      "bytes": 117895
+    },
+    {
+      "name": "04_block.png",
+      "sha256": "779c6f97973add5c8192e56486a542d7ff31d5ad459871ab1a5e68de4ac63d6b",
+      "bytes": 115056
+    },
+    {
+      "name": "05_environment.png",
+      "sha256": "230785aebb84e1cecf2398e022d9751afb77fbbfb2398bc3209421631cbe272e",
+      "bytes": 135363
+    },
+    {
+      "name": "06_workload.png",
+      "sha256": "21d059dc8f04eca447c65fd208caf713474e88406dfac206be700131ad64d0fd",
+      "bytes": 125490
+    }
+  ],
+  "comparison_limit": "Fonts, renderer and library versions can change PNG bytes or pixels; numerical series are separately recorded in FIGURE_DATA.json. Pixel similarity alone does not validate raw inputs."
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "population": "wal_sync_timing",
+    "order_and_identity_match_freeze": true,
+    "pipeline_matches_freeze": true,
+    "expected_pipeline": "82b936c9a2a721cd6cfd0e22e194a4d71525d73bba1f2f54058ad4399816e35d",
+    "observed_pipeline": "82b936c9a2a721cd6cfd0e22e194a4d71525d73bba1f2f54058ad4399816e35d"
+  },
+  {
+    "population": "connection_close_vs_hold",
+    "order_and_identity_match_freeze": true,
+    "pipeline_matches_freeze": true,
+    "expected_pipeline": "e3d56d79a514e875eee04e02b88c98874c0d528c0931dcde70c0cb1e87561383",
+    "observed_pipeline": "e3d56d79a514e875eee04e02b88c98874c0d528c0931dcde70c0cb1e87561383"
+  }
+]

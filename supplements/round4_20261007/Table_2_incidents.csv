@@ -1,0 +1,7 @@
+Incident / deviation,Effect,Disposition
+Archive return-verification waiver,Historical cleanup preceded returned-byte checks; core statistical records stayed local,Disclosed; 20/41 offloaded objects later verified; remaining returns paused
+Stale STATUS.md,Dashboard stopped at 420 started / 419 results,Preserved; machine ledger used: 930 slots / 929 results
+Scientific worker-pin validator correction,Initial audit expected a qualification path/hash,Append-only correction to eligible loss; actual locked scientific worker and raw endpoint unchanged
+Four acknowledged unknown endpoints,Three trace records missing; one SIGKILL forensic extraction failed,Excluded from binary denominators; raw evidence and endpoint bounds retained
+One premeasurement trace slot,Hash-addendum validation failed before ACK; no endpoint,"Slot consumed, inventoried separately, and not retried"
+Last-FLUSH replay cleanup/headroom incidents,Post-read hot unplug and storage pause in dependent re-analysis,Completed prefix reads preserved; no additional scientific assignments

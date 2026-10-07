@@ -1,0 +1,45 @@
+// Instantiated per fresh overlay with the discovered Chromium process tree.
+// Line format (space separated): KIND NSECS PID TID PROBE FD COMM [COUNT]
+//   KIND  W = write/pwrite64        (count = request bytes)
+//         V = writev/pwritev        (count = iovec length; no byte count exists at
+//                                    sys_enter, so the byte total is not claimed)
+//         S = fsync / fdatasync
+//         R = sync_file_range
+//         M = msync (no descriptor; fd printed as -1)
+//
+// PID here is the thread-group id, so one predicate covers every browser thread.
+// The write family is split in two blocks because `count` is not a member of the
+// writev/pwritev tracepoints (`vlen` is), and bpftrace validates members per probe.
+
+tracepoint:syscalls:sys_enter_write,
+tracepoint:syscalls:sys_enter_pwrite64
+/pid == 1735 || pid == 1742 || pid == 1743 || pid == 1762 || pid == 1790 || pid == 1810 || pid == 1823 || pid == 1824 || pid == 1861/
+{
+  printf("W %llu %d %d %s %d %s %llu\n", nsecs, pid, tid, probe, args->fd, comm, args->count);
+}
+
+tracepoint:syscalls:sys_enter_writev,
+tracepoint:syscalls:sys_enter_pwritev
+/pid == 1735 || pid == 1742 || pid == 1743 || pid == 1762 || pid == 1790 || pid == 1810 || pid == 1823 || pid == 1824 || pid == 1861/
+{
+  printf("V %llu %d %d %s %d %s %llu\n", nsecs, pid, tid, probe, args->fd, comm, args->vlen);
+}
+
+tracepoint:syscalls:sys_enter_fsync,
+tracepoint:syscalls:sys_enter_fdatasync
+/pid == 1735 || pid == 1742 || pid == 1743 || pid == 1762 || pid == 1790 || pid == 1810 || pid == 1823 || pid == 1824 || pid == 1861/
+{
+  printf("S %llu %d %d %s %d %s\n", nsecs, pid, tid, probe, args->fd, comm);
+}
+
+tracepoint:syscalls:sys_enter_sync_file_range
+/pid == 1735 || pid == 1742 || pid == 1743 || pid == 1762 || pid == 1790 || pid == 1810 || pid == 1823 || pid == 1824 || pid == 1861/
+{
+  printf("R %llu %d %d %s %d %s\n", nsecs, pid, tid, probe, args->fd, comm);
+}
+
+tracepoint:syscalls:sys_enter_msync
+/pid == 1735 || pid == 1742 || pid == 1743 || pid == 1762 || pid == 1790 || pid == 1810 || pid == 1823 || pid == 1824 || pid == 1861/
+{
+  printf("M %llu %d %d %s -1 %s\n", nsecs, pid, tid, probe, comm);
+}

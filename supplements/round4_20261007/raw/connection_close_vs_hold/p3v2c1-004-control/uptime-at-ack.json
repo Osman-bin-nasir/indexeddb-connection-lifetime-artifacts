@@ -1,0 +1,19 @@
+{
+  "received_ns": 188860661340875,
+  "response": {
+    "agent_session": "de2fb42a-3ee2-44bb-8c86-a4f4344f7044",
+    "boot_id": "8cbf6344-3343-490c-9d3b-1f0f32831f98",
+    "guest_monotonic_ns": 12064270338,
+    "ok": true,
+    "readiness_identity": {
+      "experiment_id": "paper3v2_mechanism_c1",
+      "nonce": "eb23c9b5b8d3d01191fbf9be9aaf9ec8a1e2b2392df5a47b01818de74047b75c",
+      "origin": "http://127.0.0.1:5173",
+      "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_c1/overlays/paper3v2_mechanism_c1/p3v2c1-004-control.qcow2",
+      "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+      "trial_id": "p3v2c1-004-control"
+    },
+    "uptime_seconds": 12.06
+  },
+  "sent_ns": 188860660458125
+}

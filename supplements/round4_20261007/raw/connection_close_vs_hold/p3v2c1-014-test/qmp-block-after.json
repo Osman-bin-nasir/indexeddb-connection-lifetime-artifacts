@@ -1,0 +1,190 @@
+[
+  {
+    "device": "virtio0",
+    "inserted": {
+      "active": true,
+      "backing_file": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/targeted-chromium-baseline.qcow2",
+      "backing_file_depth": 2,
+      "bps": 0,
+      "bps_rd": 0,
+      "bps_wr": 0,
+      "cache": {
+        "direct": true,
+        "no-flush": false,
+        "writeback": true
+      },
+      "children": [
+        {
+          "child": "backing",
+          "node-name": "#block334"
+        },
+        {
+          "child": "file",
+          "node-name": "#block083"
+        }
+      ],
+      "detect_zeroes": "off",
+      "drv": "qcow2",
+      "encrypted": false,
+      "file": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_c1/overlays/paper3v2_mechanism_c1/p3v2c1-014-test.qcow2",
+      "image": {
+        "actual-size": 50937856,
+        "backing-filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/targeted-chromium-baseline.qcow2",
+        "backing-filename-format": "qcow2",
+        "backing-image": {
+          "actual-size": 42074112,
+          "backing-filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/browser-storage.qcow2",
+          "backing-filename-format": "qcow2",
+          "backing-image": {
+            "actual-size": 6579879936,
+            "cluster-size": 65536,
+            "dirty-flag": false,
+            "filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/browser-storage.qcow2",
+            "format": "qcow2",
+            "format-specific": {
+              "data": {
+                "compat": "1.1",
+                "compression-type": "zlib",
+                "corrupt": false,
+                "extended-l2": false,
+                "lazy-refcounts": false,
+                "refcount-bits": 16
+              },
+              "type": "qcow2"
+            },
+            "limits": {
+              "discard-alignment": 65536,
+              "max-iov": 1024,
+              "min-mem-alignment": 16384,
+              "opt-mem-alignment": 16384,
+              "opt-transfer": 1048576,
+              "request-alignment": 1,
+              "write-zeroes-alignment": 65536
+            },
+            "virtual-size": 34359738368
+          },
+          "cluster-size": 65536,
+          "dirty-flag": false,
+          "filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/targeted-chromium-baseline.qcow2",
+          "format": "qcow2",
+          "format-specific": {
+            "data": {
+              "compat": "1.1",
+              "compression-type": "zlib",
+              "corrupt": false,
+              "extended-l2": false,
+              "lazy-refcounts": false,
+              "refcount-bits": 16
+            },
+            "type": "qcow2"
+          },
+          "full-backing-filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/browser-storage.qcow2",
+          "limits": {
+            "discard-alignment": 65536,
+            "max-iov": 1024,
+            "min-mem-alignment": 16384,
+            "opt-mem-alignment": 16384,
+            "opt-transfer": 1048576,
+            "request-alignment": 1,
+            "write-zeroes-alignment": 65536
+          },
+          "virtual-size": 34359738368
+        },
+        "cluster-size": 65536,
+        "dirty-flag": false,
+        "filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_c1/overlays/paper3v2_mechanism_c1/p3v2c1-014-test.qcow2",
+        "format": "qcow2",
+        "format-specific": {
+          "data": {
+            "compat": "1.1",
+            "compression-type": "zlib",
+            "corrupt": false,
+            "extended-l2": false,
+            "lazy-refcounts": false,
+            "refcount-bits": 16
+          },
+          "type": "qcow2"
+        },
+        "full-backing-filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/targeted-chromium-baseline.qcow2",
+        "limits": {
+          "discard-alignment": 65536,
+          "max-iov": 1024,
+          "min-mem-alignment": 16384,
+          "opt-mem-alignment": 16384,
+          "opt-transfer": 1048576,
+          "request-alignment": 1,
+          "write-zeroes-alignment": 65536
+        },
+        "virtual-size": 34359738368
+      },
+      "iops": 0,
+      "iops_rd": 0,
+      "iops_wr": 0,
+      "node-name": "#block191",
+      "ro": false,
+      "write_threshold": 0
+    },
+    "io-status": "ok",
+    "locked": false,
+    "qdev": "/machine/peripheral-anon/device[1]/virtio-backend",
+    "removable": false,
+    "type": "unknown"
+  },
+  {
+    "device": "virtio1",
+    "inserted": {
+      "active": true,
+      "backing_file_depth": 0,
+      "bps": 0,
+      "bps_rd": 0,
+      "bps_wr": 0,
+      "cache": {
+        "direct": false,
+        "no-flush": false,
+        "writeback": true
+      },
+      "children": [
+        {
+          "child": "file",
+          "node-name": "#block616"
+        }
+      ],
+      "detect_zeroes": "off",
+      "drv": "raw",
+      "encrypted": false,
+      "file": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/seed.iso",
+      "image": {
+        "actual-size": 921600,
+        "dirty-flag": false,
+        "filename": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/vm/seed.iso",
+        "format": "raw",
+        "limits": {
+          "discard-alignment": 4096,
+          "max-iov": 1024,
+          "min-mem-alignment": 1,
+          "opt-mem-alignment": 16384,
+          "opt-transfer": 1048576,
+          "request-alignment": 1
+        },
+        "virtual-size": 921600
+      },
+      "iops": 0,
+      "iops_rd": 0,
+      "iops_wr": 0,
+      "node-name": "#block797",
+      "ro": true,
+      "write_threshold": 0
+    },
+    "io-status": "ok",
+    "locked": false,
+    "qdev": "/machine/peripheral-anon/device[2]/virtio-backend",
+    "removable": false,
+    "type": "unknown"
+  },
+  {
+    "device": "floppy0",
+    "locked": false,
+    "removable": true,
+    "type": "unknown"
+  }
+]

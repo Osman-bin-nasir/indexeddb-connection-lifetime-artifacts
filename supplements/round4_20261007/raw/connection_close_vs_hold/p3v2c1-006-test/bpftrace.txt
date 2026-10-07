@@ -1,0 +1,552 @@
+Attaching 8 probes...
+W 10099870171 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 10100177379 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 10100632046 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 10452997837 1824 1824 tracepoint:syscalls:sys_enter_write 24 chrome 8
+W 10453097171 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 10453433171 1824 1824 tracepoint:syscalls:sys_enter_write 24 chrome 8
+W 11371827505 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 11457965213 1735 1753 tracepoint:syscalls:sys_enter_write 93 MemoryInfra 1
+W 11458691046 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 11459154463 1735 1747 tracepoint:syscalls:sys_enter_write 25 ThreadPoolForeg 8
+W 11459901171 1735 1753 tracepoint:syscalls:sys_enter_write 93 MemoryInfra 1
+W 11460326505 1735 1750 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 11462298380 1735 1753 tracepoint:syscalls:sys_enter_write 93 MemoryInfra 1
+W 11462616338 1735 1748 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 11464510380 1735 1753 tracepoint:syscalls:sys_enter_write 93 MemoryInfra 1
+W 11465733255 1762 1769 tracepoint:syscalls:sys_enter_write 15 ThreadPoolForeg 8
+W 11466627213 1735 1753 tracepoint:syscalls:sys_enter_write 93 MemoryInfra 1
+W 11466632505 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 512
+W 11467034671 1762 1769 tracepoint:syscalls:sys_enter_write 15 ThreadPoolForeg 8
+S 11467322171 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+W 11469770671 1735 1753 tracepoint:syscalls:sys_enter_write 93 MemoryInfra 1
+W 11470375880 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 122 ThreadPoolForeg 512
+S 11471513588 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 122 ThreadPoolForeg
+W 11471918296 1735 1753 tracepoint:syscalls:sys_enter_write 93 MemoryInfra 1
+S 11472106505 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 124 ThreadPoolForeg
+W 11473335671 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 12
+S 11473537421 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+W 11474443171 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 94 ThreadPoolForeg 4096
+W 11474571963 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 94 ThreadPoolForeg 4096
+W 11474652713 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 94 ThreadPoolForeg 4096
+S 11474814213 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 94 ThreadPoolForeg
+S 11475339130 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 124 ThreadPoolForeg
+W 11475679380 1735 1750 tracepoint:syscalls:sys_enter_write 25 ThreadPoolForeg 8
+W 11476851296 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 122 ThreadPoolForeg 12
+S 11476994088 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 122 ThreadPoolForeg
+S 11477693255 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+W 11477768005 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 121 ThreadPoolForeg 4096
+W 11477903963 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 121 ThreadPoolForeg 4096
+W 11478063546 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 121 ThreadPoolForeg 4096
+W 11478231338 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 121 ThreadPoolForeg 4096
+W 11478333505 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 121 ThreadPoolForeg 4096
+S 11478617088 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 121 ThreadPoolForeg
+W 11479237963 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 512
+W 11479459671 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 4
+W 11479636838 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 4096
+W 11479837005 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 4
+S 11480492005 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+S 11481485505 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 122 ThreadPoolForeg
+W 11482101463 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 12
+S 11482264755 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+W 11483143255 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 94 ThreadPoolForeg 4096
+W 11483317880 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 94 ThreadPoolForeg 4096
+S 11483494755 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 94 ThreadPoolForeg
+W 11485076755 1735 1748 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+S 11485786213 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+W 11486724880 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 512
+W 11486889880 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 4
+W 11487077838 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 4096
+W 11487209046 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 4
+S 11487500630 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+W 11488861130 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 101 ThreadPoolForeg 12
+S 11489084755 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+W 11489093130 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 512
+W 11489385838 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 12
+W 11489509255 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 94 ThreadPoolForeg 4096
+S 11489551338 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 125 ThreadPoolForeg
+S 11489747338 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 94 ThreadPoolForeg
+S 11490404796 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 101 ThreadPoolForeg
+S 11490689255 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 126 ThreadPoolForeg
+W 11491788963 1735 1747 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11491841005 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 124 ThreadPoolForeg 4096
+S 11491985838 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 124 ThreadPoolForeg
+W 11495456963 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 32
+S 11495556171 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 125 ThreadPoolForeg
+W 11495685255 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 127 ThreadPoolForeg 512
+S 11496739130 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 127 ThreadPoolForeg
+S 11497357880 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 128 ThreadPoolForeg
+W 11497676505 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11497787380 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+S 11497794421 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 128 ThreadPoolForeg
+W 11497917921 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11498041130 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 11498183838 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11498311046 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 11498441463 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11498558338 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 11498684546 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11498693463 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 127 ThreadPoolForeg 12
+W 11498802505 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+S 11498843921 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 127 ThreadPoolForeg
+W 11498943713 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11499109671 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 11499192338 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11499265921 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 11499424505 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11499505421 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 11499567838 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11499676921 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11499683755 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11499808463 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 11499813046 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+S 11499986505 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 126 ThreadPoolForeg
+W 11500649338 1735 1748 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+S 11501155463 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 127 ThreadPoolForeg
+W 11501735005 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 127 ThreadPoolForeg 512
+W 11501874505 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 127 ThreadPoolForeg 4
+W 11502018838 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 127 ThreadPoolForeg 4096
+W 11502111505 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 127 ThreadPoolForeg 4
+S 11503134421 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 127 ThreadPoolForeg
+W 11503827963 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 127 ThreadPoolForeg 12
+S 11503968338 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 127 ThreadPoolForeg
+W 11504654338 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11504746338 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11504869921 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11505020755 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11505176505 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11505300130 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11505313296 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 512
+W 11505420630 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+W 11505433921 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11505557171 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4096
+W 11505570130 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11505682338 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+W 11505707046 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11505786713 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+W 11505798755 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11505913588 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4096
+W 11505940755 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 126 ThreadPoolForeg 4096
+W 11506083005 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+S 11506096005 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 126 ThreadPoolForeg
+W 11506395796 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+W 11506493338 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4096
+W 11506597380 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+S 11506868546 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 129 ThreadPoolForeg
+S 11507984796 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 127 ThreadPoolForeg
+S 11508452755 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 130 ThreadPoolForeg
+W 11508770463 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 12
+W 11508834880 1735 1747 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+S 11508863963 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 129 ThreadPoolForeg
+W 11509347505 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 128 ThreadPoolForeg 4096
+W 11509469838 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 128 ThreadPoolForeg 4096
+W 11509569505 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 128 ThreadPoolForeg 4096
+S 11509658130 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 128 ThreadPoolForeg
+W 11509778005 1735 1747 tracepoint:syscalls:sys_enter_write 130 ThreadPoolForeg 4
+S 11509963380 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 130 ThreadPoolForeg
+S 11510420005 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 129 ThreadPoolForeg
+W 11514300796 1735 1747 tracepoint:syscalls:sys_enter_write 131 ThreadPoolForeg 33
+W 11514436713 1735 1747 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11514646546 1735 1748 tracepoint:syscalls:sys_enter_write 130 ThreadPoolForeg 157
+W 11514795005 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11514860671 1735 1748 tracepoint:syscalls:sys_enter_write 132 ThreadPoolForeg 7
+W 11514920880 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 11514957255 1735 1748 tracepoint:syscalls:sys_enter_write 132 ThreadPoolForeg 34
+W 11515041505 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 11515106796 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+S 11515227421 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 133 ThreadPoolForeg
+W 11515543338 1735 1747 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11515641046 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 512
+W 11515713255 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+W 11515824005 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4096
+W 11515945338 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+W 11515992130 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+S 11516166463 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 132 ThreadPoolForeg
+W 11516166671 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4096
+W 11516305755 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 4
+S 11516507713 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 129 ThreadPoolForeg
+W 11516939630 1735 1748 tracepoint:syscalls:sys_enter_write 132 ThreadPoolForeg 16
+S 11517086005 1735 1748 tracepoint:syscalls:sys_enter_fdatasync 132 ThreadPoolForeg
+W 11517768463 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 129 ThreadPoolForeg 12
+S 11517877463 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 129 ThreadPoolForeg
+W 11518168713 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 128 ThreadPoolForeg 4096
+W 11518253796 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 128 ThreadPoolForeg 4096
+S 11518348546 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 128 ThreadPoolForeg
+S 11518686671 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 129 ThreadPoolForeg
+W 11519026921 1735 1748 tracepoint:syscalls:sys_enter_write 130 ThreadPoolForeg 156
+W 11519366713 1735 1747 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11519785296 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 7
+W 11519843796 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 22
+W 11520086796 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 7
+W 11520111213 1735 1750 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11520205713 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 22
+W 11520773171 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 7
+W 11520860421 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 22
+W 11520954588 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 7
+W 11521033380 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 22
+W 11521148796 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 7
+W 11521215088 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 22
+W 11521425005 1735 1747 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11521546380 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 7
+W 11521642963 1735 1747 tracepoint:syscalls:sys_enter_write 116 ThreadPoolForeg 22
+W 11521809755 1735 1748 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 11641689838 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 11649322421 1735 1747 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11806110005 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 11806287213 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 7
+W 11806480838 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 48
+S 11806731046 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 133 ThreadPoolForeg
+W 11807365338 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 11807839505 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 11808506088 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 11810307380 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 7
+W 11810544213 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 66
+S 11810694588 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 133 ThreadPoolForeg
+W 11811782713 1735 1747 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 11811960171 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 7
+W 11812093880 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 221
+S 11812266005 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 133 ThreadPoolForeg
+W 11813803713 1735 1747 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 11813908880 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 7
+W 11814116630 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 79
+S 11814251838 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 133 ThreadPoolForeg
+W 11815492213 1735 1747 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 11815663963 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 7
+W 11815855838 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 97
+S 11816095338 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 133 ThreadPoolForeg
+W 11817446380 1735 1747 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 11817623171 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 7
+W 11817777380 1735 1747 tracepoint:syscalls:sys_enter_write 133 ThreadPoolForeg 97
+S 11818081421 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 133 ThreadPoolForeg
+W 11819212880 1735 1747 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 11834534796 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 11843583380 1735 1747 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11857435046 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 8
+W 11857587046 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 11
+W 11857745338 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 15
+W 11857889463 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 15
+W 11858040380 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 15
+W 11858179046 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 11
+W 11858320380 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 55
+W 11858484963 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 59
+W 11858579255 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 11
+W 11858772463 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 11
+W 11858877046 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 35
+W 11858979838 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 11
+W 11859067255 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 51
+W 11859192338 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 11
+W 11859322380 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 19
+W 11859479255 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 7
+W 11859638005 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 11
+W 11859778838 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 763
+W 11860087213 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 11
+W 11860218463 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 2539
+W 11860378796 1735 1747 tracepoint:syscalls:sys_enter_write 134 ThreadPoolForeg 3
+W 11896049088 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 8
+W 11896219838 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 55
+W 11896424255 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 19
+W 11896623921 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 763
+W 11896858505 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 2543
+W 11896987005 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 55
+W 11897216546 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 19
+W 11897376713 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 763
+W 11897512130 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 2559
+W 11897663796 1735 1747 tracepoint:syscalls:sys_enter_write 135 ThreadPoolForeg 3
+W 11904174630 1735 1748 tracepoint:syscalls:sys_enter_write 16 ThreadPoolForeg 1
+W 11911956630 1735 1752 tracepoint:syscalls:sys_enter_write 2 Chrome_IOThread 145
+W 11996993796 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12042759588 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12043215297 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12043304255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 792
+W 12043440630 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12043477588 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12044044588 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12044856005 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12045579713 1823 1823 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12045637797 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12046040005 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1297
+W 12046182838 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12046783713 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12046913255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 2298
+W 12046995880 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12048047547 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12048141630 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 969
+W 12048267213 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12048574588 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12048711797 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 171
+W 12048751755 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12048927422 1735 1747 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 12049072755 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12049150338 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12049284630 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 800
+W 12049385755 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12049939755 1735 1747 tracepoint:syscalls:sys_enter_write 25 ThreadPoolForeg 8
+W 12050023963 1735 1748 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 12050382297 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12050947088 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12051083297 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 512
+W 12051154255 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4
+W 12051254713 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4096
+W 12051387797 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4
+W 12051472797 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4
+W 12051560047 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4096
+W 12051625880 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4
+W 12051727422 1735 1748 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 12052035463 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12052147172 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12052253713 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12052283838 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1282
+W 12052431005 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12052809588 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12053224463 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12053310088 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12053392797 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 197
+W 12053491047 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12054159380 1735 1747 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 12054499672 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4
+W 12054551130 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4096
+W 12054624172 1735 1748 tracepoint:syscalls:sys_enter_pwrite64 138 ThreadPoolForeg 4
+W 12054768380 1735 1748 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 12058216255 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12058453755 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12059535505 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12059670422 1735 1748 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 12059926255 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12059970463 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12060106630 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 2433
+W 12060151713 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12060679213 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12061199797 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12061254838 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12061330005 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 969
+W 12061459838 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12061857713 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12061981255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 800
+W 12062046338 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12062198338 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12063408088 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12063654338 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12063743797 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 32
+S 12063852630 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 140 ThreadPoolForeg
+W 12063852880 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12063938422 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12064372547 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12064444713 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12064535922 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1283
+W 12064627505 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12064985922 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+S 12065043255 1735 1747 tracepoint:syscalls:sys_enter_fdatasync 141 ThreadPoolForeg
+W 12065092838 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12065203172 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 24
+W 12065230755 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12065232005 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 197
+W 12065250797 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 4096
+W 12065305088 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12065535463 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 24
+W 12065601213 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 4096
+W 12065655088 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 24
+W 12065746797 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 4096
+W 12065904463 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 24
+W 12065980005 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 140 ThreadPoolForeg 4096
+W 12066289297 1735 1748 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 12066750297 1735 1747 tracepoint:syscalls:sys_enter_write 29 ThreadPoolForeg 8
+W 12066848463 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12067314588 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12067681130 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12067711672 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12068006713 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12068559172 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12068960755 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12068994380 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12069095880 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 2405
+W 12069181255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12069363380 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 10164
+W 12069458672 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12069802755 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12069969630 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 970
+W 12070017505 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12070341630 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12070497255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 801
+W 12070548588 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12070777130 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12070892255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 856
+W 12070962463 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12071637963 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12071980505 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12072085213 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 953
+W 12072171380 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12072535088 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12072629463 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12072764880 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 826
+W 12072810922 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12073040797 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12073546797 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12073590005 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12073642755 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1284
+W 12073730588 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12074142338 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12074209588 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12074270047 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 198
+W 12074358588 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12074566755 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1230
+W 12074853422 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12075553172 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12075719422 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 185
+W 12075788547 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12075931797 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1018
+W 12076113505 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12076243088 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12076363713 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 801
+W 12076435505 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12077591963 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12077855505 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12087415005 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12089692088 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12089779630 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12089831630 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1280
+W 12089981088 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12090142047 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 2316
+W 12090222547 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12092332255 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12092404922 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 2447
+W 12092442338 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12092769130 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12092808797 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12092901172 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 2287
+W 12092960755 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12093772755 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12093835422 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12093908130 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12093992463 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 198
+W 12094074505 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12094856630 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12095074047 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 970
+W 12095127255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12096285797 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12098278255 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12099410130 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12099529838 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 801
+W 12099599880 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12099876963 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12099925380 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 970
+W 12099991838 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12100292880 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12100417672 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 801
+W 12100464672 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12101220713 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12101558630 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12101650588 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12101710838 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12101765255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1286
+W 12101846422 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12102145422 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12102223922 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12102271922 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12102505672 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 198
+W 12102569255 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12103723505 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12103852672 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 970
+W 12103984172 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12104286547 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12104402005 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 801
+W 12104447088 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12105213172 1824 1824 tracepoint:syscalls:sys_enter_write 24 chrome 8
+W 12105276547 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12105454338 1861 1878 tracepoint:syscalls:sys_enter_write 32 Chrome_ChildIOT 1
+W 12105488880 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12105718922 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12105771547 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12105850047 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12105915922 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 192
+W 12106031755 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12106271755 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12106449713 1824 1824 tracepoint:syscalls:sys_enter_write 24 chrome 8
+W 12106792672 1735 1785 tracepoint:syscalls:sys_enter_write 16 DevToolsPipeHan 1
+W 12106795380 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12106824713 1861 1878 tracepoint:syscalls:sys_enter_write 32 Chrome_ChildIOT 1
+W 12107146672 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12107464130 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12107822588 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12107868213 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12107904630 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1291
+W 12107952672 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12108277797 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12108608672 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12108677380 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12108715172 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1286
+W 12108746338 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12108750422 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12108889713 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 198
+W 12108932422 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12109186630 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12109226547 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12109282005 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 198
+W 12109336588 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12109476463 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 190
+W 12109579588 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12109986088 1735 1785 tracepoint:syscalls:sys_enter_write 16 DevToolsPipeHan 1
+W 12110343755 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12110892422 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12111084922 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12111195463 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12111391130 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12111436505 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12111470255 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 12111496047 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12111569422 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 12111589547 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 176
+W 12111647755 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12111695338 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 24
+W 12111754088 1735 1747 tracepoint:syscalls:sys_enter_pwrite64 125 ThreadPoolForeg 4096
+W 12111895130 1735 1785 tracepoint:syscalls:sys_enter_write 16 DevToolsPipeHan 1
+W 12112010130 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12112281130 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12112446297 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12112483380 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12112776672 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12112843838 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12112888755 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12112941130 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 108
+W 12113034672 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12113203922 1735 1785 tracepoint:syscalls:sys_enter_write 16 DevToolsPipeHan 1
+W 12113544463 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12113778422 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12113875880 1735 1785 tracepoint:syscalls:sys_enter_write 16 DevToolsPipeHan 1
+W 12114119463 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12114190172 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12114277380 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 68
+W 12114346297 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12114480463 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12114670505 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12114995880 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12115100630 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12115288838 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12115414422 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12115469297 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12115555880 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 3660
+W 12115599672 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12116710297 1861 1878 tracepoint:syscalls:sys_enter_write 32 Chrome_ChildIOT 1
+W 12118112630 1735 1785 tracepoint:syscalls:sys_enter_write 16 DevToolsPipeHan 1
+W 12118291297 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12118540213 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12118727755 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12118730755 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12118949547 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12119049880 1735 1735 tracepoint:syscalls:sys_enter_write 67 chrome 8
+W 12119093338 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 12119141630 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 3660
+W 12119218547 1735 1786 tracepoint:syscalls:sys_enter_write 4 DevToolsPipeHan 1
+W 12133683380 1861 1878 tracepoint:syscalls:sys_enter_write 32 Chrome_ChildIOT 1
+W 12147187713 1824 1824 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 12147496922 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 12147850630 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 13432317339 1735 1735 tracepoint:syscalls:sys_enter_write 29 chrome 8
+W 13432468006 1861 1878 tracepoint:syscalls:sys_enter_write 32 Chrome_ChildIOT 1
+W 13433244339 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 13433675089 1810 1810 tracepoint:syscalls:sys_enter_write 20 chrome 8
+W 13437523381 1861 1878 tracepoint:syscalls:sys_enter_write 32 Chrome_ChildIOT 1
+W 13438958214 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 13451323339 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 13452101589 1861 1878 tracepoint:syscalls:sys_enter_write 32 Chrome_ChildIOT 1
+W 13470192506 1735 1752 tracepoint:syscalls:sys_enter_write 16 Chrome_IOThread 1
+W 13470866672 1861 1878 tracepoint:syscalls:sys_enter_write 32 Chrome_ChildIOT 1

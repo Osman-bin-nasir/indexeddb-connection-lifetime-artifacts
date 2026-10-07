@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "hashes_checked": 1732,
+  "oracles_and_syscall_traces_verified": 32,
+  "registered_assignments_unchanged": 930,
+  "registered_eligible_unchanged": 925,
+  "new_trials": 0
+}

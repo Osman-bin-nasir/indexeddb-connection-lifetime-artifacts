@@ -1,0 +1,97 @@
+{
+  "browser": "Chromium",
+  "browserEngine": "Blink",
+  "browserMonotonicMs": 2504.8999999999996,
+  "browserVersion": "153.0.0.0",
+  "browserWallClockIso": "2026-09-28T21:28:21.300Z",
+  "diagnosticIdentity": {
+    "connectionHeld": false,
+    "events": [
+      {
+        "browserMonotonicMs": 20,
+        "browserRealtimeMs": 1790630898815,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "PAGE_READY",
+        "pageId": "55e15cac-41aa-4177-aad3-0168994d8284",
+        "sequence": 1,
+        "trialId": "p3v2b1-014-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 20.899999999999636,
+        "browserRealtimeMs": 1790630898816,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "pageshow",
+        "pageId": "55e15cac-41aa-4177-aad3-0168994d8284",
+        "sequence": 2,
+        "trialId": "p3v2b1-014-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2482.5,
+        "browserRealtimeMs": 1790630901278,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "HOST_TRIGGER_RECEIVED",
+        "pageId": "55e15cac-41aa-4177-aad3-0168994d8284",
+        "sequence": 3,
+        "trialId": "p3v2b1-014-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2494.7999999999993,
+        "browserRealtimeMs": 1790630901290,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_WRITE_STARTED",
+        "pageId": "55e15cac-41aa-4177-aad3-0168994d8284",
+        "sequence": 4,
+        "trialId": "p3v2b1-014-sqlite-d2"
+      },
+      {
+        "browserMonotonicMs": 2504.199999999999,
+        "browserRealtimeMs": 1790630901299,
+        "details": {},
+        "experimentId": "paper3v2_mechanism_b1",
+        "kind": "TARGET_COMPLETE",
+        "pageId": "55e15cac-41aa-4177-aad3-0168994d8284",
+        "sequence": 5,
+        "trialId": "p3v2b1-014-sqlite-d2"
+      }
+    ],
+    "experimentId": "paper3v2_mechanism_b1",
+    "origin": "http://127.0.0.1:5173",
+    "pageId": "55e15cac-41aa-4177-aad3-0168994d8284",
+    "trialId": "p3v2b1-014-sqlite-d2",
+    "url": "http://127.0.0.1:5173/?action=run&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-014-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+    "visibility": "visible"
+  },
+  "durabilityAccepted": true,
+  "event": "ACK",
+  "experimentId": "paper3v2_mechanism_b1",
+  "faultModel": "qemu-reset",
+  "indexedDbCompleteMonotonicMs": 2504.199999999999,
+  "protocol": "targeted-single-transaction-v1",
+  "reportedDurability": "relaxed",
+  "requestedDelayNs": 2000000000,
+  "requestedDurability": "relaxed",
+  "sentinelBefore": {
+    "checksum": "6f4ab04924bd8f48125a5eac83e387f71562a904d93096a3620ee2531015e2f0",
+    "experimentId": "targeted-baseline-v1",
+    "payload": "browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-storage-crash-research|targeted-baseline-sentinel-v1|browser-stor",
+    "sequenceNumber": 1,
+    "transactionId": "__targeted_baseline_transaction_v1__",
+    "trialId": "__targeted_baseline_sentinel_v1__"
+  },
+  "sequenceNumber": 1,
+  "targetRecord": {
+    "checksum": "6b002ef09f958a51aba013e61dfedaee3fef912bc0f0006fce8f8d7832a0db26",
+    "experimentId": "paper3v2_mechanism_b1",
+    "payload": "paper3v2_mechanism_b1|p3v2b1-014-sqlite-d2|1|paper3v2_mechanism_b1|p3v2b1-014-sqlite-d2|1|paper3v2_mechanism_b1|p3v2b1-014-sqlite-d2|1|paper3v2_mechanism_b1|p3v2b1-014-sqlite-d2|1|paper3v2_mechanism_b1|p3v2b1-014-sqlite-d2|1|paper3v2_mechanism_b1|p3v2b1-01",
+    "sequenceNumber": 1,
+    "transactionId": "p3v2b1-014-sqlite-d2-target-tx-1",
+    "trialId": "p3v2b1-014-sqlite-d2"
+  },
+  "transactionId": "p3v2b1-014-sqlite-d2-target-tx-1",
+  "trialId": "p3v2b1-014-sqlite-d2",
+  "workload": "target-transaction"
+}

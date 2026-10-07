@@ -1,0 +1,28 @@
+// Experiment C1 uprobe stage: the nine prescribed Candidate-1 functions.
+//
+// // no resolvable probe is replaced at trial time with the probe list that bpftrace can
+// actually resolve on this guest's Chromium executable. bpftrace has no
+// optional-attach syntax, so a symbol that cannot be resolved is not emitted and
+// is instead recorded in the per-trial trace reduction under
+// `uprobe_status.unresolved` together with the resolution attempt.
+//
+// Prescribed set (all nine attempted every trial, identically in both
+// conditions):
+//   DatabaseConnection::Release
+//   DatabaseConnection::MaybeSelfDestruct
+//   BackingStoreImpl::DestroyConnection
+//   DatabaseConnection::GetCleanupTask
+//   DatabaseConnection::CloseDatabase
+//   sql::Database::CloseInternal
+//   sqlite3WalClose
+//   sqlite3WalCheckpoint
+//   unixSync
+//
+// Firing line format (space separated): U NSECS PID TID SYMBOL COMM
+//   PID is the thread-group id, TID the thread id, matching the strace `[pid N]`
+//   thread id and the eBPF stream's tid so a firing can be joined to a WAL
+//   descriptor sync on the shared guest clock.
+// no resolvable probe
+{
+  printf("U %llu %d %d %s %s\n", nsecs, pid, tid, probe, comm);
+}

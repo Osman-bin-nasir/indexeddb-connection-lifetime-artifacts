@@ -1,0 +1,17 @@
+{
+  "exit_observed_ns": 189386859317541,
+  "pid": 46377,
+  "powerdown_call_ns": 189384663329500,
+  "shutdown_event": {
+    "data": {
+      "guest": true,
+      "reason": "guest-shutdown"
+    },
+    "event": "SHUTDOWN",
+    "timestamp": {
+      "microseconds": 884059,
+      "seconds": 1790636404
+    }
+  },
+  "shutdown_observed_ns": 189386819250166
+}

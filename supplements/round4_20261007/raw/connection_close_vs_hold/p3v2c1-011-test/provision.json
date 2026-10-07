@@ -1,0 +1,6 @@
+{
+  "agent_sha256": "b95218dfa69055dc5ba684ddeb2d8ceb70512d7472d9c3d9962d29a3c11003f5",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "[Service]\nExecStart=\nExecStart=/usr/bin/xvfb-run -a /opt/browser-storage-research/.venv/bin/python /opt/browser-storage-research/paper2-readiness-agent.py --host 0.0.0.0 --port 8788\n"
+}

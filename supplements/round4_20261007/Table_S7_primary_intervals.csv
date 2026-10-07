@@ -1,0 +1,4 @@
+Contrast,Recovered,Pairs,Difference [95% CI],Exact p,Holm p
+"Grid: 2.4 minus 1.6 s, stratified by close time",20/20 vs 0/20,20,"1.000 [0.772, 1.000]",1.9073e-06,5.722e-06
+Immediate 2.50 s minus delayed-close 2.75 s,10/10 vs 0/10,10,"1.000 [0.608, 1.000]",0.001953125,0.00390625
+Held sweep: 15 minus 5 s,1/10 vs 0/10,10,"0.100 [-0.189, 0.404]",1,1

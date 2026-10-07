@@ -1,0 +1,140 @@
+{
+  "received_ns": 183809179542541,
+  "response": {
+    "after": {
+      "connectionHeld": false,
+      "events": [
+        {
+          "browserMonotonicMs": 32.100000000000364,
+          "browserRealtimeMs": 1790630827249,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "PAGE_READY",
+          "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+          "sequence": 1,
+          "trialId": "p3v2b1-012-sqlite-d2"
+        },
+        {
+          "browserMonotonicMs": 34.899999999999636,
+          "browserRealtimeMs": 1790630827251,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "pageshow",
+          "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+          "sequence": 2,
+          "trialId": "p3v2b1-012-sqlite-d2"
+        }
+      ],
+      "experimentId": "paper3v2_mechanism_b1",
+      "origin": "http://127.0.0.1:5173",
+      "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+      "trialId": "p3v2b1-012-sqlite-d2",
+      "url": "http://127.0.0.1:5173/?action=recover&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-012-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+      "visibility": "visible"
+    },
+    "agent_session": "3ee85bef-e29d-4112-9aea-501420a0880e",
+    "before": {
+      "connectionHeld": false,
+      "events": [
+        {
+          "browserMonotonicMs": 32.100000000000364,
+          "browserRealtimeMs": 1790630827249,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "PAGE_READY",
+          "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+          "sequence": 1,
+          "trialId": "p3v2b1-012-sqlite-d2"
+        },
+        {
+          "browserMonotonicMs": 34.899999999999636,
+          "browserRealtimeMs": 1790630827251,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "pageshow",
+          "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+          "sequence": 2,
+          "trialId": "p3v2b1-012-sqlite-d2"
+        }
+      ],
+      "experimentId": "paper3v2_mechanism_b1",
+      "origin": "http://127.0.0.1:5173",
+      "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+      "trialId": "p3v2b1-012-sqlite-d2",
+      "url": "http://127.0.0.1:5173/?action=recover&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-012-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+      "visibility": "visible"
+    },
+    "boot_id": "f05557f5-4369-4717-a28e-2a76dbf99b79",
+    "browser_pids": [
+      884
+    ],
+    "events": [
+      {
+        "agent_session": "3ee85bef-e29d-4112-9aea-501420a0880e",
+        "guest_ns": 10860115671,
+        "message": "http://127.0.0.1:5173/?action=recover&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-012-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+        "type": "NAVIGATION"
+      },
+      {
+        "agent_session": "3ee85bef-e29d-4112-9aea-501420a0880e",
+        "guest_ns": 10892445338,
+        "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+        "type": "requestfailed"
+      },
+      {
+        "agent_session": "3ee85bef-e29d-4112-9aea-501420a0880e",
+        "guest_ns": 10892807838,
+        "message": "POST http://127.0.0.1:8787/diagnostic/event: net::ERR_ABORTED",
+        "type": "requestfailed"
+      },
+      {
+        "agent_session": "3ee85bef-e29d-4112-9aea-501420a0880e",
+        "guest_ns": 10901683588,
+        "message": "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "type": "console"
+      }
+    ],
+    "ok": true,
+    "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+    "readiness_identity": {
+      "experiment_id": "paper3v2_mechanism_b1",
+      "nonce": "7f69ad4688a74d0c9e77a9848fe875dd3ec625e294a8ee3d27672bc8f492cfd4",
+      "origin": "http://127.0.0.1:5173",
+      "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-012-sqlite-d2.qcow2",
+      "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+      "trial_id": "p3v2b1-012-sqlite-d2"
+    },
+    "value": {
+      "connectionHeld": false,
+      "events": [
+        {
+          "browserMonotonicMs": 32.100000000000364,
+          "browserRealtimeMs": 1790630827249,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "PAGE_READY",
+          "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+          "sequence": 1,
+          "trialId": "p3v2b1-012-sqlite-d2"
+        },
+        {
+          "browserMonotonicMs": 34.899999999999636,
+          "browserRealtimeMs": 1790630827251,
+          "details": {},
+          "experimentId": "paper3v2_mechanism_b1",
+          "kind": "pageshow",
+          "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+          "sequence": 2,
+          "trialId": "p3v2b1-012-sqlite-d2"
+        }
+      ],
+      "experimentId": "paper3v2_mechanism_b1",
+      "origin": "http://127.0.0.1:5173",
+      "pageId": "bfdffc78-c47b-466b-b3ec-73c5fe3c8e2a",
+      "trialId": "p3v2b1-012-sqlite-d2",
+      "url": "http://127.0.0.1:5173/?action=recover&experimentId=paper3v2_mechanism_b1&trialId=p3v2b1-012-sqlite-d2&mode=relaxed&workload=target-transaction&records=1&payloadBytes=256&delayNs=2000000000&crashAfterSequence=1&ackEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fack&recoveryEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Frecovery&probeEndpoint=http%3A%2F%2F127.0.0.1%3A8787%2Fapi%2Fv1%2Fprobe&chunkBytes=1048576&maxBytes=67108864&faultModel=qemu-reset&connection=closed",
+      "visibility": "visible"
+    }
+  },
+  "sent_ns": 183809141489041
+}

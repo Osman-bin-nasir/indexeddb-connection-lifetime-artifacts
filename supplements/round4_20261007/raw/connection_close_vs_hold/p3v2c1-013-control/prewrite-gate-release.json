@@ -1,0 +1,5 @@
+{
+  "gate_state": "released_after_tracer_activation",
+  "host_ns": 189244774080166,
+  "method": "HTTP control gate released only after strace/eBPF/cachestat activation was verified"
+}

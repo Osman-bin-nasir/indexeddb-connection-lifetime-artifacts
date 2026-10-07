@@ -1,0 +1,90 @@
+strace: Process 1755 attached with 38 threads
+strace: Process 1762 attached
+strace: Process 1763 attached
+strace: Process 1784 attached with 9 threads
+strace: Process 1786 attached with 8 threads
+strace: Process 1830 attached with 11 threads
+strace: Process 1843 attached with 9 threads
+strace: Process 1844 attached with 10 threads
+strace: Process 1881 attached with 14 threads
+[pid  1770] 1790630403.797605 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal>) = 0 <0.002407>
+[pid  1770] 1790630403.800304 fdatasync(102</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default> <unfinished ...>
+[pid  1767] 1790630403.801948 fdatasync(101</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts-journal> <unfinished ...>
+[pid  1770] 1790630403.802002 <... fdatasync resumed>) = 0 <0.001598>
+[pid  1770] 1790630403.802315 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal>) = 0 <0.000720>
+[pid  1767] 1790630403.803302 <... fdatasync resumed>) = 0 <0.001332>
+[pid  1767] 1790630403.803513 fdatasync(92</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default> <unfinished ...>
+[pid  1770] 1790630403.803875 fdatasync(94</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db> <unfinished ...>
+[pid  1767] 1790630403.804906 <... fdatasync resumed>) = 0 <0.001368>
+[pid  1767] 1790630403.805166 fdatasync(101</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts-journal> <unfinished ...>
+[pid  1770] 1790630403.805563 <... fdatasync resumed>) = 0 <0.001659>
+[pid  1767] 1790630403.805582 <... fdatasync resumed>) = 0 <0.000394>
+[pid  1770] 1790630403.805718 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal>) = 0 <0.000712>
+[pid  1767] 1790630403.806734 fdatasync(100</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts> <unfinished ...>
+[pid  1770] 1790630403.807406 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal> <unfinished ...>
+[pid  1767] 1790630403.807807 <... fdatasync resumed>) = 0 <0.001037>
+[pid  1767] 1790630403.807996 fdatasync(101</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts-journal> <unfinished ...>
+[pid  1770] 1790630403.808218 <... fdatasync resumed>) = 0 <0.000790>
+[pid  1770] 1790630403.808426 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal>) = 0 <0.000323>
+[pid  1767] 1790630403.808783 <... fdatasync resumed>) = 0 <0.000768>
+[pid  1770] 1790630403.809170 fdatasync(94</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db>) = 0 <0.001454>
+[pid  1770] 1790630403.810803 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal>) = 0 <0.000400>
+[pid  1770] 1790630403.811843 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal> <unfinished ...>
+[pid  1767] 1790630403.812481 fdatasync(102</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS-journal> <unfinished ...>
+[pid  1770] 1790630403.812836 <... fdatasync resumed>) = 0 <0.000967>
+[pid  1770] 1790630403.813005 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal>) = 0 <0.000241>
+[pid  1767] 1790630403.813284 <... fdatasync resumed>) = 0 <0.000787>
+[pid  1770] 1790630403.813461 fdatasync(94</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db> <unfinished ...>
+[pid  1767] 1790630403.813483 fdatasync(126</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default> <unfinished ...>
+[pid  1770] 1790630403.813757 <... fdatasync resumed>) = 0 <0.000271>
+[pid  1770] 1790630403.813914 fdatasync(95</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal> <unfinished ...>
+[pid  1767] 1790630403.813936 <... fdatasync resumed>) = 0 <0.000441>
+[pid  1767] 1790630403.814209 fdatasync(92</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS> <unfinished ...>
+[pid  1770] 1790630403.814837 <... fdatasync resumed>) = 0 <0.000899>
+[pid  1767] 1790630403.815173 <... fdatasync resumed>) = 0 <0.000945>
+[pid  1767] 1790630403.816268 fdatasync(102</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS-wal>) = 0 <0.001147>
+[pid  1767] 1790630403.817554 fdatasync(128</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default> <unfinished ...>
+[pid  1770] 1790630403.817686 fdatasync(127</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal> <unfinished ...>
+[pid  1767] 1790630403.818427 <... fdatasync resumed>) = 0 <0.000848>
+[pid  1770] 1790630403.818900 <... fdatasync resumed>) = 0 <0.001202>
+[pid  1770] 1790630403.818977 fdatasync(128</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default>) = 0 <0.000435>
+[pid  1770] 1790630403.819670 fdatasync(127</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal>) = 0 <0.000327>
+[pid  1770] 1790630403.820553 fdatasync(126</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor>) = 0 <0.000427>
+[pid  1770] 1790630403.821113 fdatasync(127</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal>) = 0 <0.000357>
+[pid  1770] 1790630403.822194 fdatasync(127</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal>) = 0 <0.000790>
+[pid  1770] 1790630403.823159 fdatasync(127</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal>) = 0 <0.000227>
+[pid  1770] 1790630403.824442 fdatasync(126</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor> <unfinished ...>
+[pid  1767] 1790630403.824725 fdatasync(129</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal> <unfinished ...>
+[pid  1770] 1790630403.825006 <... fdatasync resumed>) = 0 <0.000545>
+[pid  1770] 1790630403.825114 fdatasync(127</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal> <unfinished ...>
+[pid  1767] 1790630403.825525 <... fdatasync resumed>) = 0 <0.000783>
+[pid  1767] 1790630403.825644 fdatasync(130</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1> <unfinished ...>
+[pid  1770] 1790630403.825768 <... fdatasync resumed>) = 0 <0.000638>
+[pid  1767] 1790630403.825776 <... fdatasync resumed>) = 0 <0.000116>
+[pid  1767] 1790630403.825992 fdatasync(129</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal>) = 0 <0.000187>
+[pid  1770] 1790630403.826657 fdatasync(130</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/.org.chromium.Chromium.BookmarkMergedSurfaceOrdering.zOxTSu> <unfinished ...>
+[pid  1767] 1790630403.826681 fdatasync(128</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db>) = 0 <0.000227>
+[pid  1767] 1790630403.827490 fdatasync(129</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal> <unfinished ...>
+[pid  1770] 1790630403.827805 <... fdatasync resumed>) = 0 <0.001126>
+[pid  1767] 1790630403.828073 <... fdatasync resumed>) = 0 <0.000567>
+[pid  1770] 1790630403.830585 fdatasync(133</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store>) = 0 <0.000819>
+[pid  1770] 1790630403.831524 fdatasync(132</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/MANIFEST-000001> <unfinished ...>
+[pid  1767] 1790630403.831548 fdatasync(129</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal> <unfinished ...>
+[pid  1770] 1790630403.831986 <... fdatasync resumed>) = 0 <0.000440>
+[pid  1767] 1790630403.832007 <... fdatasync resumed>) = 0 <0.000453>
+[pid  1767] 1790630403.832116 fdatasync(129</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal> <unfinished ...>
+[pid  1770] 1790630403.832266 fdatasync(132</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000001.dbtmp> <unfinished ...>
+[pid  1767] 1790630403.832364 <... fdatasync resumed>) = 0 <0.000229>
+[pid  1767] 1790630403.832545 fdatasync(128</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db>) = 0 <0.000561>
+[pid  1767] 1790630403.834304 fdatasync(129</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal> <unfinished ...>
+[pid  1770] 1790630403.834495 <... fdatasync resumed>) = 0 <0.002215>
+[pid  1767] 1790630403.834716 <... fdatasync resumed>) = 0 <0.000400>
+[pid  1767] 1790630404.100422 fdatasync(133</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log>) = 0 <0.001748>
+[pid  1767] 1790630404.102511 fdatasync(133</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log>) = 0 <0.000714>
+[pid  1767] 1790630404.103630 fdatasync(133</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log>) = 0 <0.001429>
+[pid  1767] 1790630404.105417 fdatasync(133</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log>) = 0 <0.000527>
+[pid  1767] 1790630404.106217 fdatasync(133</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log>) = 0 <0.000410>
+[pid  1767] 1790630404.107175 fdatasync(133</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log>) = 0 <0.000655>
+[pid  1768] 1790630404.190846 fdatasync(138</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal>) = 0 <0.001301>
+[pid  1768] 1790630404.192272 fdatasync(140</var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173>) = 0 <0.000516>
+Connection to 127.0.0.1 closed by remote host.

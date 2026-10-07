@@ -1,0 +1,7 @@
+{
+  "classification": "SENTINEL_SURVIVED_TARGET_LOST",
+  "pre_state": "verified-absent",
+  "primary_endpoint_eligible": true,
+  "target_survived": false,
+  "valid": true
+}

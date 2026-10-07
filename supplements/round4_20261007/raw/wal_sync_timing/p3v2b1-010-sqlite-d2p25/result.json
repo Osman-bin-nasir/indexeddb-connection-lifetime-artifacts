@@ -1,0 +1,270 @@
+{
+  "ack_anchor_guest_monotonic_ns": 11478135088,
+  "ack_anchor_guest_realtime_ms": 1790630730843.0,
+  "ack_received_ns": 183712682372833,
+  "ack_to_command_ns": 2259251250,
+  "ack_to_qmp_command_dispatch_overshoot_ms": 9.25125,
+  "ack_to_qmp_command_ms": 2259.25125,
+  "ack_to_reset_event_ms": 2270.087083,
+  "ack_to_reset_event_ns": 2270087083,
+  "ack_validation_finished_ns": 183712685055750,
+  "action": "reset",
+  "action_command_ns": 183714941624083,
+  "action_observed_ns": 183714952459916,
+  "assigned_delay_s": 2.25,
+  "backend": "sqlite",
+  "baseline_init_to_baseline_verify_ms": 249.109,
+  "baseline_init_to_target_write_start_ms": 3003.747416,
+  "baseline_verify_to_target_write_start_ms": 2754.638416,
+  "boot_id_changed": true,
+  "boot_integrity": {
+    "details": {
+      "agent_session": "619b9a31-93eb-4591-9c8e-ceafbc312956",
+      "boot_id": "ea22b9c0-e3d5-40d9-a570-768daea01550",
+      "boot_mount_active_state": "active",
+      "boot_mount_unit": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "Where=/boot\nResult=success\nExecMount={ path=/usr/bin/mount ; argv[]=/usr/bin/mount /dev/vda16 /boot -t ext4 ; ignore_errors=no ; start_time=[Mon 2026-09-28 21:25:40 UTC] ; stop_time=[Mon 2026-09-28 21:25:40 UTC] ; pid=444 ; code=exited ; status=0 }\nActiveState=active\n"
+      },
+      "boot_mounted": true,
+      "mounts": {
+        "/": {
+          "device": "/dev/vda1",
+          "fstype": "ext4"
+        },
+        "/boot": {
+          "device": "/dev/vda16",
+          "fstype": "ext4"
+        },
+        "/boot/efi": {
+          "device": "/dev/vda15",
+          "fstype": "vfat"
+        }
+      },
+      "system_state": "running",
+      "system_state_command": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "running\n"
+      }
+    },
+    "status": "healthy"
+  },
+  "bpftrace_received_lines": 0,
+  "browser_event_count_at_ack": 5,
+  "cachestat_parse_errors": 0,
+  "cachestat_sample_count": 87,
+  "classification": "SENTINEL_SURVIVED_TARGET_SURVIVED",
+  "close_verified_ns": 183712727104541,
+  "command_to_reset_event_ns": 10835833,
+  "dataset_role": "paper3v2_mechanism_b1",
+  "deadline_overshoot_ns": 9251250,
+  "delay_s": 2.25,
+  "durability": "relaxed",
+  "errors": [],
+  "experiment_id": "paper3v2_mechanism_b1",
+  "finished_ns": 183734178980666,
+  "guest_monotonic_ns_at_ack": 11478135088,
+  "guest_monotonic_ns_at_boot_complete": 7966098295,
+  "guest_monotonic_ns_at_reset": 13734678839,
+  "guest_uptime_s_at_ack": 11.47,
+  "guest_uptime_s_at_boot_complete": 7.96,
+  "guest_uptime_s_at_reset": 13.73,
+  "held": false,
+  "launch_flag_matched": true,
+  "launch_flag_observed": true,
+  "mode": "relaxed",
+  "on_disk_format": {
+    "expected": "sqlite",
+    "files": 1,
+    "leveldb_files": false,
+    "matched": true,
+    "observed": "sqlite",
+    "sqlite_signature": true,
+    "sqlite_signature_expected": "53514c69746520666f726d6174203300"
+  },
+  "on_disk_format_matched": true,
+  "on_disk_observed": "sqlite",
+  "ordinal": 10,
+  "overlay_retained": false,
+  "post_boot_id": "ea22b9c0-e3d5-40d9-a570-768daea01550",
+  "pre_boot_id": "155f0aab-2daa-40a4-9117-1c1ac1b18816",
+  "pre_state": "verified-present",
+  "prewrite_gate_state": "released_after_tracer_activation",
+  "primary_endpoint_eligible": true,
+  "probe": false,
+  "qmp_response_ns": 183714952853000,
+  "qmp_write_ns": 183714941712333,
+  "readiness": {
+    "consecutive_successes": 11,
+    "established_ns": 183731523967666,
+    "final_health": {
+      "agent_session": "619b9a31-93eb-4591-9c8e-ceafbc312956",
+      "agent_source_sha256": "b95218dfa69055dc5ba684ddeb2d8ceb70512d7472d9c3d9962d29a3c11003f5",
+      "agent_version": "0.1.0",
+      "architecture": "aarch64",
+      "boot_id": "ea22b9c0-e3d5-40d9-a570-768daea01550",
+      "browsers": [
+        "chromium",
+        "firefox",
+        "webkit"
+      ],
+      "cpu_count": 4,
+      "guest_id": "browser-storage-research-vm",
+      "memory_bytes": 6194094080,
+      "ok": true,
+      "os_name": "Ubuntu",
+      "os_version": "24.04",
+      "readiness_identity": {
+        "experiment_id": "paper3v2_mechanism_b1",
+        "nonce": "7f69ad4688a74d0c9e77a9848fe875dd3ec625e294a8ee3d27672bc8f492cfd4",
+        "origin": "http://127.0.0.1:5173",
+        "overlay_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/overlays/paper3v2_mechanism_b1/p3v2b1-010-sqlite-d2p25.qcow2",
+        "profile": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1",
+        "trial_id": "p3v2b1-010-sqlite-d2p25"
+      },
+      "ready": true
+    },
+    "post_agent_session": "619b9a31-93eb-4591-9c8e-ceafbc312956",
+    "post_boot_id": "ea22b9c0-e3d5-40d9-a570-768daea01550",
+    "pre_boot_id": "155f0aab-2daa-40a4-9117-1c1ac1b18816",
+    "primary_passed": true,
+    "shadow_observed_down": true,
+    "shadow_passed": true,
+    "shadow_scope": "same health stream, truncated at primary completion/failure; no independent polling",
+    "stable_since": 183726.468166083
+  },
+  "requested_deadline_ns": 183714932372833,
+  "requested_delay_ns": 2250000000,
+  "reset_deadline_overshoot_ns": 20087083,
+  "reset_event": {
+    "data": {
+      "guest": false,
+      "reason": "host-qmp-system-reset"
+    },
+    "event": "RESET",
+    "timestamp": {
+      "microseconds": 952422,
+      "seconds": 1790630732
+    }
+  },
+  "reset_uptime_sample_received_ns": 183714941142375,
+  "resolved": true,
+  "role": "main",
+  "sentinel_baseline_init_received_ns": 183709663348375,
+  "sentinel_baseline_verify_received_ns": 183709912457375,
+  "sentinel_result": "SURVIVED",
+  "sentinel_survived": true,
+  "sentinel_timing": {
+    "baseline-init_browser_monotonic_ms": 82.20000000000073,
+    "baseline-init_received_ns": 183709663348375,
+    "baseline-verify_browser_monotonic_ms": 30.799999999999272,
+    "baseline-verify_received_ns": 183709912457375
+  },
+  "sentinel_to_target_ack_ms": 3019.024458,
+  "sentinel_to_target_write_start_ms": 3003.747416,
+  "sentinel_verify_to_target_write_start_ms": 2754.638416,
+  "started_ns": 183694987327041,
+  "strace_received_lines": 0,
+  "target_ack_browser_monotonic_ms": 2440.2999999999993,
+  "target_indexeddb_complete_monotonic_ms": 2439.8999999999996,
+  "target_result": "SURVIVED",
+  "target_survived": true,
+  "target_write_start_browser_monotonic_ms": 2429.7999999999993,
+  "target_write_start_host_ns": 183712667095791,
+  "target_write_start_observed": true,
+  "target_write_start_to_ack_page_ms": 10.5,
+  "technical_errors": [],
+  "technical_valid": true,
+  "timing_valid": true,
+  "trace_activation": {
+    "bpftrace_alive": true,
+    "browser_main_pid": 1724,
+    "checked_host_ns": 183712531446166,
+    "ebpf_command": "sudo -n timeout -s INT 20s bpftrace /tmp/paper3v2b1-trace.bt",
+    "observer_alive": true,
+    "observer_command": "python3 -u /tmp/paper3v2b1-observer.py --directory /var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB --duration-s 20 --interval-ms 50",
+    "passed": true,
+    "pids": [
+      1724,
+      1731,
+      1732,
+      1754,
+      1758,
+      1799,
+      1812,
+      1814,
+      1870
+    ],
+    "strace_alive": true,
+    "strace_command": "sudo -n timeout -s INT 20s strace -f -ttt -T -yy -s 0 -e trace=fsync,fdatasync,sync_file_range,msync -p 1724 -p 1731 -p 1732 -p 1754 -p 1758 -p 1799 -p 1812 -p 1814 -p 1870",
+    "tracers_alive": {
+      "bpftrace": true,
+      "observer": true,
+      "strace": true
+    },
+    "tracing_pipeline_sha256": "82b936c9a2a721cd6cfd0e22e194a4d71525d73bba1f2f54058ad4399816e35d"
+  },
+  "trace_end_host_ns": 183734176175708,
+  "trace_ledger_path": "/Users/omerbinnasir/Desktop/Web Dev/research/browser-storage-crash-research/paper2/paper3v2_mechanism_b1/raw/paper3v2_mechanism_b1/p3v2b1-010-sqlite-d2p25/trace-ledger.jsonl",
+  "trace_pipeline_ok": true,
+  "trace_start_host_ns": 183710523906708,
+  "trace_summary": {
+    "blockdev_flush_events": 6,
+    "clean_before_reset": false,
+    "earliest_clean_rel_ack_s": null,
+    "ebpf_events_on_wal_fd_not_in_strace": 0,
+    "ebpf_events_total": 555,
+    "ebpf_unmatched_lines": 1,
+    "median_cachestat_interval_ms": 50.1026255,
+    "strace_events_total": 55,
+    "strace_unfinished_lines": 24,
+    "strace_unmatched_lines": 10,
+    "wal_descriptors": [
+      138
+    ],
+    "wal_dirty_to_clean_spacing_s": [],
+    "wal_dirty_to_clean_transitions": 0,
+    "wal_paths": [
+      "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal"
+    ],
+    "wal_sync_events": 2
+  },
+  "traced": true,
+  "traced_fd_paths": {
+    "100": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts",
+    "122": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Shortcuts-journal",
+    "125": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS-wal",
+    "126": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor",
+    "127": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/Network Action Predictor-journal",
+    "128": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db",
+    "129": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/first_party_sets.db-journal",
+    "130": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/.org.chromium.Chromium.BookmarkMergedSurfaceOrdering.Ae4czX",
+    "132": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000001.dbtmp",
+    "133": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/GCM Store/000003.log",
+    "137": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA",
+    "138": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173/LI75AQOS2OEFZSFAPTXCEHP7CUJW32JBXYZDWTV4MDE7NXDTS7KA-wal",
+    "140": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/IndexedDB/http_127.0.0.1_5173",
+    "92": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db-journal",
+    "98": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/heavy_ad_intervention_opt_out.db",
+    "99": "/var/lib/browser-storage-research/profiles/chromium/review-backend-sqlite-v1/Default/DIPS"
+  },
+  "traced_process_tree": [
+    1724,
+    1731,
+    1732,
+    1754,
+    1758,
+    1799,
+    1812,
+    1814,
+    1870
+  ],
+  "tracing_pipeline_sha256": "82b936c9a2a721cd6cfd0e22e194a4d71525d73bba1f2f54058ad4399816e35d",
+  "trial_id": "p3v2b1-010-sqlite-d2p25",
+  "uptime_sample_lag_ns": 2232708,
+  "valid": true,
+  "wall_seconds": 39.191653625,
+  "zero_delay_policy": null
+}
