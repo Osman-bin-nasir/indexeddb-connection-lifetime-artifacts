@@ -1,0 +1,224 @@
+{
+  "utc": "2026-10-06T10:57:41.517834+00:00",
+  "families": {
+    "close_aligned_recovery_grid": {
+      "assigned": 180,
+      "started": 180,
+      "complete": 180,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "held_connection_recovery_sweep": {
+      "assigned": 70,
+      "started": 70,
+      "complete": 70,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "six_key_conditions": {
+      "assigned": 60,
+      "started": 60,
+      "complete": 60,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "target_byte_diagnostics": {
+      "assigned": 40,
+      "started": 40,
+      "complete": 40,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "trace_category_timelines": {
+      "assigned": 20,
+      "started": 20,
+      "complete": 19,
+      "technically_invalid": 3,
+      "integrity_failure": 0,
+      "unknown": 4,
+      "remaining": 0
+    },
+    "fault_scope_comparison": {
+      "assigned": 120,
+      "started": 120,
+      "complete": 120,
+      "technically_invalid": 1,
+      "integrity_failure": 0,
+      "unknown": 1,
+      "remaining": 0
+    },
+    "block_state_recovery": {
+      "assigned": 120,
+      "started": 120,
+      "complete": 120,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "environment_sensitivity": {
+      "assigned": 160,
+      "started": 160,
+      "complete": 160,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "application_and_background_activity": {
+      "assigned": 160,
+      "started": 160,
+      "complete": 160,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    }
+  },
+  "assigned": 930,
+  "started": 930,
+  "complete": 929,
+  "remaining": 0,
+  "disk_free_bytes": 13822664704,
+  "last_batch": {
+    "utc": "2026-10-06T10:57:41.487472+00:00",
+    "assigned": 7,
+    "finished": 7,
+    "attempts": [
+      {
+        "trial_id": "scientific-application_and_background_activity-00154",
+        "eligible": true,
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "reasons": [],
+        "raw_inventories_verified": true,
+        "independent_pass": true,
+        "retry_permitted": false,
+        "backend_exit_code": 0
+      },
+      {
+        "trial_id": "scientific-application_and_background_activity-00155",
+        "eligible": true,
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "reasons": [],
+        "raw_inventories_verified": true,
+        "independent_pass": true,
+        "retry_permitted": false,
+        "backend_exit_code": 0
+      },
+      {
+        "trial_id": "scientific-application_and_background_activity-00156",
+        "eligible": true,
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "reasons": [],
+        "raw_inventories_verified": true,
+        "independent_pass": true,
+        "retry_permitted": false,
+        "backend_exit_code": 0
+      },
+      {
+        "trial_id": "scientific-application_and_background_activity-00157",
+        "eligible": true,
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "reasons": [],
+        "raw_inventories_verified": true,
+        "independent_pass": true,
+        "retry_permitted": false,
+        "backend_exit_code": 0
+      },
+      {
+        "trial_id": "scientific-application_and_background_activity-00158",
+        "eligible": true,
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "reasons": [],
+        "raw_inventories_verified": true,
+        "independent_pass": true,
+        "retry_permitted": false,
+        "backend_exit_code": 0
+      },
+      {
+        "trial_id": "scientific-application_and_background_activity-00159",
+        "eligible": true,
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "reasons": [],
+        "raw_inventories_verified": true,
+        "independent_pass": true,
+        "retry_permitted": false,
+        "backend_exit_code": 0
+      },
+      {
+        "trial_id": "scientific-application_and_background_activity-00160",
+        "eligible": true,
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "reasons": [],
+        "raw_inventories_verified": true,
+        "independent_pass": true,
+        "retry_permitted": false,
+        "backend_exit_code": 0
+      }
+    ],
+    "passed": true,
+    "error": null,
+    "automatic_retry": false,
+    "continues_after_completed_ineligible": true,
+    "author_receipt_sha256": "5b926ce89a4affaa8dca955de0c702c460b695f9820196d6680331bf097bedb9"
+  },
+  "eta_seconds": 0.0,
+  "eta_scope": "observed scientific trial costs only; missing families can invalidate forecast",
+  "overlapping_flags": "complete includes finished unknown/integrity failures; technically_invalid overlaps endpoint categories; directories without a result are started/unknown and never retried",
+  "scientific_acquisition_ready": false,
+  "independent_valid_total": 925,
+  "eligible_scientific_count": 925,
+  "completed_ineligible": [
+    {
+      "trial_id": "scientific-trace_category_timelines-00003",
+      "endpoint": "unknown",
+      "reasons": [
+        "Required guest record missing"
+      ]
+    },
+    {
+      "trial_id": "scientific-trace_category_timelines-00014",
+      "endpoint": "unknown",
+      "reasons": [
+        "Required guest record missing"
+      ]
+    },
+    {
+      "trial_id": "scientific-trace_category_timelines-00020",
+      "endpoint": "unknown",
+      "reasons": [
+        "Required guest record missing"
+      ]
+    },
+    {
+      "trial_id": "scientific-fault_scope_comparison-00020",
+      "endpoint": "unknown",
+      "reasons": [
+        "Original extractor failed for a different reason; no substitution"
+      ]
+    }
+  ],
+  "unresolved_independent_failures": [
+    "scientific-trace_category_timelines-00003",
+    "scientific-trace_category_timelines-00014",
+    "scientific-trace_category_timelines-00020",
+    "scientific-fault_scope_comparison-00020"
+  ],
+  "continuation_validator": "v6-consume-ineligible-without-retry",
+  "continuation_authorization": "assignments421-930; terminal failures consumed without retry"
+}

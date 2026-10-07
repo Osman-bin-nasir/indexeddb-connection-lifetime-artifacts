@@ -1,0 +1,141 @@
+{
+  "role": "Portable read-only scientific figure reproduction",
+  "new_scientific_units": 0,
+  "matplotlib_version": "3.11.2",
+  "numpy_version": "2.5.3",
+  "backend": "Agg",
+  "source_records_modified": false,
+  "plot_color_scheme": "grayscale",
+  "plotted_cell_estimates": 81,
+  "figure1_achieved_points": 20,
+  "output": "/private/tmp/idbv2-revision/portable-rebuilt-figures",
+  "figures": [
+    {
+      "name": "01_grid.png",
+      "sha256": "f880374f066ae471b39568a35514ca4506225ce8279bf74c4bacca9b2c333b3e",
+      "bytes": 102504,
+      "reference_present": true,
+      "reference_sha256": "f880374f066ae471b39568a35514ca4506225ce8279bf74c4bacca9b2c333b3e",
+      "byte_identical": true,
+      "generated_shape": [
+        1202,
+        1405,
+        4
+      ],
+      "reference_shape": [
+        1202,
+        1405,
+        4
+      ],
+      "pixel_identical": true,
+      "differing_pixels": 0,
+      "max_channel_difference": 0
+    },
+    {
+      "name": "02_held.png",
+      "sha256": "532e5615b036d1b5a84c9aa2de3f7ec3aa2c891ef61a1fe7f1dd31d56313f48f",
+      "bytes": 50855,
+      "reference_present": true,
+      "reference_sha256": "532e5615b036d1b5a84c9aa2de3f7ec3aa2c891ef61a1fe7f1dd31d56313f48f",
+      "byte_identical": true,
+      "generated_shape": [
+        758,
+        1408,
+        4
+      ],
+      "reference_shape": [
+        758,
+        1408,
+        4
+      ],
+      "pixel_identical": true,
+      "differing_pixels": 0,
+      "max_channel_difference": 0
+    },
+    {
+      "name": "03_fault.png",
+      "sha256": "736f84b17bde972b9f97ad11a54bdf295639c4c4d4a78f30634f7e00daadac84",
+      "bytes": 110990,
+      "reference_present": true,
+      "reference_sha256": "736f84b17bde972b9f97ad11a54bdf295639c4c4d4a78f30634f7e00daadac84",
+      "byte_identical": true,
+      "generated_shape": [
+        1081,
+        1413,
+        4
+      ],
+      "reference_shape": [
+        1081,
+        1413,
+        4
+      ],
+      "pixel_identical": true,
+      "differing_pixels": 0,
+      "max_channel_difference": 0
+    },
+    {
+      "name": "04_block.png",
+      "sha256": "76642278dfd815944b38029cd07c74a9a0212362f2089b0bdd76e9912928b288",
+      "bytes": 106878,
+      "reference_present": true,
+      "reference_sha256": "76642278dfd815944b38029cd07c74a9a0212362f2089b0bdd76e9912928b288",
+      "byte_identical": true,
+      "generated_shape": [
+        1082,
+        1406,
+        4
+      ],
+      "reference_shape": [
+        1082,
+        1406,
+        4
+      ],
+      "pixel_identical": true,
+      "differing_pixels": 0,
+      "max_channel_difference": 0
+    },
+    {
+      "name": "05_environment.png",
+      "sha256": "86ab7999a72b7dfbc2c52474dd4ef204cada374b34103d04cd304902435fe7c0",
+      "bytes": 128506,
+      "reference_present": true,
+      "reference_sha256": "86ab7999a72b7dfbc2c52474dd4ef204cada374b34103d04cd304902435fe7c0",
+      "byte_identical": true,
+      "generated_shape": [
+        1081,
+        1413,
+        4
+      ],
+      "reference_shape": [
+        1081,
+        1413,
+        4
+      ],
+      "pixel_identical": true,
+      "differing_pixels": 0,
+      "max_channel_difference": 0
+    },
+    {
+      "name": "06_workload.png",
+      "sha256": "8a67e8c81250c71843e9e3313bc86a163ca3c1259a0e674ce715dfdb14ac29f0",
+      "bytes": 118680,
+      "reference_present": true,
+      "reference_sha256": "8a67e8c81250c71843e9e3313bc86a163ca3c1259a0e674ce715dfdb14ac29f0",
+      "byte_identical": true,
+      "generated_shape": [
+        1081,
+        1413,
+        4
+      ],
+      "reference_shape": [
+        1081,
+        1413,
+        4
+      ],
+      "pixel_identical": true,
+      "differing_pixels": 0,
+      "max_channel_difference": 0
+    }
+  ],
+  "comparison_limit": "Fonts, renderer and library versions can change PNG bytes or pixels; numerical series are separately recorded in FIGURE_DATA.json. Pixel similarity alone does not validate raw inputs."
+}

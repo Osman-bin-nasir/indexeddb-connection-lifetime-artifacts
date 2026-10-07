@@ -1,0 +1,19 @@
+{
+  "trial_id": "scientific-block_state_recovery-00060",
+  "key": "delayed_close_short_interval",
+  "block": 5,
+  "prefix_last_entry": 1691,
+  "endpoint": "lost",
+  "dependent_observation": true,
+  "scientific_trial_count": 0,
+  "last_completed_FLUSH_only": true,
+  "excludes_later_completed_FUA": true,
+  "retained_original_log_sha256": "40beb0e65920739179332edd86fb174c235ecde955d17f6cb3c3b59486c5d67e",
+  "derived_root_base_sha256": "2f3ab45a8d3664848540aecd25753bf5b4c21f0d4bdb335d9af6d4847906a6df",
+  "started_utc": "2026-10-06T21:14:57.886864+00:00",
+  "verified_raw_log_sha256": "40beb0e65920739179332edd86fb174c235ecde955d17f6cb3c3b59486c5d67e",
+  "prefix_sha256": "9b66171fd65b6981fa496f25162150d2e74af9b4cd1f856750f4376a7d8fa6a8",
+  "oracle_content_independently_validated": true,
+  "immutable_prefix_after_reader": true,
+  "finished_utc": "2026-10-06T21:15:07.647485+00:00"
+}

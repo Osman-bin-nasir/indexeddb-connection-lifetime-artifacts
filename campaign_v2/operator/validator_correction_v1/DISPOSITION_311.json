@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-05T00:44:32.476141+00:00",
+  "trial_id": "scientific-target_byte_diagnostics-00001",
+  "assignment_index": 311,
+  "eligible": true,
+  "registered_endpoint": "lost",
+  "trial_retried": false,
+  "original_failed_verdict_preserved": true,
+  "original_audit_sha256": "2b7768a4dac54d2dea6897bb3559b7c21101c2d51033f68155292d7e76bf93a1",
+  "revalidation_sha256": "45630675054bbba13ab91fc3849224d5c36c44af46c0c03716c930d68a201b54",
+  "original_hold_004_sha256": "f856007d025da617b25a678a9c4a75635a9266210cb0b78bc0853ce637be7af3",
+  "original_gate_stop_sha256": "57d65cd63e9665be29920e2219a54c5b0d41e140fc9b46acade9c8020e7bb383",
+  "authorization_sha256": "99743825fe917ca0b5e837de448beb066fd6ccfba4716bf0ed0ee854e0a7826d",
+  "disposition": "Resolve only the stale executable-path/hash validator predicate using the active pre-acquisition scientific lock. Existing raw endpoint is unchanged. Preserve all full images and original verdicts.",
+  "full_images_retained_due_to_historical_audit_failure": true,
+  "scientific_design_changed": false,
+  "qualification_or_scientific_attempt_added": false
+}

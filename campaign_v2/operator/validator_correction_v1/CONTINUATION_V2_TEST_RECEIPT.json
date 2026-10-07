@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-05T00:48:10.317662+00:00",
+  "passed": true,
+  "methods": 7,
+  "console_sha256": "54ee044cd913507ea16ac2c1b57c6a5c18f3ed2a01d388329b2930f46f092d59",
+  "new_scientific_attempts": 0,
+  "new_qualification_attempts": 0,
+  "rationale": "Continuation revision2 additionally enforces locked authorization and resource receipt hashes; audit version and scientific measurement inputs unchanged. Revision1 was never activated."
+}

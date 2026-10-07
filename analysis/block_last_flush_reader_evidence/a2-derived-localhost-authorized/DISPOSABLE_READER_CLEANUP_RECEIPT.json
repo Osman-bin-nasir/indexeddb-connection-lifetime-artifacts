@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-06T21:17:32.219923+00:00",
+  "vm_stopped": true,
+  "completed_oracle_and_analysis_records_preserved": true,
+  "only_derived_scratch_images": true,
+  "files": {
+    "/tmp/idbv2-revision/a2-derived-localhost-authorized/reader-root.qcow2": {
+      "sha256": "fa6e751b95da643d5e360f8c8919994576f0f5e56fe74b29c54b8f6d4e035908",
+      "logical_bytes": 18612224,
+      "allocated_bytes": 19267584
+    },
+    "/tmp/idbv2-revision/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/recovery.qcow2": {
+      "sha256": "a3b9365058f859ceada8bdfd3af2d874d04ba3437e2f6f9b1a1127eb91f4b90f",
+      "logical_bytes": 6029312,
+      "allocated_bytes": 6422528
+    },
+    "/tmp/idbv2-revision/a2-derived-localhost-authorized/scientific-block_state_recovery-00001/last-flush.raw": {
+      "sha256": "8c66e5858a81d1c21d4b4a4094c0e25c1c3745eb92b2fb394f853953f9cc2d04",
+      "logical_bytes": 1073741824,
+      "allocated_bytes": 52953088
+    }
+  }
+}

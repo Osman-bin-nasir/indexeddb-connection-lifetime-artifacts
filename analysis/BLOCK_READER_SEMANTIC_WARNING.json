@@ -1,0 +1,14 @@
+{
+  "source": "analysis/block_last_flush_results.json and retained LOG_DECODE.json",
+  "source_receipts_preserved": true,
+  "new_scientific_units": 0,
+  "semantic_warnings": [
+    {
+      "trial_id": "scientific-block_state_recovery-00004",
+      "preserved_receipt_field": "excludes_later_completed_FUA",
+      "retained_value": true,
+      "decoded_tail_exists": false,
+      "disposition": "Generic reader-receipt wording; actual log ends at literal FLUSH. Original receipt preserved."
+    }
+  ]
+}

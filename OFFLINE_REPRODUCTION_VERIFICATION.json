@@ -1,0 +1,25 @@
+{
+  "scope": "Offline reconstruction from byte-exact draft release; no source changes or new trials",
+  "raw_source_destination_sha_checks_passed": 53081,
+  "byte_exact_copy_bytes": 1532150292,
+  "copied_locked_source_hashes_matched": 1075,
+  "locked_source_hash_mismatches": 0,
+  "raw_counts": {
+    "lost": 585,
+    "recovered": 340,
+    "unknown": 4,
+    "no_result": 1
+  },
+  "eligible": 925,
+  "oracles_content_verified": 925,
+  "core_original_hash_checks": 11140,
+  "cells": 95,
+  "registered_test_count": 43,
+  "portable_statistical_method": "Standard library binomial-tail CP inversion, exact sign-label distribution, Wilson-based Newcombe10, fixed familyHolm",
+  "previous_independent_SciPy_recomputation_match_tolerance": 1e-12,
+  "matched_previous_counts_intervals_tests_RD_T4_A11": true,
+  "external_archive_verified_by_this_check": false,
+  "full_VM_images_present": false,
+  "public_release_privacy_review_complete": false,
+  "public_upload_performed": false
+}

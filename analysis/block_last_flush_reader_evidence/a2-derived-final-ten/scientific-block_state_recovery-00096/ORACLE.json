@@ -1,0 +1,28 @@
+{
+  "host_send_ns": 310413878739416,
+  "host_receive_ns": 310413887660125,
+  "guest": {
+    "endpoint": "lost",
+    "sentinel_valid": true,
+    "direct": [
+      null
+    ],
+    "indexed": [],
+    "all": [
+      {
+        "id": "scientific-block_state_recovery-00096:sentinel-0",
+        "trial": "scientific-block_state_recovery-00096:sentinel",
+        "payload": "00ed4c783333c25844a5d01581118cd6b47a51e0da43e5544714c68346f97830a0d14c80e92716bd841423ac918234c1322f2945b86e98434bcb89c3ae1b83d0b900edd7d829eb4ba5801d30ee9b6cc0c1f64f1176b4da593d089f668adc95e311cad9ef1e4411ecef522ecf61a70d359744bd50521e9404a32ee144903b1edc",
+        "metadata": {
+          "campaign": "indexeddb-connection-lifetime-mac-20261003-v2",
+          "trial": "scientific-block_state_recovery-00096",
+          "record": "sentinel-0",
+          "record_count": 1,
+          "payload_bytes": 256,
+          "sentinel": true
+        },
+        "checksum": "1d6592ecd27b2bc675cde945b97f6c9e4a06d46688958a2afa9661d313911ce8"
+      }
+    ]
+  }
+}

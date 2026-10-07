@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-05T00:57:56.633483+00:00",
+  "authorization_source": "direct user instruction in this conversation",
+  "user_instruction_verbatim": "Assignment 311 is now accepted as an eligible LOST endpoint through the append-only corrected audit. \n\ncontinue 312 - 420",
+  "scope": "Resume only previously registered assignments312 through420, inclusive, in sequential bounded batches of no more than20. No retry/replacement, no design or analysis changes, stop on any failed/unknown endpoint, audit/integrity failure, hold, or storage gate. Stop after420.",
+  "resolves_historical_hold_004_for_assignments": [
+    312,
+    420
+  ],
+  "new_scientific_assignments_authorized": 109,
+  "assignment_311_retry_authorized": false,
+  "assignments_above420_authorized": false,
+  "design_changed": false,
+  "automatic_retry": false
+}

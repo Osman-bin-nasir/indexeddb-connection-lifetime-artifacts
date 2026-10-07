@@ -1,0 +1,20 @@
+{
+  "paper_pages": 34,
+  "paper_final_render_directory": "/tmp/idbv2-revision/render-paper-final",
+  "unchanged_pages_reuse_prior_full_visual_review": [
+    3,
+    4,
+    5
+  ],
+  "changed_pages_visually_rechecked": [
+    1,
+    2,
+    6
+  ],
+  "all_paper_pages_visually_reviewed": true,
+  "followup_pages": 6,
+  "followup_final_render_directory": "/tmp/idbv2-revision/render-followup-final2",
+  "all_followup_pages_visually_reviewed": true,
+  "no_clipping_overlap_or_unreadable_tables_detected": true,
+  "pdf_not_retained": true
+}

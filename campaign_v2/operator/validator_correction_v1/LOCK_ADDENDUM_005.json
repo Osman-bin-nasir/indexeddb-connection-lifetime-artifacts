@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-05T02:39:23.981679+00:00",
+  "version": "append-only-operational-continuation-v5",
+  "original_final_lock_sha256": "6b41534b91721debdfb664cf0296e22c32ac5debc22f345df75ef41914f00798",
+  "base_addendum": "operator/validator_correction_v1/LOCK_ADDENDUM_003.json",
+  "base_addendum_sha256": "287861a467ffd6ebdd566efc81ac455555e6d2e7b59f66979f71774fd87bc785",
+  "author_direction_receipt": "operator/validator_correction_v1/AUTHOR_CONTINUATION_354_420_WITH_UNKNOWN_001.json",
+  "author_direction_receipt_sha256": "65391889ed036ee2894e4b0fb705e73d7e4cea8c7d9062a8dd04fd3e51183036",
+  "continuation_entrypoint": "operator/validator_correction_v1/operator_validator_v5.py",
+  "continuation_entrypoint_sha256": "9b3a4cfeea172f3c19c1c2ac2025f0241ebd5fe3cb6be3c4d9d4cf215be70cf9",
+  "pinned_files": {
+    "operator/validator_correction_v1/operator_validator_v4.py": "4fa37a1d5950cf9920e3c9047f4a124e2f946b47d86bd2950644b0b93f2d8dae",
+    "operator/validator_correction_v1/LOCK_ADDENDUM_004.json": "fef42e9cd862e4db3a6a0728f74cf5dfb62cba805a3f1fcb7d7dfa98e80b4d2c",
+    "operator/validator_correction_v1/DISPOSITION_354_PREMEASUREMENT_FAILURE_001.json": "575910e017368695057dce6c56cb26ac9097c18e7da71e0387c39b5cd131656f"
+  },
+  "authorized_assignments": [
+    312,
+    420
+  ],
+  "assignment_353": "preserved unknown; excluded from eligible scientific count; no retry",
+  "assignment_354": "consumed before measurement by wrapper error; preserved no-result record; no retry",
+  "scientific_design_or_measurement_source_changed": false,
+  "continuation_policy": "Run unstarted assignments in order through420; preserve completed ineligible/unknown attempts without retry; stop on inventory integrity, source drift or storage failure.",
+  "assignments_above420_authorized": false,
+  "osf_posting": "deferred; no post made"
+}

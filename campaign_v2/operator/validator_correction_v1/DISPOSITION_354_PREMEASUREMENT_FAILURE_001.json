@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-05T02:38:43.217133+00:00",
+  "trial_id": "scientific-trace_category_timelines-00004",
+  "assignment_ordinal": 354,
+  "disposition": "Consumed before measurement launch; no retry or replacement.",
+  "reason": "The v4 continuation wrapper placed LOCK_ADDENDUM_004 hash in the backend field that requires LOCK_ADDENDUM_003. The backend rejected it before VM launch.",
+  "evidence_hashes": {
+    "scientific/attempts/scientific-trace_category_timelines-00004/assignment.json": "43e59c2d1b5332bfd1c48b8cd513bab49de3385707cd9bb25d62eb00f1a924f4",
+    "scientific/attempts/scientific-trace_category_timelines-00004/START.json": "159c143d321f038d2929efc229763e77b1c12fb00f990c0594f601503666a28a",
+    "scientific/attempts/scientific-trace_category_timelines-00004/backend-console.txt": "134296bb223576a1433adf3647faf48d37e70778a58872313ad46c5211fa518a",
+    "operator/batches/batch-validator-v2-20261005T023735604898Z/PLAN.json": "9f2266392d083264df3acf9924ee7da5555f09e61fa8cda3ff8dce75262d6947",
+    "operator/batches/batch-validator-v2-20261005T023735604898Z/STOP.json": "98c335b1845f6ffad5d44df4707f9c27554dcd71a8d74f3b335b3c8e722985c9"
+  },
+  "result_json_absent": true,
+  "qemu_vm_start_record_absent": true,
+  "measurement_started": false,
+  "eligible": false,
+  "endpoint": "unknown",
+  "scientific_denominator_slot_consumed": true,
+  "retry_permitted": false,
+  "user_instruction": "why did you stop ?? complete all420"
+}

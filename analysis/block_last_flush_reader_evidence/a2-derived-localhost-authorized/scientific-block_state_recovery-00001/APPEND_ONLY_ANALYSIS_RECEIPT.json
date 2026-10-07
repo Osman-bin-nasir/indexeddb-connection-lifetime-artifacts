@@ -1,0 +1,16 @@
+{
+  "trial_id": "scientific-block_state_recovery-00001",
+  "block": 1,
+  "key": "held_five_seconds",
+  "endpoint": "lost",
+  "prefix_last_entry": 1822,
+  "prefix_sha256": "8c66e5858a81d1c21d4b4a4094c0e25c1c3745eb92b2fb394f853953f9cc2d04",
+  "verified_raw_log_sha256": "b600cc21bef321ba7c1acbeedd0a478baf630bea897949352c10f7566a05d440",
+  "immutable_prefix_verified_by_independent_replay": true,
+  "oracle_content_independently_validated": true,
+  "dependent_observation": true,
+  "scientific_trial_count": 0,
+  "last_completed_FLUSH_only": true,
+  "cleanup_incident": "Asynchronous QEMU hot-unplug node still in use after oracle and successful unmount; no measurement failure; original summary completed0 preserved",
+  "utc": "2026-10-06T21:10:50.251987+00:00"
+}

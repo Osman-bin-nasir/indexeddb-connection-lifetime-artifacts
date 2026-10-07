@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-05T00:47:17.712656+00:00",
+  "validator_version": "scientific-worker-pin-audit-v1.0.0",
+  "original_final_lock_sha256": "6b41534b91721debdfb664cf0296e22c32ac5debc22f345df75ef41914f00798",
+  "protocol_tag": "prereg-connection-lifetime-mac-v2",
+  "protocol_tag_commit": "5a749734a0a63f3e1c662bb91dd829e6f288dc5c",
+  "source_and_receipt_hashes": {
+    "operator/validator_correction_v1/AUTHOR_AUTHORIZATION_RECEIPT.json": "99743825fe917ca0b5e837de448beb066fd6ccfba4716bf0ed0ee854e0a7826d",
+    "operator/validator_correction_v1/BEFORE_CORRECTION_NEXT_STEPS.txt": "5bf0db51305313705ea32bf5553699fb15c17269766d9c48cd1e54d763556795",
+    "operator/validator_correction_v1/BEFORE_CORRECTION_STATUS.md": "9e91eb45f4b5bec3a244ec45ad5533574ba60d50083446952dc31e4710956d46",
+    "operator/validator_correction_v1/BEFORE_CORRECTION_status.json": "9f83e99eec192240b4d6c7d49bb43c0f4a6602033dbd66508ed2e67a86b010ba",
+    "operator/validator_correction_v1/DISPOSITION_311.json": "c5c44233e6fabeaabe19d9b2f103bf8f837e2194158562610b8c5babff46803f",
+    "operator/validator_correction_v1/FINAL_OFFLINE_TEST_CONSOLE.txt": "5f33d85f8f826bd349259c1b189247bf5cbfbdbbf11000944f8904fca1963b79",
+    "operator/validator_correction_v1/FINAL_OFFLINE_TEST_RECEIPT.json": "1914a67c6410077efd6b03d59e77a91a6c36b665eb7aab9a02caaf0be8e046e4",
+    "operator/validator_correction_v1/REVALIDATION_311.json": "45630675054bbba13ab91fc3849224d5c36c44af46c0c03716c930d68a201b54",
+    "operator/validator_correction_v1/TECHNICAL_AMENDMENT_014_LOCAL.md": "6eff5a937427ae3545048ee70b60b68c7fd13cae8e21816a7f11b60037837643",
+    "operator/validator_correction_v1/TEST_VALIDATOR_CONSOLE.txt": "9d1b3e5af227357f5ddeddcb44849a9f90dd3d00b55fac5ce8545ea1402c29d3",
+    "operator/validator_correction_v1/TEST_VALIDATOR_RECEIPT.json": "01305bcc7b18b78a95156f983c5d2fec78409c2dbb11580a4819597ca9275096",
+    "operator/validator_correction_v1/audit_bytes_v1.py": "9873f6e91abf529e0105389503769d712c9c7c6cc4bd0ff4898dca0da1935f66",
+    "operator/validator_correction_v1/audit_timelines_v1.py": "21acbf218dce88575711863715793d9f6916ffe3b50f47ce3fd269da2c14aa1c",
+    "operator/validator_correction_v1/backend_dispatch_validator_v1.py": "10ff9ee9d876c4060f046c4da3733e4975d31fe6307f5fee4fd4ac3c29a4713c",
+    "operator/validator_correction_v1/correction_lock.py": "bf65e38cf24406efe92a825c1742d53f5421d89df3a565337c7582d62af13b1c",
+    "operator/validator_correction_v1/operator_validator_v1.py": "24e994ba9073c77f1d223c8be3b27634d1647664abf373a9d2542e5fedd3b782",
+    "operator/validator_correction_v1/pin_contract.py": "000c553e77ef52c8603949bd8c0a8210c23b6830a2f63badd5296b8447591b72",
+    "operator/validator_correction_v1/test_continuation.py": "cd1972fe60eac113c5ba2c5bf322a8c600dbfcd168cb6e1dbb647f746a7ed3ce",
+    "operator/validator_correction_v1/test_validator.py": "e5132328f544cf931097bb08dd2e41199239fb63ffe47b4bcd6b71e89fb3d2d7"
+  },
+  "historical_hold_hashes": {
+    "operator/ACQUISITION_HOLD_001.json": "4948fcc7744bcd52a272e5d012f36440430e1bd4a530858e7b88f7a592485ff4",
+    "operator/ACQUISITION_HOLD_002.json": "f81fb0de1444aa94de248f4eab56efa727e1496e54cbbb0f6fdda26ef420f2f3",
+    "operator/ACQUISITION_HOLD_003.json": "5161c4b05567def59f0b703f9aa5069ba86957da79cedc3d072da86683ff210b",
+    "operator/ACQUISITION_HOLD_004.json": "f856007d025da617b25a678a9c4a75635a9266210cb0b78bc0853ce637be7af3"
+  },
+  "authority_hashes": {
+    "operator/ACQUISITION_RELEASE_003.json": "7174fb5a61b383d5e8cabd570ca910e94ed62188335a346a78021b2bead47ab2"
+  },
+  "scientific_design_changed": false,
+  "scientific_assignments": 930,
+  "original_failed_audit_and_all_raw_evidence_preserved": true,
+  "separate_append_only_correction": true
+}

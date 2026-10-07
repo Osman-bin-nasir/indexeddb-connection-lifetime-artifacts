@@ -1,0 +1,105 @@
+{
+  "all_passed": true,
+  "tables": [
+    {
+      "file": "All_930_dispositions.csv",
+      "identical_to_reproduced": true,
+      "sha256": "abad83e9cc1a1733d8850bc724c3ee756ca93b4ebc5850e5e7979011fb03ea92"
+    },
+    {
+      "file": "All_95_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "80ef2fcf37d84579050bb659e163cd061a077775db8fb807deed63058ede6bc7"
+    },
+    {
+      "file": "All_registered_secondary_tests.csv",
+      "identical_to_reproduced": true,
+      "sha256": "696aa9bc3698642d5ff7cc742a6c964e362452bd530b850af98417e94c231271"
+    },
+    {
+      "file": "All_trial_timings.csv",
+      "identical_to_reproduced": true,
+      "sha256": "87a470e9f6e2ce174239a98673641260dc64aac49428eb39cf44ca4719766b80"
+    },
+    {
+      "file": "Table_1_inventory.csv",
+      "identical_to_reproduced": true,
+      "sha256": "cc926a60c32071b9fddcb23b296355484949f342568e750e028807acbae290b6"
+    },
+    {
+      "file": "Table_2_primary_tests.csv",
+      "identical_to_reproduced": true,
+      "sha256": "af01494d21518694d249367d34aa58ec474d92c0ef67bbb8cc99dad1b6260c33"
+    },
+    {
+      "file": "Table_3_secondary_significant.csv",
+      "identical_to_reproduced": true,
+      "sha256": "47170966b7839ad36055012cea525c61f8d3ec623c43faeca0c593ac60a14770"
+    },
+    {
+      "file": "Table_4_dispatch_overshoot.csv",
+      "identical_to_reproduced": true,
+      "sha256": "015ac1020639a1bf63d89e3522d3b2f9f75f86896c0f3709acf5fdffb254d1dc"
+    },
+    {
+      "file": "Table_A10_close_delays.csv",
+      "identical_to_reproduced": true,
+      "sha256": "faaab3c0f52f32b3d13e9db61b75f31b4132c74e176324c0c525544fd350acbd"
+    },
+    {
+      "file": "Table_A11_uptimes.csv",
+      "identical_to_reproduced": true,
+      "sha256": "a125c03014729548f9b9284d0cd129800372bd9843760fbc9efc6793b4a66d22"
+    },
+    {
+      "file": "Table_A12_hashes.csv",
+      "identical_to_reproduced": true,
+      "sha256": "1c9298f7c725b11b03521c915b12df91163d5b0c718ac1400366d622f4708677"
+    },
+    {
+      "file": "Table_A1_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "49e8b2270bc49e97c31d30d4a065843e2c58e86df2dd9cf54b243b5c9a7e836a"
+    },
+    {
+      "file": "Table_A2_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "584bf080da21fdc796541e7c35872fcf8e337e99dee871cbd1f0b375d23731ee"
+    },
+    {
+      "file": "Table_A3_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "907e29e225c417730d479bd467934895a3241d1b44d8e61de96589bbe17c1526"
+    },
+    {
+      "file": "Table_A4_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "a2f23dfcfe096bd4b85dce3470314364435d6b2091d5631ec53f84276b00b77e"
+    },
+    {
+      "file": "Table_A5_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "e0fb0ebba11f1c3b1a6e47481b171e6f21a8253a7f62ef271840106ab32ba29e"
+    },
+    {
+      "file": "Table_A6_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "2f121176542e65d31f364f38213320610550b89b642bb9af7a96f81e8883c0da"
+    },
+    {
+      "file": "Table_A7_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "4521df29b35c7ae15976ab47513aa39d4aef026b19d5f9ff8f1605709692a7d1"
+    },
+    {
+      "file": "Table_A8_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "94340dde272d779150c13f282f84f94769d22f9647015bc9675bd073db7a32b4"
+    },
+    {
+      "file": "Table_A9_cells.csv",
+      "identical_to_reproduced": true,
+      "sha256": "92d02bd1eca357ebb66c049c9a84aad4b5e791426e46322a10513012ce716020"
+    }
+  ]
+}

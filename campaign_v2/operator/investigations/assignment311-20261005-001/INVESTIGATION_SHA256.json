@@ -1,0 +1,13 @@
+{
+  "ASSIGNMENT_311_INVESTIGATION.md": "40a7532936eae00a21bd03e55c6e60631356cc836a34f0ce411e8a7fc5fa7d34",
+  "GUEST_SOURCE_INSPECTION.json": "2af882efe221639d089473c0131ca1358e587d38f48d7b39c8107d46a225141c",
+  "INVESTIGATION_RESULTS.json": "36d89af97321deb5694a057bf6b2bae38b8ebf9db13bf01a67c8f405ef19d5e4",
+  "REPRODUCED_AUDIT.json": "2b7768a4dac54d2dea6897bb3559b7c21101c2d51033f68155292d7e76bf93a1",
+  "guest_source_extracts/overlay.qcow2/opt/idbv2/operator/guest_worker.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "guest_source_extracts/overlay.qcow2/opt/idbv2/worker/guest_worker.py": "055980789fa5993910dce05eebdec01fcbc026ed94680c2182865ed5ce0b0fda",
+  "guest_source_extracts/overlay.qcow2/opt/idbv2/worker/transaction.js": "5b3f7de6e26246c9ccf97450e997973f4daa360ca6d6c265551f56cd6101c23e",
+  "guest_source_extracts/recovery.qcow2/opt/idbv2/operator/guest_worker.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "guest_source_extracts/recovery.qcow2/opt/idbv2/worker/guest_worker.py": "055980789fa5993910dce05eebdec01fcbc026ed94680c2182865ed5ce0b0fda",
+  "guest_source_extracts/recovery.qcow2/opt/idbv2/worker/transaction.js": "5b3f7de6e26246c9ccf97450e997973f4daa360ca6d6c265551f56cd6101c23e",
+  "inspect_preserved_guest.py": "540919163a36a119f68a01f13941ef4b4e36caacf5f51fd5c9edd367182f6056"
+}

@@ -1,0 +1,22 @@
+{
+  "step": 1,
+  "protocol_version": "2.0",
+  "status": "AWAITING_OSF_URL_AND_REPOSITORY_TAG",
+  "external_registration_confirmed": false,
+  "repository_tag_confirmed": false,
+  "execution_allowed": false,
+  "qualification_allowed": false,
+  "acquisition_started": false,
+  "scientific_acquisition_by_current_agent_allowed": false,
+  "operator_package_complete": false,
+  "scientific_input_lock_complete": false,
+  "phase_1_complete": false,
+  "phase_2_complete": false,
+  "paper_writing_allowed": false,
+  "offload_destination": "Google Drive, author-managed folder IndexedDB-Mac-Confirmatory-v2 (folder URL pending)",
+  "second_host_authorized": false,
+  "physical_power_family": "NOT_PERFORMED",
+  "offload_folder_url": null,
+  "offload_transfer_verified": false,
+  "cloud_compute_authorized": false
+}

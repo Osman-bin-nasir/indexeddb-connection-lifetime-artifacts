@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-05T12:35:26.135595+00:00",
+  "authorization_source": "direct user instruction in this conversation",
+  "user_instruction_verbatim": "complete all 930 experiments whenever you dont have space archive the data in Drive and clean space for the next batch\n\ncomplete all the experiments if anything fails dont rerun it skip it and mark that as failed i will look into that later after all the experiments are finished",
+  "purpose": "Append-only administrative authorization to finish all remaining frozen v2 scientific assignments after assignment 420.",
+  "authorized_assignment_range": [
+    421,
+    930
+  ],
+  "authorized_assignment_count": 510,
+  "selection_rule": "Run only unstarted frozen assignments in registered order; every existing directory consumes its assignment slot.",
+  "failure_rule": "Never retry or replace a consumed assignment. Preserve terminal failure/unknown evidence, mark it ineligible, and proceed to the next unstarted assignment after confirming no process remains active.",
+  "batch_size_max": 20,
+  "storage_rule": "At each bounded batch boundary, archive and upload completed evidence to the author-designated Google Drive folder, verify local archive roundtrip and Drive upload completion, then remove only files approved by the existing retention policy after upload completion is visible. Preserve raw records and protected overlays. Maintain the registered 6 GiB floor and operation headroom.",
+  "supersedes_operational_scope_caps": [
+    "ACQUISITION_RELEASE_003.json: assignments221-420 only",
+    "ACQUISITION_RESUME_AFTER_STORAGE_STOP_006.json: assignments293-420 only"
+  ],
+  "does_not_change": [
+    "preregistration or scientific design",
+    "930 fixed assignments, order, randomization, conditions, timing, denominator, oracle, eligibility, source inputs, or frozen repository tag",
+    "no qualification or smoke retry",
+    "no scientific retries or substitutions"
+  ],
+  "frozen_tag": "prereg-connection-lifetime-mac-v2",
+  "frozen_tag_commit": "5a749734a0a63f3e1c662bb91dd829e6f288dc5c",
+  "final_input_lock_sha256": "6b41534b91721debdfb664cf0296e22c32ac5debc22f345df75ef41914f00798",
+  "no_osf_posting_authorized_or_performed": true,
+  "no_retries": true
+}

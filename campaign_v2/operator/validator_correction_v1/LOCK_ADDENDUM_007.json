@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-05T12:35:42.285502+00:00",
+  "version": "append-only-operational-continuation-v7",
+  "original_final_lock_sha256": "6b41534b91721debdfb664cf0296e22c32ac5debc22f345df75ef41914f00798",
+  "base_addendum": "operator/validator_correction_v1/LOCK_ADDENDUM_003.json",
+  "base_addendum_sha256": "287861a467ffd6ebdd566efc81ac455555e6d2e7b59f66979f71774fd87bc785",
+  "prior_continuation_addendum": "operator/validator_correction_v1/LOCK_ADDENDUM_006.json",
+  "prior_continuation_addendum_sha256": "e5e7c825b9d9e9d2c6e7f4a1e10f111aed4f156271028bfc87a1e53001a39091",
+  "author_direction_receipt": "operator/validator_correction_v1/AUTHOR_CONTINUATION_421_930_001.json",
+  "author_direction_receipt_sha256": "5b926ce89a4affaa8dca955de0c702c460b695f9820196d6680331bf097bedb9",
+  "continuation_entrypoint": "operator/validator_correction_v1/operator_validator_v7.py",
+  "continuation_entrypoint_sha256": "3cb61afe0eea8ffee7cc1c73b439cfe910f8775e6ec62a277b0413f61f68ec1d",
+  "pinned_files": {
+    "operator/validator_correction_v1/operator_validator_v6.py": "2dc92eab0d00925a145f3f6c8bfceb648618dd20aaca11c1350d6c5111b0a500",
+    "operator/validator_correction_v1/LOCK_ADDENDUM_006.json": "e5e7c825b9d9e9d2c6e7f4a1e10f111aed4f156271028bfc87a1e53001a39091",
+    "operator/validator_correction_v1/AUTHOR_CONTINUATION_421_930_001.json": "5b926ce89a4affaa8dca955de0c702c460b695f9820196d6680331bf097bedb9",
+    "operator/validator_correction_v1/DISPOSITION_354_PREMEASUREMENT_FAILURE_001.json": "575910e017368695057dce6c56cb26ac9097c18e7da71e0387c39b5cd131656f"
+  },
+  "authorized_assignments": [
+    421,
+    930
+  ],
+  "completed_and_failed_prior_slots_preserved_without_retry": true,
+  "scientific_design_and_measurement_sources_unchanged": true,
+  "continue_after_terminal_failed_assignment": true,
+  "stop_on_source_drift_live_process_or_unresolved_integrity_or_storage_failure": true,
+  "batch_size_max": 20,
+  "osf_posting": "No OSF post performed in this operational continuation."
+}

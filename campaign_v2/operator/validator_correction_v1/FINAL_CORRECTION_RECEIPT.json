@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-05T00:50:34.155019+00:00",
+  "assignment_311_became_eligible": true,
+  "assignment_311_registered_endpoint": "lost",
+  "audit_version": "scientific-worker-pin-audit-v1.0.0",
+  "corrected_byte_audit_sha256": "9873f6e91abf529e0105389503769d712c9c7c6cc4bd0ff4898dca0da1935f66",
+  "corrected_timeline_audit_sha256": "21acbf218dce88575711863715793d9f6916ffe3b50f47ce3fd269da2c14aa1c",
+  "active_validator_addendum_sha256": "3c25b75788403f2ccfdebbaa6b25c42d84d89146607ace72f34983794a785875",
+  "original_final_lock_sha256": "6b41534b91721debdfb664cf0296e22c32ac5debc22f345df75ef41914f00798",
+  "original_failed_audit_preserved": true,
+  "raw_files_unchanged": true,
+  "original_attempt_files_verified": 58,
+  "scientific_retries": 0,
+  "new_scientific_attempts": 0,
+  "new_qualification_attempts": 0,
+  "eligible_scientific_count": 311,
+  "scientific_started": 311,
+  "scientific_assigned": 930,
+  "scientific_unstarted": 619,
+  "assignment_312_safe_to_start_with_corrected_entrypoint": true,
+  "assignment_312_started": false,
+  "preflight_scope_indices": [
+    312,
+    331
+  ],
+  "preflight_receipt_sha256": "6bf54b72d403ebd735212d7375662720e5cccfae49c4da7480bd8e9a6fbd49c4",
+  "osf_correction_posted": false,
+  "preflight_command": "python3 campaign_v2/operator/validator_correction_v1/operator_validator_v2.py --addendum-sha256 3c25b75788403f2ccfdebbaa6b25c42d84d89146607ace72f34983794a785875 preflight --n 20",
+  "scientific_command_not_executed": "python3 campaign_v2/operator/validator_correction_v1/operator_validator_v2.py --addendum-sha256 3c25b75788403f2ccfdebbaa6b25c42d84d89146607ace72f34983794a785875 run-batch 20"
+}

@@ -1,0 +1,105 @@
+{
+  "role": "provisioned_input_lock_not_final_qualification_lock",
+  "utc": "2026-10-03T19:44:06.686398+00:00",
+  "derived_base_sha256": "2f3ab45a8d3664848540aecd25753bf5b4c21f0d4bdb335d9af6d4847906a6df",
+  "public_base_sha256": "1d6bffe64b848468ac97f821d369a4846d983de1800ccf6b5ec8853e85cefc55",
+  "seed_sha256": "2df5a09f98956f3011547bea4316623dd50b7e2b6bb6b365ec7225d7195e5e4c",
+  "worker_files": {
+    "guest_worker.py": "055980789fa5993910dce05eebdec01fcbc026ed94680c2182865ed5ce0b0fda",
+    "transaction.js": "5b3f7de6e26246c9ccf97450e997973f4daa360ca6d6c265551f56cd6101c23e",
+    "guest_forensics.py": "032c6784bb7a3b1c4ad843a125f2584c8ef28a1183f62518c695727812ecd030"
+  },
+  "qemu_img_check": "No errors were found on the image.\n28830/262144 = 11.00% allocated, 3.82% fragmented, 0.00% compressed clusters\nImage end offset: 1890844672\n",
+  "backing_chain": [
+    {
+      "children": [
+        {
+          "name": "file",
+          "info": {
+            "children": [],
+            "virtual-size": 1890844672,
+            "filename": "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/vm/provisioned.qcow2",
+            "format": "file",
+            "actual-size": 1894907904,
+            "format-specific": {
+              "type": "file",
+              "data": {}
+            },
+            "dirty-flag": false
+          }
+        }
+      ],
+      "backing-filename-format": "qcow2",
+      "virtual-size": 17179869184,
+      "filename": "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/vm/provisioned.qcow2",
+      "cluster-size": 65536,
+      "format": "qcow2",
+      "actual-size": 1894907904,
+      "format-specific": {
+        "type": "qcow2",
+        "data": {
+          "compat": "1.1",
+          "compression-type": "zlib",
+          "lazy-refcounts": false,
+          "refcount-bits": 16,
+          "corrupt": false,
+          "extended-l2": false
+        }
+      },
+      "full-backing-filename": "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img",
+      "backing-filename": "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img",
+      "dirty-flag": false
+    },
+    {
+      "children": [
+        {
+          "name": "file",
+          "info": {
+            "children": [],
+            "virtual-size": 620224512,
+            "filename": "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img",
+            "format": "file",
+            "actual-size": 620806144,
+            "format-specific": {
+              "type": "file",
+              "data": {}
+            },
+            "dirty-flag": false
+          }
+        }
+      ],
+      "virtual-size": 3758096384,
+      "filename": "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img",
+      "cluster-size": 65536,
+      "format": "qcow2",
+      "actual-size": 620806144,
+      "format-specific": {
+        "type": "qcow2",
+        "data": {
+          "compat": "1.1",
+          "compression-type": "zlib",
+          "lazy-refcounts": false,
+          "refcount-bits": 16,
+          "corrupt": false,
+          "extended-l2": false
+        }
+      },
+      "dirty-flag": false
+    }
+  ],
+  "no_existing_trial_profiles": true,
+  "qualification_started": 0,
+  "scientific_started": 0,
+  "parent_base_sha256": "784b95aaa82f823b486af0a5a9db1b4bbc2f0e71982dd2f86a062d7a38a7eb2a",
+  "derived_base_path": "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/repairs/003/mount-pinned-base.qcow2",
+  "technical_amendment": "003",
+  "fstab": "LABEL=cloudimg-rootfs\t/\t ext4\tdiscard,commit=30,errors=remount-ro\t0 1\n/dev/vda16\t/boot\text4\tdefaults\t0 2\n/dev/vda15\t/boot/efi\tvfat\tumask=0077\t0 1\n",
+  "guest_payload_sha256": {
+    "chromium": "839efe5fd8b6a773dd81b2e10afdc15f3c0a17316fb82b5908c0533306c4ed9e",
+    "guest_worker.py": "055980789fa5993910dce05eebdec01fcbc026ed94680c2182865ed5ce0b0fda",
+    "transaction.js": "5b3f7de6e26246c9ccf97450e997973f4daa360ca6d6c265551f56cd6101c23e",
+    "guest_forensics.py": "032c6784bb7a3b1c4ad843a125f2584c8ef28a1183f62518c695727812ecd030"
+  },
+  "no_previous_cell_pass_carried_forward": true,
+  "technical_hash_lock_complete": false
+}

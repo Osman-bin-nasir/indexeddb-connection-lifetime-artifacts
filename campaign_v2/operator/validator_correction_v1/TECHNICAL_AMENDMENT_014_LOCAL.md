@@ -1,0 +1,11 @@
+# Technical Amendment 014: scientific worker pin validation
+
+Dated 2026-10-05T00:44:32.476141+00:00. This is a post-acquisition technical correction approved by the author after scientific assignment 311 stopped on an independent audit rejection. This document is local; it has not yet been posted to OSF.
+
+The byte audit expected the qualification worker path and hash although the final scientific input lock bound the separately adapted operator worker before acquisition. The timeline audit contains the same stale recovery-worker predicate. Version scientific-worker-pin-audit-v1.0.0 checks the precise scientific paths, source hashes from the unchanged final lock, and ordered measurement/recovery flags. The trace worker remains independently pinned. No fallback to an observed hash or qualification alias is permitted. All other audit predicates are retained.
+
+Offline positive and negative fixtures and a complete read-only audit of preserved assignment 311 support this correction. Assignment 311 becomes eligible as lost through an append-only disposition. Its original failed audit, result, hashes, all raw records and full images remain preserved. No retry, replacement, scientific observation, or qualification attempt was added.
+
+The original scientific worker was adapted for role authorization and its transaction-directory root before scientific acquisition; it is not byte-identical to the qualification worker. The measurement and reader bodies and pinned transaction payload are unchanged. The operator file is zero length in the inspected no-journal-replay disk views; execution attribution rests on the source-bound launch hashes and recorded execve, not a claim of successful disk extraction of that file. Callback attribution remains not established.
+
+The original frozen protocol, design, tag, order, timing gates, eligibility gates, oracle and 930 assignments remain unchanged. The correction has its own hash addendum and continuation entrypoint. Only the explicitly disposed historical rejection is accepted. Every other failure, incomplete attempt, changed input, new hold or storage violation continues to stop acquisition. Assignment 312 is not executed by this correction.

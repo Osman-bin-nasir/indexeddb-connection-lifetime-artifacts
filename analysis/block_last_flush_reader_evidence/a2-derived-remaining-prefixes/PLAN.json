@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-06T21:11:35.725822+00:00",
+  "purpose": "Exploratory last completed FLUSH prefix recovery from existing log evidence only",
+  "maximum_readers": 40,
+  "scientific_trial_count": 0,
+  "new_target_writes": 0,
+  "no_new_faults": true,
+  "source_hashes": {
+    "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/repairs/003/mount-pinned-base.qcow2": "2f3ab45a8d3664848540aecd25753bf5b4c21f0d4bdb335d9af6d4847906a6df",
+    "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/vm/provisioned.qcow2": "784b95aaa82f823b486af0a5a9db1b4bbc2f0e71982dd2f86a062d7a38a7eb2a",
+    "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img": "1d6bffe64b848468ac97f821d369a4846d983de1800ccf6b5ec8853e85cefc55",
+    "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/vm/seed.iso": "2df5a09f98956f3011547bea4316623dd50b7e2b6bb6b365ec7225d7195e5e4c",
+    "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/operator/backend_v1/engine/guest_worker.py": "1179ac7e17c71781009cd5487edd96fd792394b50a8cb478c075d9c1d8acfd9b",
+    "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/transaction.js": "5b3f7de6e26246c9ccf97450e997973f4daa360ca6d6c265551f56cd6101c23e"
+  },
+  "clock_completion_times_not_recorded": true,
+  "reader_root": "fresh derivative of pinned base; per-trial captured roots are no longer local",
+  "pinned_original_oracle": true,
+  "config_role_field": "scientific inherited from existing payload contract; only oracle and exit commands permitted"
+}

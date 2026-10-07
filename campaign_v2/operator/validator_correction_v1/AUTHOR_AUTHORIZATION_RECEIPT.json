@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-05T00:35:27.959082+00:00",
+  "authorization_source": "direct user message in this conversation",
+  "author_instruction_verbatim": "Proceed with the validator correction exactly as proposed.\nFinal report must state:\n- whether 311 became eligible\n- corrected audit hash/version\n- whether 312 is safe to start\n- current eligible scientific count",
+  "scope": "versioned worker-pin validator correction; offline tests; append-only assignment-311 revalidation/disposition; technical amendment and lock addendum; future readiness check; preserve historical failures and all 930 assignments",
+  "scientific_retry_authorized": false,
+  "new_qualification_attempt_authorized": false,
+  "scientific_acquisition_started_by_this_correction": false
+}

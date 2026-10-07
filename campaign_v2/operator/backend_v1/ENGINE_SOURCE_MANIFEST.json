@@ -1,0 +1,1754 @@
+{
+  "stage": "unqualified_operator_integration",
+  "scientific_started": 0,
+  "frozen_scientific_design_unchanged": true,
+  "files": [
+    {
+      "original": "guest_worker.py",
+      "original_sha256": "055980789fa5993910dce05eebdec01fcbc026ed94680c2182865ed5ce0b0fda",
+      "generated": "operator/backend_v1/engine/guest_worker.py",
+      "generated_sha256": "1179ac7e17c71781009cd5487edd96fd792394b50a8cb478c075d9c1d8acfd9b",
+      "adaptations": [
+        {
+          "kind": "original transaction.js directory retained",
+          "line": 16
+        },
+        {
+          "kind": "guest allows registered scientific or excluded role",
+          "line": 69
+        },
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 69
+        }
+      ]
+    },
+    {
+      "original": "repairs/004/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/repairs/004/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/004/full_path_smoke.py",
+      "original_sha256": "3f1df4ca2e93ad47c665c465c065c263e27c6bf72a12e684a25f86eedd0409bb",
+      "generated": "operator/backend_v1/engine/repairs/004/full_path_smoke.py",
+      "generated_sha256": "668db8f4be8e16f9c11718ec66ae69ddda6d1c0a2c04c4bd18a5146ccd4d71c8",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "original": "repairs/004/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/repairs/004/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/004/independent_audit.py",
+      "original_sha256": "c683b6e52b89fe05e7df186ae6c3372afffe9e2ab49a64761baf3fcff791c0e9",
+      "generated": "operator/backend_v1/engine/repairs/004/independent_audit.py",
+      "generated_sha256": "1d715a6606f837206ff9c322c090bdb325cde4fb0ee50f3fe959b51cd0368555",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 16
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 16
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 16
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 17
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 23
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 56
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 56
+        }
+      ]
+    },
+    {
+      "original": "repairs/004/qualification_candidate.py",
+      "original_sha256": "e7b1210acd572743b067238ae810502d96a371f288eaa39922c66cf69dbe0a1b",
+      "generated": "operator/backend_v1/engine/repairs/004/qualification_candidate.py",
+      "generated_sha256": "6bbf07306fecbddf0db3754fbce357aef1e07ecaacffbf94e348a7dae549a2f2",
+      "adaptations": [
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 25
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 27
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 84
+        },
+        {
+          "kind": "role-capable worker launch",
+          "line": 152
+        },
+        {
+          "kind": "verify additional worker before any target operation",
+          "line": 149
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 237
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 238
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 241
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 242
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 242
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 242
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 256
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 354
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 353
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 353
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 353
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 376
+        }
+      ]
+    },
+    {
+      "original": "repairs/004/test_boot_mounts.py",
+      "original_sha256": "da9cd2193699b11aa30d501a7d3be732a3e9afbe36a8977a53bf098ac451d0b3",
+      "generated": "operator/backend_v1/engine/repairs/004/test_boot_mounts.py",
+      "generated_sha256": "8de3ffe8d2960a7778ed53b5e4cced561fb2fdef6f0ef02bc99e11ba607224e4",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/007/background.py",
+      "original_sha256": "2c0f03ab6fe03b2a82c8249847d7166b7b0c9a3a25dce354d7726033d63a00db",
+      "generated": "operator/backend_v1/engine/repairs/007/background.py",
+      "generated_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/007/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/repairs/007/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/007/full_path_smoke.py",
+      "original_sha256": "5118f64811aa3fcb0ff748fde9fe1ebaaa2954d8f9af8199545bfeca8587bbde",
+      "generated": "operator/backend_v1/engine/repairs/007/full_path_smoke.py",
+      "generated_sha256": "11deabd683ffa55a03f2b0f0c3e43643e9e0bd471f17864a0ba6573b890e63af",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "original": "repairs/007/guest_background.py",
+      "original_sha256": "f05f4614cfbdbe2d3e9e1018cdfad16ee493cc2d80c6ec90c2d976a114426b4d",
+      "generated": "operator/backend_v1/engine/repairs/007/guest_background.py",
+      "generated_sha256": "69035b6be13881bad7a880747456a87b0fe52619a0071a056ab15d8828301e9f",
+      "adaptations": [
+        {
+          "kind": "guest allows registered scientific or excluded role",
+          "line": 6
+        },
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 6
+        }
+      ]
+    },
+    {
+      "original": "repairs/007/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/repairs/007/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/007/independent_audit.py",
+      "original_sha256": "3bce62ade4967cc65b1a40cf219f87b9a1e70497fdb552f35b9b531f65227a86",
+      "generated": "operator/backend_v1/engine/repairs/007/independent_audit.py",
+      "generated_sha256": "ae3cdf21cd1b4bf491da383c695e4fe486bed969fa188bb6a3fb955cc8915744",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 16
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 16
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 16
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 17
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 23
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 63
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "original": "repairs/007/port_smoke.py",
+      "original_sha256": "b28783b562331ed17f464b230fc6b4f62dc34cc47ad72e29e4bafcc233f49abc",
+      "generated": "operator/backend_v1/engine/repairs/007/port_smoke.py",
+      "generated_sha256": "0dee8deded33e96519fbd369ea3d63ecda8c8bb746ad81371e18a2ae1c1e8021",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/007/qualification_workloads.py",
+      "original_sha256": "f5500d965f1dbf1a09499a0777a365d89be963f9cd24f1239869c54d741d6e7f",
+      "generated": "operator/backend_v1/engine/repairs/007/qualification_workloads.py",
+      "generated_sha256": "9829d88964257c00e119bfd5fa43f17b435e8d92244eb46c7a1d4d5637a1967c",
+      "adaptations": [
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 26
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 28
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 88
+        },
+        {
+          "kind": "role-capable worker launch",
+          "line": 156
+        },
+        {
+          "kind": "verify additional worker before any target operation",
+          "line": 153
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 241
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 242
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 245
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 246
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 246
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 246
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 260
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 372
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 371
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 371
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 371
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 394
+        }
+      ]
+    },
+    {
+      "original": "repairs/009/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/repairs/009/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/009/fault_agent.py",
+      "original_sha256": "edff416e324238aa855dad2d8bebe94404d08b85f54e5a40304aeb4d5387b4f5",
+      "generated": "operator/backend_v1/engine/repairs/009/fault_agent.py",
+      "generated_sha256": "226e27c78da6cf186be5ef864201b8b55f13918c5bd64b18e9131de16f5d9c27",
+      "adaptations": [
+        {
+          "kind": "explicit assignment role",
+          "line": 12
+        }
+      ]
+    },
+    {
+      "original": "repairs/009/full_path_smoke.py",
+      "original_sha256": "dfb3c86b7da4167acb2920b19cde4f0f908ef65f54e4f20c74b73adb32675d9d",
+      "generated": "operator/backend_v1/engine/repairs/009/full_path_smoke.py",
+      "generated_sha256": "3b4fa82e8f82e3c76439bf9abdac23bc19b92b943d3ce287df3de22208c332d2",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "original": "repairs/009/guest_fault_agent.py",
+      "original_sha256": "489dba463b454784df0929aa438ec07c5867f324d3519b3a55152a071df07d1d",
+      "generated": "operator/backend_v1/engine/repairs/009/guest_fault_agent.py",
+      "generated_sha256": "4fa96b7201d9f6874081d32da714ba70afb23df52974fd5fb9848bb0b1d72537",
+      "adaptations": [
+        {
+          "kind": "guest allows registered scientific or excluded role",
+          "line": 68
+        },
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 68
+        },
+        {
+          "kind": "fault agent reports actual role",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "original": "repairs/009/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/repairs/009/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/009/independent_audit.py",
+      "original_sha256": "070afe266ff539c2a0012a63421493e8fe73360a99c851994cf215c37a2a591d",
+      "generated": "operator/backend_v1/engine/repairs/009/independent_audit.py",
+      "generated_sha256": "b4a1cf685f283fa2029fb9d5692ebb0e0e692ec99501944d113501a7991ddb57",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 16
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 16
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 16
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 17
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 23
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 73
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 73
+        }
+      ]
+    },
+    {
+      "original": "repairs/009/live_capture.py",
+      "original_sha256": "511de0907732074dd44fb6ad41b06627a9999655cd02feb30c9bd10c06e01075",
+      "generated": "operator/backend_v1/engine/repairs/009/live_capture.py",
+      "generated_sha256": "bd976c7af08f71b9279cdb576001ee4da36f87d43f6d7384697c4c904bb4989e",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/009/qualification_fault_scope.py",
+      "original_sha256": "dfdec334eabadab8e427ce05085b78535505f6becdf9372ceeec756ff8fd9fa5",
+      "generated": "operator/backend_v1/engine/repairs/009/qualification_fault_scope.py",
+      "generated_sha256": "348b4d7c6d80748d5e9d9b7fe7901a326a9184f13e9736a28cf1f042722cdc96",
+      "adaptations": [
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 27
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 29
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 88
+        },
+        {
+          "kind": "role-capable worker launch",
+          "line": 156
+        },
+        {
+          "kind": "verify additional worker before any target operation",
+          "line": 153
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 241
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 242
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 245
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 246
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 246
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 246
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 260
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 393
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 392
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 392
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 392
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 415
+        }
+      ]
+    },
+    {
+      "original": "repairs/009/test_process_selection.py",
+      "original_sha256": "2b6db1c876efa6470caa6148a73d38a89b6307f018e30cf883911acf52708065",
+      "generated": "operator/backend_v1/engine/repairs/009/test_process_selection.py",
+      "generated_sha256": "77100c116c78aa8adb9b5f18dd1a2aac920c3ac0e1cb7f2bcb3e645f9cc31a42",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/010/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/repairs/010/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/010/fault_agent.py",
+      "original_sha256": "edff416e324238aa855dad2d8bebe94404d08b85f54e5a40304aeb4d5387b4f5",
+      "generated": "operator/backend_v1/engine/repairs/010/fault_agent.py",
+      "generated_sha256": "226e27c78da6cf186be5ef864201b8b55f13918c5bd64b18e9131de16f5d9c27",
+      "adaptations": [
+        {
+          "kind": "explicit assignment role",
+          "line": 12
+        }
+      ]
+    },
+    {
+      "original": "repairs/010/guest_fault_agent.py",
+      "original_sha256": "489dba463b454784df0929aa438ec07c5867f324d3519b3a55152a071df07d1d",
+      "generated": "operator/backend_v1/engine/repairs/010/guest_fault_agent.py",
+      "generated_sha256": "4fa96b7201d9f6874081d32da714ba70afb23df52974fd5fb9848bb0b1d72537",
+      "adaptations": [
+        {
+          "kind": "guest allows registered scientific or excluded role",
+          "line": 68
+        },
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 68
+        },
+        {
+          "kind": "fault agent reports actual role",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "original": "repairs/010/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/repairs/010/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/010/independent_audit.py",
+      "original_sha256": "82908e6f9b99d6583b1983f0e1e7b847acaeee5fec285bd45168077608565be4",
+      "generated": "operator/backend_v1/engine/repairs/010/independent_audit.py",
+      "generated_sha256": "94c4de988ccb995eacf5dc210530aa0842e2d38357ad5da467e7e9f06ddbcd0a",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 16
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 16
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 16
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 17
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 23
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 78
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 78
+        }
+      ]
+    },
+    {
+      "original": "repairs/010/live_capture.py",
+      "original_sha256": "511de0907732074dd44fb6ad41b06627a9999655cd02feb30c9bd10c06e01075",
+      "generated": "operator/backend_v1/engine/repairs/010/live_capture.py",
+      "generated_sha256": "bd976c7af08f71b9279cdb576001ee4da36f87d43f6d7384697c4c904bb4989e",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/010/projection_qualified.py",
+      "original_sha256": "8d498efc15ced428152d311c8f239f4edf10b62ff85cfeaf0ac030f15ce7415c",
+      "generated": "operator/backend_v1/engine/repairs/010/projection_qualified.py",
+      "generated_sha256": "66753bcb8b9095685ad4de141eef02000b267263e17d37e2420e3cd7c85e9213",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/010/qualification_fault_scope.py",
+      "original_sha256": "eb1f657b883bb5e8c236c75093d245322e32438cf223bf697ae8854d1517af2a",
+      "generated": "operator/backend_v1/engine/repairs/010/qualification_fault_scope.py",
+      "generated_sha256": "d203d312a3c1e6c14c740f4abdb694b0d9db155e1a60dd3df810777d95420a67",
+      "adaptations": [
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 29
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 31
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 90
+        },
+        {
+          "kind": "role-capable worker launch",
+          "line": 158
+        },
+        {
+          "kind": "verify additional worker before any target operation",
+          "line": 155
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 243
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 244
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 247
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 248
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 248
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 248
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 262
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 380
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 379
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 379
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 379
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 402
+        }
+      ]
+    },
+    {
+      "original": "repairs/010/test_process_selection.py",
+      "original_sha256": "2b6db1c876efa6470caa6148a73d38a89b6307f018e30cf883911acf52708065",
+      "generated": "operator/backend_v1/engine/repairs/010/test_process_selection.py",
+      "generated_sha256": "77100c116c78aa8adb9b5f18dd1a2aac920c3ac0e1cb7f2bcb3e645f9cc31a42",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/011/background.py",
+      "original_sha256": "2c0f03ab6fe03b2a82c8249847d7166b7b0c9a3a25dce354d7726033d63a00db",
+      "generated": "operator/backend_v1/engine/repairs/011/background.py",
+      "generated_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/011/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/repairs/011/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/011/guest_worker_trace.py",
+      "original_sha256": "1a9dec088cb5032bbd19ef9737fe7ba88e56e1131647dff5a8d04d984476fb46",
+      "generated": "operator/backend_v1/engine/repairs/011/guest_worker_trace.py",
+      "generated_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+      "adaptations": [
+        {
+          "kind": "guest allows registered scientific or excluded role",
+          "line": 69
+        },
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 69
+        }
+      ]
+    },
+    {
+      "original": "repairs/011/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/repairs/011/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/011/independent_audit.py",
+      "original_sha256": "0d43c2fc6dcf3f9b5362abc978278ae04f66782e30dd67481a358ed4445b975e",
+      "generated": "operator/backend_v1/engine/repairs/011/independent_audit.py",
+      "generated_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 16
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 16
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 16
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 17
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 23
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 65
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 74
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 74
+        }
+      ]
+    },
+    {
+      "original": "repairs/011/qualification_timelines.py",
+      "original_sha256": "ca75994cdf7ef60097722ec1b636e4cb7be3d3ff3da229fd1309e8548f9e92dd",
+      "generated": "operator/backend_v1/engine/repairs/011/qualification_timelines.py",
+      "generated_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+      "adaptations": [
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 26
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 28
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 88
+        },
+        {
+          "kind": "role-capable worker path",
+          "line": 156
+        },
+        {
+          "kind": "additional worker executable hash",
+          "line": 158
+        },
+        {
+          "kind": "verify additional worker before any target operation",
+          "line": 153
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 246
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 247
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 250
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 251
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 251
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 251
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 265
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 386
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 385
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 385
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 385
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 408
+        }
+      ]
+    },
+    {
+      "original": "repairs/012/background.py",
+      "original_sha256": "2c0f03ab6fe03b2a82c8249847d7166b7b0c9a3a25dce354d7726033d63a00db",
+      "generated": "operator/backend_v1/engine/repairs/012/background.py",
+      "generated_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/012/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/repairs/012/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/012/byte_file_relationships.py",
+      "original_sha256": "b1df0b64d683e0efc3bf6f87f41ee69308503aaa84b3fd533ee5a40d9d91c899",
+      "generated": "operator/backend_v1/engine/repairs/012/byte_file_relationships.py",
+      "generated_sha256": "c0a95493516873dca6a8cff7c268ced49f236d48120e09f42da82fe7fa88a92f",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/012/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/repairs/012/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/012/independent_audit.py",
+      "original_sha256": "32175b3ee6b4e57bd51abeaa1183898ad30a1eebae31f572b49ccde35e93d2e1",
+      "generated": "operator/backend_v1/engine/repairs/012/independent_audit.py",
+      "generated_sha256": "b80e154b76cfb7628e7280f46792077271c3caef190df75ed2f3d4a14555e5b1",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 16
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 16
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 16
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 17
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 23
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 70
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 70
+        }
+      ]
+    },
+    {
+      "original": "repairs/012/kernel_capture.py",
+      "original_sha256": "707c7c9243b42b1bdec4d8d67d7aacb9d738bd4e709ffadf284148781e31cc91",
+      "generated": "operator/backend_v1/engine/repairs/012/kernel_capture.py",
+      "generated_sha256": "4cdb306b5e46b67be52932ef959e26f176b1c37da629e1a427062e091960a77b",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/012/kernel_join.py",
+      "original_sha256": "880d381e4c5d7db7c6a4af80718fbdda85434fb533c35b03c353fc8fb76284ba",
+      "generated": "operator/backend_v1/engine/repairs/012/kernel_join.py",
+      "generated_sha256": "d52bf6d1d5108c3e94d7223535036b9fa27abe1eb191331c3b06883657d5df1b",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/012/qualification_bytes.py",
+      "original_sha256": "55e7d28aa5f85fb8f5f8892bc8ca0ce7156e08d3b66bb03185763817a0cab146",
+      "generated": "operator/backend_v1/engine/repairs/012/qualification_bytes.py",
+      "generated_sha256": "34dab2752b64abf07ca0718d46f21a6634263b1e6c23d4498a7e4ef1a1c3a0ab",
+      "adaptations": [
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 30
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 32
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 92
+        },
+        {
+          "kind": "role-capable worker path",
+          "line": 160
+        },
+        {
+          "kind": "additional worker executable hash",
+          "line": 162
+        },
+        {
+          "kind": "verify additional worker before any target operation",
+          "line": 157
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 255
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 256
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 259
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 260
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 260
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 260
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 274
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 399
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 398
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 398
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 398
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 421
+        }
+      ]
+    },
+    {
+      "original": "repairs/012/strace_decode.py",
+      "original_sha256": "b1f5a13a219d90470f75d3ef1192f0f5666ebbd8e8bb60fa283968053cee54b4",
+      "generated": "operator/backend_v1/engine/repairs/012/strace_decode.py",
+      "generated_sha256": "653290649bf5630a40dc9011577c694079f55c14d58a71b1457ec93c15ea1737",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/013/block_trace_v2.py",
+      "original_sha256": "56ba1641eceb8f534e4530bd79670fad4b33c67e7a466bb5c1af8d98c3ba1cb9",
+      "generated": "operator/backend_v1/engine/repairs/013/block_trace_v2.py",
+      "generated_sha256": "9f147478bdf2652fd672b6e8f25c794fc807a3594cb8221b4753f600af44f844",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/013/block_windows.py",
+      "original_sha256": "ed41ac0cb8c9b4a0a1b69ff0c73c3357d2a49a6131f7921cf8e5f4a80ec5dde4",
+      "generated": "operator/backend_v1/engine/repairs/013/block_windows.py",
+      "generated_sha256": "9f269626e7de8a4151a207e525c34c3c14fc36ec293cea10a0ac25163c00f8ab",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/013/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/repairs/013/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/013/capture_multi.py",
+      "original_sha256": "fd2be86dd6bf3938a4c9409b5086854731b2878782e17fcf570f06b803cb2b8b",
+      "generated": "operator/backend_v1/engine/repairs/013/capture_multi.py",
+      "generated_sha256": "50c3efb022572306feb7f0384e52da0596316193bd5be0eac0aa6426ca2fdd8f",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/013/guest_mapper_candidate.py",
+      "original_sha256": "75a93f4e35de597b74eb74f02a60845b450706bc0cdc9df22a9e168e9d0d7e20",
+      "generated": "operator/backend_v1/engine/repairs/013/guest_mapper_candidate.py",
+      "generated_sha256": "91f47a8678433be0f86c892a977f795a08e8d0cc8d29355d7f6f37f5a83e3c26",
+      "adaptations": [
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 48
+        }
+      ]
+    },
+    {
+      "original": "repairs/013/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/repairs/013/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/013/independent_audit.py",
+      "original_sha256": "20f141f62d20ed375c98fb388ccb7608e5c05acd88778335b14a4c83b599369e",
+      "generated": "operator/backend_v1/engine/repairs/013/independent_audit.py",
+      "generated_sha256": "a716878f745dea15f7029fbc1799b58653485ed4afe1fbcadb2eb3bc55fc4314",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 9
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 10
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 10
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 10
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 44
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 44
+        }
+      ]
+    },
+    {
+      "original": "repairs/013/projection_data.py",
+      "original_sha256": "e8406bcf5b54ae8a76864e054e8e6ee8cf1bd9fecf78f447a101735efce33fe4",
+      "generated": "operator/backend_v1/engine/repairs/013/projection_data.py",
+      "generated_sha256": "e4cbc2bd0acd3b922a8d4a8f8d3a1cb5a2c6063a79373da815b473b7126bf645",
+      "adaptations": []
+    },
+    {
+      "original": "repairs/013/qualification_mapped.py",
+      "original_sha256": "b9c0dadac5ca612446bc123ca04f7927af08934c69e889b7348e131f5479c832",
+      "generated": "operator/backend_v1/engine/repairs/013/qualification_mapped.py",
+      "generated_sha256": "6652ba57e7a7fde3782c7b9239a87a19decb13507653dcb972c7082786648bc2",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "operator helper source directory",
+          "line": 5
+        },
+        {
+          "kind": "operator helper source directory",
+          "line": 7
+        },
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 17
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 17
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 21
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 36
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 37
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 38
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 38
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 38
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 38
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 60
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 114
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 114
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 114
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 114
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        }
+      ]
+    },
+    {
+      "original": "repairs/013/support_once.py",
+      "original_sha256": "7fcb17c0a2a250dce97ade4a483abca09c9462d1338ddc27314362285f8b83a8",
+      "generated": "operator/backend_v1/engine/repairs/013/support_once.py",
+      "generated_sha256": "65ac8e5b35c3043e3847c9edc7e9ff613dd04a10449444db0c6fee40becbee18",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "operator helper source directory",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "original": "extensions/environment/background.py",
+      "original_sha256": "2c0f03ab6fe03b2a82c8249847d7166b7b0c9a3a25dce354d7726033d63a00db",
+      "generated": "operator/backend_v1/engine/extensions/environment/background.py",
+      "generated_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/environment/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/extensions/environment/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/environment/guest_volume.py",
+      "original_sha256": "306d9bbd7b7c6b48e210e02945b64d75ca4525ed32a430beb4dcfdc373eda43d",
+      "generated": "operator/backend_v1/engine/extensions/environment/guest_volume.py",
+      "generated_sha256": "663672e53db809a84cbbb11f09348f96652ced043b22e1e7937b4d848f5f2e5a",
+      "adaptations": [
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 20
+        }
+      ]
+    },
+    {
+      "original": "extensions/environment/guest_worker_env.py",
+      "original_sha256": "f2bcddd6749b4740e5a9ec817291af4ab25e5d4d2405d9baa792e5e0aa1718a9",
+      "generated": "operator/backend_v1/engine/extensions/environment/guest_worker_env.py",
+      "generated_sha256": "a6a52206e45fba91850219da44ea4692146955275fc9c3ff078208006e1526c2",
+      "adaptations": [
+        {
+          "kind": "guest allows registered scientific or excluded role",
+          "line": 69
+        },
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 69
+        }
+      ]
+    },
+    {
+      "original": "extensions/environment/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/extensions/environment/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/environment/independent_audit.py",
+      "original_sha256": "21b883cdf1ad5d90e7fb11cd0f1222a4965f2be286b8e62a90d7d7eb2ec9ab8c",
+      "generated": "operator/backend_v1/engine/extensions/environment/independent_audit.py",
+      "generated_sha256": "84adac70e4949dc04dfbf1ea78541c3286f3645a8604b6dcbd5e090253b55eeb",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 16
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 16
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 16
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 17
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 24
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 65
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 76
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 76
+        }
+      ]
+    },
+    {
+      "original": "extensions/environment/namespace_precondition.py",
+      "original_sha256": "5feec5d0f70d27ccb963edd700235c807b33eb675eaf79a1a27f7ec644d7f8e2",
+      "generated": "operator/backend_v1/engine/extensions/environment/namespace_precondition.py",
+      "generated_sha256": "653bc0ebf1ba2d0b997f71f1af68777903c55dfc42d3e5ea12403025bd4c743b",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/environment/qualification_environment.py",
+      "original_sha256": "dbdcf192633136d397c9d38848281b008c2a319aec21169d4c80a757578af336",
+      "generated": "operator/backend_v1/engine/extensions/environment/qualification_environment.py",
+      "generated_sha256": "f94da18ca5e4a3e6f936244e06bc71abd69238029f596dffb96c218a441a7242",
+      "adaptations": [
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 26
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 28
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 94
+        },
+        {
+          "kind": "verify additional worker before any target operation",
+          "line": 159
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 259
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 260
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 263
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 264
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 264
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 264
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 280
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 293
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 411
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 410
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 410
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 410
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 433
+        }
+      ]
+    },
+    {
+      "original": "extensions/environment/qualify_once.py",
+      "original_sha256": "ebe4871367082b9414babd4ae2a21b96e35219c2ba992de0a6951f0d2883c0b9",
+      "generated": "operator/backend_v1/engine/extensions/environment/qualify_once.py",
+      "generated_sha256": "096c3bb685f56199e0ed00c9c90edc667ac33ffb2e41ef777b0e1a692fb669c5",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "original": "extensions/environment/test_environment.py",
+      "original_sha256": "d474268825b23f90d9b7d5566ebf4ea1a7934a3f2e3db2e8cad2dc5ea5f68eb9",
+      "generated": "operator/backend_v1/engine/extensions/environment/test_environment.py",
+      "generated_sha256": "614fa671288e27b5abde57a83869130df6ee87a22ac02150d81b42d1c9c3f137",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 3
+        }
+      ]
+    },
+    {
+      "original": "extensions/block_log/block_trace_v2.py",
+      "original_sha256": "56ba1641eceb8f534e4530bd79670fad4b33c67e7a466bb5c1af8d98c3ba1cb9",
+      "generated": "operator/backend_v1/engine/extensions/block_log/block_trace_v2.py",
+      "generated_sha256": "9f147478bdf2652fd672b6e8f25c794fc807a3594cb8221b4753f600af44f844",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/block_windows.py",
+      "original_sha256": "ed41ac0cb8c9b4a0a1b69ff0c73c3357d2a49a6131f7921cf8e5f4a80ec5dde4",
+      "generated": "operator/backend_v1/engine/extensions/block_log/block_windows.py",
+      "generated_sha256": "9f269626e7de8a4151a207e525c34c3c14fc36ec293cea10a0ac25163c00f8ab",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/boot_mounts.py",
+      "original_sha256": "36ebef88489f1b71e9c46cdfa3b38ae665707179eecb17ea8660b76c07da0629",
+      "generated": "operator/backend_v1/engine/extensions/block_log/boot_mounts.py",
+      "generated_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/capture_multi.py",
+      "original_sha256": "fd2be86dd6bf3938a4c9409b5086854731b2878782e17fcf570f06b803cb2b8b",
+      "generated": "operator/backend_v1/engine/extensions/block_log/capture_multi.py",
+      "generated_sha256": "50c3efb022572306feb7f0384e52da0596316193bd5be0eac0aa6426ca2fdd8f",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/engineering_once.py",
+      "original_sha256": "c0c171204d969bb4a23de24e836f24b29ec3fdac95bbc745fa378b209aa94554",
+      "generated": "operator/backend_v1/engine/extensions/block_log/engineering_once.py",
+      "generated_sha256": "0db0127392fe7871608bdbf3513b817215a398f9acadbd846a1e0e6e13d5187f",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "operator helper source directory",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "original": "extensions/block_log/guest_mapper_candidate.py",
+      "original_sha256": "75a93f4e35de597b74eb74f02a60845b450706bc0cdc9df22a9e168e9d0d7e20",
+      "generated": "operator/backend_v1/engine/extensions/block_log/guest_mapper_candidate.py",
+      "generated_sha256": "91f47a8678433be0f86c892a977f795a08e8d0cc8d29355d7f6f37f5a83e3c26",
+      "adaptations": [
+        {
+          "kind": "guest isolated setup explicit scientific role",
+          "line": 48
+        }
+      ]
+    },
+    {
+      "original": "extensions/block_log/guest_neutral_filesystem.py",
+      "original_sha256": "921a675c959d0df83184f62260ce8fb599c6733842523e402b7c12a67c4fd8f8",
+      "generated": "operator/backend_v1/engine/extensions/block_log/guest_neutral_filesystem.py",
+      "generated_sha256": "1835d4971c6afca7ffaa37ccdb5dce8a541c109e45f75f69a5f3d1e15b24f5d9",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/identity_io.py",
+      "original_sha256": "5f5f54758cbe27488765220e917b77508f8460b3ffa18f22916660ac0cb5c84f",
+      "generated": "operator/backend_v1/engine/extensions/block_log/identity_io.py",
+      "generated_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/independent_audit.py",
+      "original_sha256": "a22111a424c9cf9884682b2c0e642299a4dbd0afc768161996d9d62eb399ed5a",
+      "generated": "operator/backend_v1/engine/extensions/block_log/independent_audit.py",
+      "generated_sha256": "dcc49fcc04effe52234944ed9a1bfbdee6bd728566bc821325f0ba7398491f6d",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 9
+        },
+        {
+          "kind": "audit assignment role",
+          "line": 10
+        },
+        {
+          "kind": "audit explicit denominator",
+          "line": 10
+        },
+        {
+          "kind": "audit actual current role count",
+          "line": 10
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 50
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 50
+        }
+      ]
+    },
+    {
+      "original": "extensions/block_log/log_decode.py",
+      "original_sha256": "b31841d36fc60f069a36bf62cd25cd5389043ed84b0330bf91b41d166d4d4806",
+      "generated": "operator/backend_v1/engine/extensions/block_log/log_decode.py",
+      "generated_sha256": "daa869833cd105d699c59f5ba255565618b0388d0d55b99b71c8611765b75b05",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/log_prefixes.py",
+      "original_sha256": "e60982fa08e9ff3017b7e005c951c0f21ab95c2f4a30c79f8751454498a629be",
+      "generated": "operator/backend_v1/engine/extensions/block_log/log_prefixes.py",
+      "generated_sha256": "90d5c3dc1f87ac569411b4455f2d067fdca1f25a829e78732d557b7534e73408",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/projection_data.py",
+      "original_sha256": "e8406bcf5b54ae8a76864e054e8e6ee8cf1bd9fecf78f447a101735efce33fe4",
+      "generated": "operator/backend_v1/engine/extensions/block_log/projection_data.py",
+      "generated_sha256": "e4cbc2bd0acd3b922a8d4a8f8d3a1cb5a2c6063a79373da815b473b7126bf645",
+      "adaptations": []
+    },
+    {
+      "original": "extensions/block_log/qualification_log.py",
+      "original_sha256": "c0d88eec83df13ba183e414f294e4e8e719da6ec7e19c25a95f6ab04eae03887",
+      "generated": "operator/backend_v1/engine/extensions/block_log/qualification_log.py",
+      "generated_sha256": "262a628602298f466bb1d96eb8be4472c0c00ad48f1d5401b2c6a4be0809dc30",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        },
+        {
+          "kind": "operator helper source directory",
+          "line": 5
+        },
+        {
+          "kind": "operator helper source directory",
+          "line": 7
+        },
+        {
+          "kind": "unchanged qualified base at original path",
+          "line": 18
+        },
+        {
+          "kind": "role-specific attempt root",
+          "line": 18
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 22
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 37
+        },
+        {
+          "kind": "validate pre-reserved attempt instead of recreating",
+          "line": 38
+        },
+        {
+          "kind": "verify immutable operator assignment",
+          "line": 39
+        },
+        {
+          "kind": "engine start separated from operator reservation",
+          "line": 39
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 39
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 39
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 61
+        },
+        {
+          "kind": "technical eligibility output name",
+          "line": 126
+        },
+        {
+          "kind": "explicit assignment role",
+          "line": 126
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        },
+        {
+          "kind": "explicit scientific denominator",
+          "line": 126
+        },
+        {
+          "kind": "actual current attempt role count",
+          "line": 126
+        },
+        {
+          "kind": "console sealed by operator after backend exits",
+          "line": null
+        }
+      ]
+    },
+    {
+      "original": "extensions/block_log/queue_support.py",
+      "original_sha256": "e57134119fd5ca78bb7e362904863b068c5e77229b5253aa67bbc872eeec89a3",
+      "generated": "operator/backend_v1/engine/extensions/block_log/queue_support.py",
+      "generated_sha256": "79402b6760ece0674b7eb91c0b9fe2ae7c618c42bc1ed3fe4bc0a46156a2f3c9",
+      "adaptations": [
+        {
+          "kind": "host campaign root for copied path",
+          "line": 4
+        }
+      ]
+    }
+  ]
+}

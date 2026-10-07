@@ -1,0 +1,10 @@
+family,units,n,min,median,p95,max
+close_aligned_recovery_grid,milliseconds,180,0.014271,4.0808230000000005,9.092334,9.137605
+held_connection_recovery_sweep,milliseconds,70,0.030708,4.0973125,4.233167,9.144834
+six_key_conditions,milliseconds,60,0.784041,4.111479,9.130667,9.14475
+target_byte_diagnostics,milliseconds,40,0.456459,9.066166500000001,9.120083,9.1255
+trace_category_timelines,milliseconds,16,4.061042,4.0759375,9.210834,9.210834
+fault_scope_comparison,milliseconds,119,0.017209,4.102708,9.0985,9.211875
+block_state_recovery,milliseconds,120,0.033458,9.076521,9.158458,9.259334
+environment_sensitivity,milliseconds,160,0.008709,4.102895999999999,9.098958,9.187625
+application_and_background_activity,milliseconds,160,0.005041,5.9908125,9.09575,9.14775

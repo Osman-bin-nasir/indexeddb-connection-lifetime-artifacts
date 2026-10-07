@@ -1,0 +1,2492 @@
+{
+  "utc": "2026-10-06T17:53:02.046914+00:00",
+  "scope": "Read-only investigation of five original failures; no acquisition, retry, replay, or reclassification.",
+  "protocol_tag": "prereg-connection-lifetime-mac-v2",
+  "scientific_assigned": 930,
+  "protocol_current_sha256": "a3dfb023a7fb9e4862edc4242a7cbac1b3b8865790dbcbb1156fddfd128b13b1",
+  "protocol_matches_recorded_hash": true,
+  "protocol_matches_repository_tag": true,
+  "pinned_relevant_scientific_inputs": [
+    {
+      "path": "campaign_v2/operator/backend_dispatch_v2.py",
+      "expected_sha256": "d406546329dd02973e6dc0a8586ebbe2f0ad0d61eea4812f1c94e64f80f8f0a4",
+      "actual_sha256": "d406546329dd02973e6dc0a8586ebbe2f0ad0d61eea4812f1c94e64f80f8f0a4",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_dispatch_v3.py",
+      "expected_sha256": "9c32e1f2d14e9f59fa85a5e7b80692b0a4a91b720408624bb42b7c9969038e6c",
+      "actual_sha256": "9c32e1f2d14e9f59fa85a5e7b80692b0a4a91b720408624bb42b7c9969038e6c",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/backend.py",
+      "expected_sha256": "0985bfe732eb8d543035b6d8fb1c0491369cddb9e1714146f1a1d65153e37fd4",
+      "actual_sha256": "0985bfe732eb8d543035b6d8fb1c0491369cddb9e1714146f1a1d65153e37fd4",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/backend_runtime.py",
+      "expected_sha256": "a54c6a1ce35facf41070b87eb63c463cf3d123acc5add22b4df556473ceef357",
+      "actual_sha256": "a54c6a1ce35facf41070b87eb63c463cf3d123acc5add22b4df556473ceef357",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/boot_mounts.py",
+      "expected_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "actual_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/fault_agent.py",
+      "expected_sha256": "226e27c78da6cf186be5ef864201b8b55f13918c5bd64b18e9131de16f5d9c27",
+      "actual_sha256": "226e27c78da6cf186be5ef864201b8b55f13918c5bd64b18e9131de16f5d9c27",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/guest_fault_agent.py",
+      "expected_sha256": "4fa96b7201d9f6874081d32da714ba70afb23df52974fd5fb9848bb0b1d72537",
+      "actual_sha256": "4fa96b7201d9f6874081d32da714ba70afb23df52974fd5fb9848bb0b1d72537",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/identity_io.py",
+      "expected_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "actual_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/independent_audit.py",
+      "expected_sha256": "94c4de988ccb995eacf5dc210530aa0842e2d38357ad5da467e7e9f06ddbcd0a",
+      "actual_sha256": "94c4de988ccb995eacf5dc210530aa0842e2d38357ad5da467e7e9f06ddbcd0a",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/live_capture.py",
+      "expected_sha256": "bd976c7af08f71b9279cdb576001ee4da36f87d43f6d7384697c4c904bb4989e",
+      "actual_sha256": "bd976c7af08f71b9279cdb576001ee4da36f87d43f6d7384697c4c904bb4989e",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/projection_qualified.py",
+      "expected_sha256": "66753bcb8b9095685ad4de141eef02000b267263e17d37e2420e3cd7c85e9213",
+      "actual_sha256": "66753bcb8b9095685ad4de141eef02000b267263e17d37e2420e3cd7c85e9213",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/qualification_fault_scope.py",
+      "expected_sha256": "d203d312a3c1e6c14c740f4abdb694b0d9db155e1a60dd3df810777d95420a67",
+      "actual_sha256": "d203d312a3c1e6c14c740f4abdb694b0d9db155e1a60dd3df810777d95420a67",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/EXECUTED_SOURCE/test_process_selection.py",
+      "expected_sha256": "77100c116c78aa8adb9b5f18dd1a2aac920c3ac0e1cb7f2bcb3e645f9cc31a42",
+      "actual_sha256": "77100c116c78aa8adb9b5f18dd1a2aac920c3ac0e1cb7f2bcb3e645f9cc31a42",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/REPAIRED_BASE_LOCK.json",
+      "expected_sha256": "86941a6eb553220b92a53c7d416c522e85ff2d4f75ee9e31c38f4c854ca4ccc3",
+      "actual_sha256": "86941a6eb553220b92a53c7d416c522e85ff2d4f75ee9e31c38f4c854ca4ccc3",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/boot_mounts.py",
+      "expected_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "actual_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/fault_agent.py",
+      "expected_sha256": "226e27c78da6cf186be5ef864201b8b55f13918c5bd64b18e9131de16f5d9c27",
+      "actual_sha256": "226e27c78da6cf186be5ef864201b8b55f13918c5bd64b18e9131de16f5d9c27",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/guest_fault_agent.py",
+      "expected_sha256": "4fa96b7201d9f6874081d32da714ba70afb23df52974fd5fb9848bb0b1d72537",
+      "actual_sha256": "4fa96b7201d9f6874081d32da714ba70afb23df52974fd5fb9848bb0b1d72537",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/identity_io.py",
+      "expected_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "actual_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/independent_audit.py",
+      "expected_sha256": "94c4de988ccb995eacf5dc210530aa0842e2d38357ad5da467e7e9f06ddbcd0a",
+      "actual_sha256": "94c4de988ccb995eacf5dc210530aa0842e2d38357ad5da467e7e9f06ddbcd0a",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/live_capture.py",
+      "expected_sha256": "bd976c7af08f71b9279cdb576001ee4da36f87d43f6d7384697c4c904bb4989e",
+      "actual_sha256": "bd976c7af08f71b9279cdb576001ee4da36f87d43f6d7384697c4c904bb4989e",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/projection_qualified.py",
+      "expected_sha256": "66753bcb8b9095685ad4de141eef02000b267263e17d37e2420e3cd7c85e9213",
+      "actual_sha256": "66753bcb8b9095685ad4de141eef02000b267263e17d37e2420e3cd7c85e9213",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/qualification_fault_scope.py",
+      "expected_sha256": "d203d312a3c1e6c14c740f4abdb694b0d9db155e1a60dd3df810777d95420a67",
+      "actual_sha256": "d203d312a3c1e6c14c740f4abdb694b0d9db155e1a60dd3df810777d95420a67",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/010/test_process_selection.py",
+      "expected_sha256": "77100c116c78aa8adb9b5f18dd1a2aac920c3ac0e1cb7f2bcb3e645f9cc31a42",
+      "actual_sha256": "77100c116c78aa8adb9b5f18dd1a2aac920c3ac0e1cb7f2bcb3e645f9cc31a42",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/EXECUTED_SOURCE/background.py",
+      "expected_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+      "actual_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/EXECUTED_SOURCE/boot_mounts.py",
+      "expected_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "actual_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/EXECUTED_SOURCE/guest_worker_trace.py",
+      "expected_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+      "actual_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/EXECUTED_SOURCE/identity_io.py",
+      "expected_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "actual_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/EXECUTED_SOURCE/independent_audit.py",
+      "expected_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+      "actual_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/EXECUTED_SOURCE/qualification_timelines.py",
+      "expected_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+      "actual_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/REPAIRED_BASE_LOCK.json",
+      "expected_sha256": "86941a6eb553220b92a53c7d416c522e85ff2d4f75ee9e31c38f4c854ca4ccc3",
+      "actual_sha256": "86941a6eb553220b92a53c7d416c522e85ff2d4f75ee9e31c38f4c854ca4ccc3",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/background.py",
+      "expected_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+      "actual_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/boot_mounts.py",
+      "expected_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "actual_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/guest_worker_trace.py",
+      "expected_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+      "actual_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/identity_io.py",
+      "expected_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "actual_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/independent_audit.py",
+      "expected_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+      "actual_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/backend_v1/engine/repairs/011/qualification_timelines.py",
+      "expected_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+      "actual_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+      "matches": true
+    },
+    {
+      "path": "campaign_v2/operator/registered_endpoint_v1.py",
+      "expected_sha256": "d5cac963a7396eab4f5ed91b3ffdb856a89f9fc0fbbfdcb39dfe5c1fa646e809",
+      "actual_sha256": "d5cac963a7396eab4f5ed91b3ffdb856a89f9fc0fbbfdcb39dfe5c1fa646e809",
+      "matches": true
+    }
+  ],
+  "recorded_campaign_counts_not_a_new_whole_campaign_certification": {
+    "reserved_assignments": 930,
+    "results_present": 929,
+    "recorded_technical_eligible": 925,
+    "raw_lost": 585,
+    "raw_recovered": 340,
+    "no_result": 1,
+    "raw_unknown": 4
+  },
+  "original_attempt_file_hashes_before": {
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/TRACE_START.json": "defa6b94207cdd8c501b99f252f8d8efc91ef3af537229bb159133602d5888f3",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.response.json": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/overlay.qcow2": "01ca7cd0bf6b6e394f6bcd0bb8a3b20e8287dc42f76be6a91932a1a52fd3ebba",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/payload_contract.json": "da16f815252d332981a04db9c0c30472eaec136de720eb1cc0c1fd8c5587f5b3",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/RESULT.json": "720961bc37039a4a698b5f49c3f6467aa1e1b9a0cd3b2ca1356d5fc01ff356ec",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/SHA256.json": "5e3ec0639f51b8401d0106db047634bd79233dfa4dc3c5229b39107824556fdc",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/assignment.json": "234b9d3d769f86982bf601aa8f86a8e4be8f06547efe8fcc765130e6de017dbe",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/ENGINE_START.json": "387d20010eb5e97f113cf5e3d0493766e94b133bff35b8afcb7675975c445f6c",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/guest-filesystem-sysctls.txt": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.stdout": "3955b9400b2c3846fc1b58e007c9d1f668d2579a59d78c6b26d1b5c13dfe7ca3",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.response.json": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/backend-console.txt": "720961bc37039a4a698b5f49c3f6467aa1e1b9a0cd3b2ca1356d5fc01ff356ec",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/REGISTERED_ENDPOINT.json": "89cd2d35740565d48f4d4fc78e5ed840a7d20675977a75503b4c3b2073d7973d",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/START.json": "c3c442acff4a936466e16456ac1b9e89f31c6ec5f7755de0137c98007aade9a6",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/events.jsonl": "dec50afb6204af33cf699207b964b69c9aa614fd49ed67ce150379a72685af1c",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/OPERATOR_SHA256.json": "13949ba8df31dcf763e89d10a862620fd432fc5f78a23cfba09512f4324f8a9c",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/OPERATOR_INTEGRATION_RESULT.json": "92de2c6f066e72236bfd1dba3e91cef448b3f5eaa10a0a13f5257579d2c02338",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/INDEPENDENT_VERIFICATION.json": "54f6c5fb8d07a98efc17272bd73288feb0c264b9fc2f620bfe2e5fe3d95fdf0b",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.stdout": "97048fadbff406619a999b6ac7f3c0ddf1a216a56b4f8baa332c95dfe43eff8c",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/worker-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.stdout": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/console.txt": "dd935fba80ab68ee9f75383fd95618ec9f97aed7454e10ce9c8ad315be602385",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.returncode.json": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00004/assignment.json": "43e59c2d1b5332bfd1c48b8cd513bab49de3385707cd9bb25d62eb00f1a924f4",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00004/backend-console.txt": "134296bb223576a1433adf3647faf48d37e70778a58872313ad46c5211fa518a",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00004/START.json": "159c143d321f038d2929efc229763e77b1c12fb00f990c0594f601503666a28a",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/TRACE_START.json": "6fec6b5fd0a65dbd95abb9ad40a6efed6a79483d2bcbdd9a7a21a6e321ffe946",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.response.json": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/overlay.qcow2": "421ba25b87e8631c30c276fcf8f6453abd99b08b252628091d08ca2fc8438994",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/payload_contract.json": "d32aeb09beae6ba3c6341299d640827097e82dfe098fc70aba18d21d86b9d0f9",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/RESULT.json": "46615cc8932e01a0d13c4b85afb51667d8128bdf6cccf3a8c9020f1c900c2490",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/SHA256.json": "612a709be05bf8b2bb00c225e641eb7db3931eac7e9fd5235ca5cfbc9d5f6633",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/assignment.json": "9d2c5be196b59aaae701e86744ae5b1ab743b76eaa105d98026c2afeefe82106",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/ENGINE_START.json": "5327fa4d36ec0e4b40d3935b175d4ddd74405f7011192047769abaa248b1c6b8",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/guest-filesystem-sysctls.txt": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.stdout": "7fb7ebe28b2cf4a37bf4cc0f00822e5c024a2c1e320b10b2c4f349aae34254fd",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.response.json": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/backend-console.txt": "46615cc8932e01a0d13c4b85afb51667d8128bdf6cccf3a8c9020f1c900c2490",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/REGISTERED_ENDPOINT.json": "c21c878678cbd5ad0e64cfd240fa34b3ff4caf41d4fbbcc2bc0aa7b30398cbc1",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/START.json": "e988d76155672a6febd67fa7ca021498110be8747cf51eee2840ba9aa9189846",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/events.jsonl": "7d9c73fc3b6383a4ed1afc4a14037863a71b3724076a1d5c9ccde76511a9acce",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/OPERATOR_SHA256.json": "6f57595c24e80d3169d21e3d1dbe4853b7443251848e17aec9ed724638c4ddea",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/OPERATOR_INTEGRATION_RESULT.json": "0dd585592b658628bbdc9c598c3ef02f3e1421c93a633632989cd9c66ec53737",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/INDEPENDENT_VERIFICATION.json": "0384d9434cdd0187dd943a309db2bc6e618f939e952335cc0a78402301325e5f",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.stdout": "03f3d2049c05a59aa961a9f9be0adfd53177e3f3b0519aadf2cad1b940322eab",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/worker-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.stdout": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/console.txt": "4000fb8d8d76c72dabc35c0bcdd8c28c6227759ebde63dc19c206c3ec4ff6cff",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.returncode.json": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/TRACE_START.json": "ac50127caf421bdf5f9d10a51aa3460a0e5fbe96b52b652a438ccd2019ec9c49",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.response.json": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/overlay.qcow2": "a43ab460f1763bdd49a14eac4dcf94a407dc9427dccc007445b2efb6c2af2a34",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/payload_contract.json": "4e4b98e93576dace3512e4b9ded14c4faf6ac8dd477d5187fc42aade7fe6fe51",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/RESULT.json": "b72edda5a41255c51059b718db3b2f9a4d9e4f77f8a75c5c29c10663a828105c",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/SHA256.json": "e9ffcdeea6f97bac950007ecce4c4b303e9d31dd54301de701d4e63cace6888c",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/assignment.json": "ec9f47420b288e1188479c56a7c9bb0b6b093300866a0b3db716c128286f615f",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/ENGINE_START.json": "240a0d0ed42abfe9a91d65d2fbbd4ca696873ff55d549314f424badeadf7e97e",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/guest-filesystem-sysctls.txt": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.stdout": "84d6e63d3f13a697f0cba20321fba2e59fe0ad14b9dd3c18e4634033c456e0ab",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.response.json": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/backend-console.txt": "b72edda5a41255c51059b718db3b2f9a4d9e4f77f8a75c5c29c10663a828105c",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/REGISTERED_ENDPOINT.json": "befa7cb1424f967b2744a0921d07c0144e54cf13917d5f8d4ba2a4c616bc81dc",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/START.json": "3d88da197e4d9995a9d34db2603f1363820298638de65165de791038783f005e",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/events.jsonl": "7081bae310a79b0c6dad939b524bff97c9b900a2b3531d855aaed2a2f70b530b",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/OPERATOR_SHA256.json": "4def19040625b43b4e71d2b1d5fac91b6fc33463c979401cf46b271cc1f70e4d",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/OPERATOR_INTEGRATION_RESULT.json": "42d934dcf914b7349c2df5826830bf8d3f5aa9a78c4adae1544e60e739a34ad8",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/INDEPENDENT_VERIFICATION.json": "f3b9a86883df0a7c191aa6e1762591675a20d93a86d128483109692f08943b11",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.stdout": "4de4fef52bdde74f944d0715bcb475811af782ed338edd08bf8fe6e91fbfecc9",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/worker-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.stdout": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/console.txt": "8e856fa27df15faa8867606f967b605140cd731bc5b8012565a1edf661ceb5b1",
+    "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.returncode.json": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.response.json": "43ba56b3a8c69a1a6b1863239024454521dc7a025d1a4929cffd8900cda48329",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/overlay.qcow2": "2ae968da4e9d4624dacc2f2d870cde568af9d84feaa44f5a6209c5a18038f30f",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/payload_contract.json": "6f09c5662144edeb7c87867358a25423e76e385b031dcd7f83c397a2397c3dc8",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.stdout": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/RESULT.json": "5984ea7f257374b03a8eedc78b77e5ed33fd675aca7d1c31bb35ae11d3fba8a1",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/SHA256.json": "e5ffa79ee0addb78349408eed7fdd900421377d50cfb2abf595731cf64b61cdf",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/active-after-snapshot.qcow2": "609cce6957a68ce7c5aa8cb884e0f2aba11e60c2f4effa4f75659445096582f3",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/assignment.json": "6a36a752013715b33e656c57863745bb0eea015859e007222b27de1860cc8bb3",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/ENGINE_START.json": "5e72e79b564ab614e25700a9a36c4ec590958dba0a34a7579d1a80b8315b6162",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/guest-filesystem-sysctls.txt": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/fault-agent.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/IMMUTABLE_VIEW.json": "881f61fa28a2dc01018f29a04e7945dde701a00eb3cdef256469983e5d8b827e",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.stdout": "fbe66b5a5f32e069552da9e7ec54e9fb64769178cb9f0aa0103e7b892467c3ff",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.response.json": "82416bbf1d7c91b594de0bfba74460a6962aa2958781bee419064851d769a33a",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/backend-console.txt": "5984ea7f257374b03a8eedc78b77e5ed33fd675aca7d1c31bb35ae11d3fba8a1",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/REGISTERED_ENDPOINT.json": "69e9cb6c60cf780f69cfdda15a970f42346246b93f226cd5dbbe23ae9acc60a8",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/START.json": "8978d6fb7e8a2ba6374c4163d5afd01a905d5ebc014f4ad152fea0f9bc41ed29",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/LIVE_SNAPSHOT.json": "1e04fdb0f540cae992f17f9f4324646d17efdc0f48a26a604fcc3f234a06fc2b",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/events.jsonl": "af15f3eb293f783e8217a68f6529a25a502777a8ce90aa2e0d15c8d9ed5dfb6b",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.returncode.json": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/OPERATOR_SHA256.json": "4f09a9fecd9127caa50eec03bd1eefe0223d4d6237f82c46f9447ba99334243c",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/OPERATOR_INTEGRATION_RESULT.json": "7770feec34a7c1f27af74da4e8eb37592ea34c0c325709b72e1800761e7be174",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/INDEPENDENT_VERIFICATION.json": "c2bd9620c13b69a26719d26818725281a1e93524d8732bcb76fbcf6f6d7af455",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.stdout": "41fa1a04e8e4abbf9c54d7cf69e491627941eb72112212b8c3feab36f7116810",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/worker-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.stdout": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/console.txt": "21b69dc5174a88b58e36f196bee76af3957be53905760a31c854eabba2ed6ce2",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.returncode.json": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/ORIGINAL_NO_REPLAY_OBSERVATION.json": "b7021bffe3b1c95d500d76a1ea3c96f6933ebb63714e39d37a001b58a18edea0",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/original-noload.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/original-noload.stderr": "eb3c2ff909c82ac25047de32629937237a857084097ad726c57b3158bd0a0bbb",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper.qcow2": "eb3780b321253aa28bdd1486396afd1b3972f056e7cfc30c5697e79e8868645f",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.stdout": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/console.txt": "c571666ed6faae4e057a5ad02c78abb95638731f406e3aeacc0bcfa69b8ccf44",
+    "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.returncode.json": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d"
+  },
+  "original_attempts_unchanged_after_investigation": true,
+  "eligible_endpoints_salvaged": 0,
+  "new_assignments_run": 0,
+  "attempts": [
+    {
+      "trial_id": "scientific-trace_category_timelines-00003",
+      "assignment": {
+        "experiment": "trace_category_timelines",
+        "role": "scientific",
+        "trial_id": "scientific-trace_category_timelines-00003",
+        "ordinal": 3,
+        "block": 1,
+        "condition_id": "7fee48919d4acd7d",
+        "optional": false,
+        "tier": 1,
+        "planned_uptime_ms": null,
+        "architecture": "aarch64",
+        "accelerator": "hvf",
+        "browser": "packaged_pinned",
+        "backend_policy": "force_sqlite",
+        "durability": "relaxed",
+        "fault": "qmp_reset",
+        "timing_anchor": "host_ack",
+        "close_ms": 1000,
+        "fault_after_ack_ms": 2750,
+        "fault_after_close_ms": null,
+        "held": false,
+        "workload": "single_256_bytes",
+        "filesystem": "ext4_commit30",
+        "sysctls": "record_unchanged",
+        "uptime": "ordinary",
+        "instrumentation": "trace_categories",
+        "mapper": "none",
+        "key": "delayed_close_short_interval",
+        "keep_full_overlay_seeded": false
+      },
+      "assignment_matches_frozen": true,
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "result": {
+        "trial_id": "scientific-trace_category_timelines-00003",
+        "role": "scientific",
+        "scientific_denominator": true,
+        "technical_eligible": false,
+        "endpoint": "unknown",
+        "reasons": [
+          "Required guest record missing"
+        ],
+        "wall_seconds": 35.767809333,
+        "allocated_bytes": 45727744,
+        "logical_bytes": 45651236,
+        "free_before": 13381808128,
+        "free_after": 13338619904,
+        "image_sha256": {
+          "overlay.qcow2": "01ca7cd0bf6b6e394f6bcd0bb8a3b20e8287dc42f76be6a91932a1a52fd3ebba"
+        },
+        "retry_permitted": false,
+        "technical_hash_lock_complete": false,
+        "scientific_assignments_started": 1
+      },
+      "independent_verification": {
+        "trial_id": "scientific-trace_category_timelines-00003",
+        "independent_pass": false,
+        "error": "StopIteration()"
+      },
+      "event_kinds": {
+        "SSH_PORT_BIND_PREFLIGHT": 1,
+        "VM_START": 1,
+        "HEALTHY_OBSERVATION": 3,
+        "AUXILIARY_MOUNT_IDENTITY": 1,
+        "QMP": 8,
+        "ATTEMPT_IDENTITY": 1,
+        "OPERATOR_WORKER_DEPLOYED": 1,
+        "WORKER_EXECUTABLE_SOURCE": 1,
+        "GUEST_RECORD": 47,
+        "SCHEDULED_FAULT": 1,
+        "WORKER_NON_JSON": 1124,
+        "QUALIFICATION_ERROR": 1,
+        "QUALIFICATION_FINISHED": 1
+      },
+      "qmp_commands": [
+        {
+          "host_ns": 155441781254375,
+          "vm_pid": null,
+          "command": "qmp_capabilities"
+        },
+        {
+          "host_ns": 155441970105166,
+          "vm_pid": null,
+          "command": "query-block"
+        },
+        {
+          "host_ns": 155460762601208,
+          "vm_pid": null,
+          "command": "quit"
+        }
+      ],
+      "oracle_present": false,
+      "preserved_manifest_checks": {
+        "SHA256.json": [
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/ENGINE_START.json",
+            "expected_sha256": "387d20010eb5e97f113cf5e3d0493766e94b133bff35b8afcb7675975c445f6c",
+            "actual_sha256": "387d20010eb5e97f113cf5e3d0493766e94b133bff35b8afcb7675975c445f6c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/RESULT.json",
+            "expected_sha256": "720961bc37039a4a698b5f49c3f6467aa1e1b9a0cd3b2ca1356d5fc01ff356ec",
+            "actual_sha256": "720961bc37039a4a698b5f49c3f6467aa1e1b9a0cd3b2ca1356d5fc01ff356ec",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/START.json",
+            "expected_sha256": "c3c442acff4a936466e16456ac1b9e89f31c6ec5f7755de0137c98007aade9a6",
+            "actual_sha256": "c3c442acff4a936466e16456ac1b9e89f31c6ec5f7755de0137c98007aade9a6",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/TRACE_START.json",
+            "expected_sha256": "defa6b94207cdd8c501b99f252f8d8efc91ef3af537229bb159133602d5888f3",
+            "actual_sha256": "defa6b94207cdd8c501b99f252f8d8efc91ef3af537229bb159133602d5888f3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/assignment.json",
+            "expected_sha256": "234b9d3d769f86982bf601aa8f86a8e4be8f06547efe8fcc765130e6de017dbe",
+            "actual_sha256": "234b9d3d769f86982bf601aa8f86a8e4be8f06547efe8fcc765130e6de017dbe",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/console.txt",
+            "expected_sha256": "dd935fba80ab68ee9f75383fd95618ec9f97aed7454e10ce9c8ad315be602385",
+            "actual_sha256": "dd935fba80ab68ee9f75383fd95618ec9f97aed7454e10ce9c8ad315be602385",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/events.jsonl",
+            "expected_sha256": "dec50afb6204af33cf699207b964b69c9aa614fd49ed67ce150379a72685af1c",
+            "actual_sha256": "dec50afb6204af33cf699207b964b69c9aa614fd49ed67ce150379a72685af1c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/guest-filesystem-sysctls.txt",
+            "expected_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "actual_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.response.json",
+            "expected_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "actual_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.stdout",
+            "expected_sha256": "97048fadbff406619a999b6ac7f3c0ddf1a216a56b4f8baa332c95dfe43eff8c",
+            "actual_sha256": "97048fadbff406619a999b6ac7f3c0ddf1a216a56b4f8baa332c95dfe43eff8c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.response.json",
+            "expected_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "actual_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.stdout",
+            "expected_sha256": "3955b9400b2c3846fc1b58e007c9d1f668d2579a59d78c6b26d1b5c13dfe7ca3",
+            "actual_sha256": "3955b9400b2c3846fc1b58e007c9d1f668d2579a59d78c6b26d1b5c13dfe7ca3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/overlay.qcow2",
+            "expected_sha256": "01ca7cd0bf6b6e394f6bcd0bb8a3b20e8287dc42f76be6a91932a1a52fd3ebba",
+            "actual_sha256": "01ca7cd0bf6b6e394f6bcd0bb8a3b20e8287dc42f76be6a91932a1a52fd3ebba",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/payload_contract.json",
+            "expected_sha256": "da16f815252d332981a04db9c0c30472eaec136de720eb1cc0c1fd8c5587f5b3",
+            "actual_sha256": "da16f815252d332981a04db9c0c30472eaec136de720eb1cc0c1fd8c5587f5b3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/worker-stderr.txt",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          }
+        ],
+        "OPERATOR_SHA256.json": [
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/TRACE_START.json",
+            "expected_sha256": "defa6b94207cdd8c501b99f252f8d8efc91ef3af537229bb159133602d5888f3",
+            "actual_sha256": "defa6b94207cdd8c501b99f252f8d8efc91ef3af537229bb159133602d5888f3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.response.json",
+            "expected_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "actual_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/overlay.qcow2",
+            "expected_sha256": "01ca7cd0bf6b6e394f6bcd0bb8a3b20e8287dc42f76be6a91932a1a52fd3ebba",
+            "actual_sha256": "01ca7cd0bf6b6e394f6bcd0bb8a3b20e8287dc42f76be6a91932a1a52fd3ebba",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/payload_contract.json",
+            "expected_sha256": "da16f815252d332981a04db9c0c30472eaec136de720eb1cc0c1fd8c5587f5b3",
+            "actual_sha256": "da16f815252d332981a04db9c0c30472eaec136de720eb1cc0c1fd8c5587f5b3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/RESULT.json",
+            "expected_sha256": "720961bc37039a4a698b5f49c3f6467aa1e1b9a0cd3b2ca1356d5fc01ff356ec",
+            "actual_sha256": "720961bc37039a4a698b5f49c3f6467aa1e1b9a0cd3b2ca1356d5fc01ff356ec",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/SHA256.json",
+            "expected_sha256": "5e3ec0639f51b8401d0106db047634bd79233dfa4dc3c5229b39107824556fdc",
+            "actual_sha256": "5e3ec0639f51b8401d0106db047634bd79233dfa4dc3c5229b39107824556fdc",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/assignment.json",
+            "expected_sha256": "234b9d3d769f86982bf601aa8f86a8e4be8f06547efe8fcc765130e6de017dbe",
+            "actual_sha256": "234b9d3d769f86982bf601aa8f86a8e4be8f06547efe8fcc765130e6de017dbe",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/ENGINE_START.json",
+            "expected_sha256": "387d20010eb5e97f113cf5e3d0493766e94b133bff35b8afcb7675975c445f6c",
+            "actual_sha256": "387d20010eb5e97f113cf5e3d0493766e94b133bff35b8afcb7675975c445f6c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/guest-filesystem-sysctls.txt",
+            "expected_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "actual_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-setup.stdout",
+            "expected_sha256": "3955b9400b2c3846fc1b58e007c9d1f668d2579a59d78c6b26d1b5c13dfe7ca3",
+            "actual_sha256": "3955b9400b2c3846fc1b58e007c9d1f668d2579a59d78c6b26d1b5c13dfe7ca3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.response.json",
+            "expected_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "actual_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/backend-console.txt",
+            "expected_sha256": "720961bc37039a4a698b5f49c3f6467aa1e1b9a0cd3b2ca1356d5fc01ff356ec",
+            "actual_sha256": "720961bc37039a4a698b5f49c3f6467aa1e1b9a0cd3b2ca1356d5fc01ff356ec",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/REGISTERED_ENDPOINT.json",
+            "expected_sha256": "89cd2d35740565d48f4d4fc78e5ed840a7d20675977a75503b4c3b2073d7973d",
+            "actual_sha256": "89cd2d35740565d48f4d4fc78e5ed840a7d20675977a75503b4c3b2073d7973d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/START.json",
+            "expected_sha256": "c3c442acff4a936466e16456ac1b9e89f31c6ec5f7755de0137c98007aade9a6",
+            "actual_sha256": "c3c442acff4a936466e16456ac1b9e89f31c6ec5f7755de0137c98007aade9a6",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/events.jsonl",
+            "expected_sha256": "dec50afb6204af33cf699207b964b69c9aa614fd49ed67ce150379a72685af1c",
+            "actual_sha256": "dec50afb6204af33cf699207b964b69c9aa614fd49ed67ce150379a72685af1c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/OPERATOR_INTEGRATION_RESULT.json",
+            "expected_sha256": "92de2c6f066e72236bfd1dba3e91cef448b3f5eaa10a0a13f5257579d2c02338",
+            "actual_sha256": "92de2c6f066e72236bfd1dba3e91cef448b3f5eaa10a0a13f5257579d2c02338",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/INDEPENDENT_VERIFICATION.json",
+            "expected_sha256": "54f6c5fb8d07a98efc17272bd73288feb0c264b9fc2f620bfe2e5fe3d95fdf0b",
+            "actual_sha256": "54f6c5fb8d07a98efc17272bd73288feb0c264b9fc2f620bfe2e5fe3d95fdf0b",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/identity-before-worker.stdout",
+            "expected_sha256": "97048fadbff406619a999b6ac7f3c0ddf1a216a56b4f8baa332c95dfe43eff8c",
+            "actual_sha256": "97048fadbff406619a999b6ac7f3c0ddf1a216a56b4f8baa332c95dfe43eff8c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/worker-stderr.txt",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/console.txt",
+            "expected_sha256": "dd935fba80ab68ee9f75383fd95618ec9f97aed7454e10ce9c8ad315be602385",
+            "actual_sha256": "dd935fba80ab68ee9f75383fd95618ec9f97aed7454e10ce9c8ad315be602385",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/boot/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          }
+        ]
+      },
+      "executed_source_pin_checks": [
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/background.py",
+          "expected_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+          "actual_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/guest_worker_trace.py",
+          "expected_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+          "actual_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/qualification_timelines.py",
+          "expected_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+          "actual_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/identity_io.py",
+          "expected_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+          "actual_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/boot_mounts.py",
+          "expected_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+          "actual_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/independent_audit.py",
+          "expected_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+          "actual_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+          "matches": true
+        }
+      ],
+      "qcow2_checks": [
+        {
+          "command": [
+            "qemu-img",
+            "check",
+            "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-trace_category_timelines-00003/overlay.qcow2"
+          ],
+          "returncode": 0,
+          "stdout": "No errors were found on the image.\n679/262144 = 0.26% allocated, 25.33% fragmented, 0.00% compressed clusters\nImage end offset: 45285376\n",
+          "stderr": ""
+        }
+      ],
+      "measurement_started": true,
+      "assigned_fault_executed": false,
+      "system_reset_requested": false,
+      "trace_complete_records": 0,
+      "trace_stop_response_records": 0,
+      "valid_trace_data_records": 0,
+      "nonjson_records": 1124,
+      "trace_emit_blocking_error_recorded": true,
+      "first_trace_write_error_excerpt": "   ^^^^^^^^^^^^^^^^^^\n  File \"/opt/idbv2/venv/lib/python3.12/site-packages/playwright/_impl/_impl_to_api_mapping.py\", line 139, in wrapper_func\n    return handler(\n           ^^^^^^^^\n  File \"/opt/idbv2/trace-worker.py\", line 126, in <lambda>\n    trace_cdp.on('Tracing.dataCollected', lambda v: emit('TRACE_DATA', data=v))\n                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/idbv2/trace-worker.py\", line 23, in emit\n    print(json.dumps({'sequence': sequence, 'kind': kind, 'guest_monotonic_ns': time.monotonic_ns(), 'session': session, **value}), flush=True)\nBlockingIOError: [Errno 11] write could not complete without blocking",
+      "controller_trace_stop_timeout_seconds": 0.4,
+      "guest_tracing_complete_timeout_seconds": 5,
+      "resolution_reason": "Guest trace writes failed and the required trace-stop response was absent; the assigned QMP reset and oracle never ran. Cleanup shut down the VM. Reinterpreting trace fragments cannot reconstruct an unperformed fault/recovery."
+    },
+    {
+      "trial_id": "scientific-trace_category_timelines-00004",
+      "assignment": {
+        "experiment": "trace_category_timelines",
+        "role": "scientific",
+        "trial_id": "scientific-trace_category_timelines-00004",
+        "ordinal": 4,
+        "block": 1,
+        "condition_id": "be33e7899c5c433b",
+        "optional": false,
+        "tier": 1,
+        "planned_uptime_ms": null,
+        "architecture": "aarch64",
+        "accelerator": "hvf",
+        "browser": "packaged_pinned",
+        "backend_policy": "force_sqlite",
+        "durability": "relaxed",
+        "fault": "qmp_reset",
+        "timing_anchor": "host_ack",
+        "close_ms": 0,
+        "fault_after_ack_ms": 2500,
+        "fault_after_close_ms": null,
+        "held": false,
+        "workload": "single_256_bytes",
+        "filesystem": "ext4_commit30",
+        "sysctls": "record_unchanged",
+        "uptime": "ordinary",
+        "instrumentation": "trace_categories",
+        "mapper": "none",
+        "key": "immediate_close_late_deadline",
+        "keep_full_overlay_seeded": false
+      },
+      "assignment_matches_frozen": true,
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "measurement_started": false,
+      "recorded_reason": "The v4 continuation wrapper placed LOCK_ADDENDUM_004 hash in the backend field that requires LOCK_ADDENDUM_003. The backend rejected it before VM launch.",
+      "disposition": {
+        "utc": "2026-10-05T02:38:43.217133+00:00",
+        "trial_id": "scientific-trace_category_timelines-00004",
+        "assignment_ordinal": 354,
+        "disposition": "Consumed before measurement launch; no retry or replacement.",
+        "reason": "The v4 continuation wrapper placed LOCK_ADDENDUM_004 hash in the backend field that requires LOCK_ADDENDUM_003. The backend rejected it before VM launch.",
+        "evidence_hashes": {
+          "scientific/attempts/scientific-trace_category_timelines-00004/assignment.json": "43e59c2d1b5332bfd1c48b8cd513bab49de3385707cd9bb25d62eb00f1a924f4",
+          "scientific/attempts/scientific-trace_category_timelines-00004/START.json": "159c143d321f038d2929efc229763e77b1c12fb00f990c0594f601503666a28a",
+          "scientific/attempts/scientific-trace_category_timelines-00004/backend-console.txt": "134296bb223576a1433adf3647faf48d37e70778a58872313ad46c5211fa518a",
+          "operator/batches/batch-validator-v2-20261005T023735604898Z/PLAN.json": "9f2266392d083264df3acf9924ee7da5555f09e61fa8cda3ff8dce75262d6947",
+          "operator/batches/batch-validator-v2-20261005T023735604898Z/STOP.json": "98c335b1845f6ffad5d44df4707f9c27554dcd71a8d74f3b335b3c8e722985c9"
+        },
+        "result_json_absent": true,
+        "qemu_vm_start_record_absent": true,
+        "measurement_started": false,
+        "eligible": false,
+        "endpoint": "unknown",
+        "scientific_denominator_slot_consumed": true,
+        "retry_permitted": false,
+        "user_instruction": "why did you stop ?? complete all420"
+      },
+      "preserved_manifest_checks": [
+        {
+          "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00004/assignment.json",
+          "expected_sha256": "43e59c2d1b5332bfd1c48b8cd513bab49de3385707cd9bb25d62eb00f1a924f4",
+          "actual_sha256": "43e59c2d1b5332bfd1c48b8cd513bab49de3385707cd9bb25d62eb00f1a924f4",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00004/START.json",
+          "expected_sha256": "159c143d321f038d2929efc229763e77b1c12fb00f990c0594f601503666a28a",
+          "actual_sha256": "159c143d321f038d2929efc229763e77b1c12fb00f990c0594f601503666a28a",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00004/backend-console.txt",
+          "expected_sha256": "134296bb223576a1433adf3647faf48d37e70778a58872313ad46c5211fa518a",
+          "actual_sha256": "134296bb223576a1433adf3647faf48d37e70778a58872313ad46c5211fa518a",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/batches/batch-validator-v2-20261005T023735604898Z/PLAN.json",
+          "expected_sha256": "9f2266392d083264df3acf9924ee7da5555f09e61fa8cda3ff8dce75262d6947",
+          "actual_sha256": "9f2266392d083264df3acf9924ee7da5555f09e61fa8cda3ff8dce75262d6947",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/batches/batch-validator-v2-20261005T023735604898Z/STOP.json",
+          "expected_sha256": "98c335b1845f6ffad5d44df4707f9c27554dcd71a8d74f3b335b3c8e722985c9",
+          "actual_sha256": "98c335b1845f6ffad5d44df4707f9c27554dcd71a8d74f3b335b3c8e722985c9",
+          "matches": true
+        }
+      ],
+      "resolution_reason": "No VM or scientific measurement launched; no missing observation exists to recover."
+    },
+    {
+      "trial_id": "scientific-trace_category_timelines-00014",
+      "assignment": {
+        "experiment": "trace_category_timelines",
+        "role": "scientific",
+        "trial_id": "scientific-trace_category_timelines-00014",
+        "ordinal": 14,
+        "block": 4,
+        "condition_id": "7fee48919d4acd7d",
+        "optional": false,
+        "tier": 1,
+        "planned_uptime_ms": null,
+        "architecture": "aarch64",
+        "accelerator": "hvf",
+        "browser": "packaged_pinned",
+        "backend_policy": "force_sqlite",
+        "durability": "relaxed",
+        "fault": "qmp_reset",
+        "timing_anchor": "host_ack",
+        "close_ms": 1000,
+        "fault_after_ack_ms": 2750,
+        "fault_after_close_ms": null,
+        "held": false,
+        "workload": "single_256_bytes",
+        "filesystem": "ext4_commit30",
+        "sysctls": "record_unchanged",
+        "uptime": "ordinary",
+        "instrumentation": "trace_categories",
+        "mapper": "none",
+        "key": "delayed_close_short_interval",
+        "keep_full_overlay_seeded": false
+      },
+      "assignment_matches_frozen": true,
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "result": {
+        "trial_id": "scientific-trace_category_timelines-00014",
+        "role": "scientific",
+        "scientific_denominator": true,
+        "technical_eligible": false,
+        "endpoint": "unknown",
+        "reasons": [
+          "Required guest record missing"
+        ],
+        "wall_seconds": 35.7262,
+        "allocated_bytes": 31375360,
+        "logical_bytes": 30315512,
+        "free_before": 17315172352,
+        "free_after": 17282412544,
+        "image_sha256": {
+          "overlay.qcow2": "421ba25b87e8631c30c276fcf8f6453abd99b08b252628091d08ca2fc8438994"
+        },
+        "retry_permitted": false,
+        "technical_hash_lock_complete": false,
+        "scientific_assignments_started": 1
+      },
+      "independent_verification": {
+        "trial_id": "scientific-trace_category_timelines-00014",
+        "independent_pass": false,
+        "error": "StopIteration()"
+      },
+      "event_kinds": {
+        "SSH_PORT_BIND_PREFLIGHT": 1,
+        "VM_START": 1,
+        "HEALTHY_OBSERVATION": 3,
+        "AUXILIARY_MOUNT_IDENTITY": 1,
+        "QMP": 8,
+        "ATTEMPT_IDENTITY": 1,
+        "OPERATOR_WORKER_DEPLOYED": 1,
+        "WORKER_EXECUTABLE_SOURCE": 1,
+        "GUEST_RECORD": 47,
+        "SCHEDULED_FAULT": 1,
+        "WORKER_NON_JSON": 1124,
+        "QUALIFICATION_ERROR": 1,
+        "QUALIFICATION_FINISHED": 1
+      },
+      "qmp_commands": [
+        {
+          "host_ns": 158677801925000,
+          "vm_pid": null,
+          "command": "qmp_capabilities"
+        },
+        {
+          "host_ns": 158678015260458,
+          "vm_pid": null,
+          "command": "query-block"
+        },
+        {
+          "host_ns": 158696893211000,
+          "vm_pid": null,
+          "command": "quit"
+        }
+      ],
+      "oracle_present": false,
+      "preserved_manifest_checks": {
+        "SHA256.json": [
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/ENGINE_START.json",
+            "expected_sha256": "5327fa4d36ec0e4b40d3935b175d4ddd74405f7011192047769abaa248b1c6b8",
+            "actual_sha256": "5327fa4d36ec0e4b40d3935b175d4ddd74405f7011192047769abaa248b1c6b8",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/RESULT.json",
+            "expected_sha256": "46615cc8932e01a0d13c4b85afb51667d8128bdf6cccf3a8c9020f1c900c2490",
+            "actual_sha256": "46615cc8932e01a0d13c4b85afb51667d8128bdf6cccf3a8c9020f1c900c2490",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/START.json",
+            "expected_sha256": "e988d76155672a6febd67fa7ca021498110be8747cf51eee2840ba9aa9189846",
+            "actual_sha256": "e988d76155672a6febd67fa7ca021498110be8747cf51eee2840ba9aa9189846",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/TRACE_START.json",
+            "expected_sha256": "6fec6b5fd0a65dbd95abb9ad40a6efed6a79483d2bcbdd9a7a21a6e321ffe946",
+            "actual_sha256": "6fec6b5fd0a65dbd95abb9ad40a6efed6a79483d2bcbdd9a7a21a6e321ffe946",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/assignment.json",
+            "expected_sha256": "9d2c5be196b59aaae701e86744ae5b1ab743b76eaa105d98026c2afeefe82106",
+            "actual_sha256": "9d2c5be196b59aaae701e86744ae5b1ab743b76eaa105d98026c2afeefe82106",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/console.txt",
+            "expected_sha256": "4000fb8d8d76c72dabc35c0bcdd8c28c6227759ebde63dc19c206c3ec4ff6cff",
+            "actual_sha256": "4000fb8d8d76c72dabc35c0bcdd8c28c6227759ebde63dc19c206c3ec4ff6cff",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/events.jsonl",
+            "expected_sha256": "7d9c73fc3b6383a4ed1afc4a14037863a71b3724076a1d5c9ccde76511a9acce",
+            "actual_sha256": "7d9c73fc3b6383a4ed1afc4a14037863a71b3724076a1d5c9ccde76511a9acce",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/guest-filesystem-sysctls.txt",
+            "expected_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "actual_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.response.json",
+            "expected_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "actual_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.stdout",
+            "expected_sha256": "03f3d2049c05a59aa961a9f9be0adfd53177e3f3b0519aadf2cad1b940322eab",
+            "actual_sha256": "03f3d2049c05a59aa961a9f9be0adfd53177e3f3b0519aadf2cad1b940322eab",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.response.json",
+            "expected_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "actual_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.stdout",
+            "expected_sha256": "7fb7ebe28b2cf4a37bf4cc0f00822e5c024a2c1e320b10b2c4f349aae34254fd",
+            "actual_sha256": "7fb7ebe28b2cf4a37bf4cc0f00822e5c024a2c1e320b10b2c4f349aae34254fd",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/overlay.qcow2",
+            "expected_sha256": "421ba25b87e8631c30c276fcf8f6453abd99b08b252628091d08ca2fc8438994",
+            "actual_sha256": "421ba25b87e8631c30c276fcf8f6453abd99b08b252628091d08ca2fc8438994",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/payload_contract.json",
+            "expected_sha256": "d32aeb09beae6ba3c6341299d640827097e82dfe098fc70aba18d21d86b9d0f9",
+            "actual_sha256": "d32aeb09beae6ba3c6341299d640827097e82dfe098fc70aba18d21d86b9d0f9",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/worker-stderr.txt",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          }
+        ],
+        "OPERATOR_SHA256.json": [
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/TRACE_START.json",
+            "expected_sha256": "6fec6b5fd0a65dbd95abb9ad40a6efed6a79483d2bcbdd9a7a21a6e321ffe946",
+            "actual_sha256": "6fec6b5fd0a65dbd95abb9ad40a6efed6a79483d2bcbdd9a7a21a6e321ffe946",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.response.json",
+            "expected_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "actual_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/overlay.qcow2",
+            "expected_sha256": "421ba25b87e8631c30c276fcf8f6453abd99b08b252628091d08ca2fc8438994",
+            "actual_sha256": "421ba25b87e8631c30c276fcf8f6453abd99b08b252628091d08ca2fc8438994",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/payload_contract.json",
+            "expected_sha256": "d32aeb09beae6ba3c6341299d640827097e82dfe098fc70aba18d21d86b9d0f9",
+            "actual_sha256": "d32aeb09beae6ba3c6341299d640827097e82dfe098fc70aba18d21d86b9d0f9",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/RESULT.json",
+            "expected_sha256": "46615cc8932e01a0d13c4b85afb51667d8128bdf6cccf3a8c9020f1c900c2490",
+            "actual_sha256": "46615cc8932e01a0d13c4b85afb51667d8128bdf6cccf3a8c9020f1c900c2490",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/SHA256.json",
+            "expected_sha256": "612a709be05bf8b2bb00c225e641eb7db3931eac7e9fd5235ca5cfbc9d5f6633",
+            "actual_sha256": "612a709be05bf8b2bb00c225e641eb7db3931eac7e9fd5235ca5cfbc9d5f6633",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/assignment.json",
+            "expected_sha256": "9d2c5be196b59aaae701e86744ae5b1ab743b76eaa105d98026c2afeefe82106",
+            "actual_sha256": "9d2c5be196b59aaae701e86744ae5b1ab743b76eaa105d98026c2afeefe82106",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/ENGINE_START.json",
+            "expected_sha256": "5327fa4d36ec0e4b40d3935b175d4ddd74405f7011192047769abaa248b1c6b8",
+            "actual_sha256": "5327fa4d36ec0e4b40d3935b175d4ddd74405f7011192047769abaa248b1c6b8",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/guest-filesystem-sysctls.txt",
+            "expected_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "actual_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-setup.stdout",
+            "expected_sha256": "7fb7ebe28b2cf4a37bf4cc0f00822e5c024a2c1e320b10b2c4f349aae34254fd",
+            "actual_sha256": "7fb7ebe28b2cf4a37bf4cc0f00822e5c024a2c1e320b10b2c4f349aae34254fd",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.response.json",
+            "expected_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "actual_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/backend-console.txt",
+            "expected_sha256": "46615cc8932e01a0d13c4b85afb51667d8128bdf6cccf3a8c9020f1c900c2490",
+            "actual_sha256": "46615cc8932e01a0d13c4b85afb51667d8128bdf6cccf3a8c9020f1c900c2490",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/REGISTERED_ENDPOINT.json",
+            "expected_sha256": "c21c878678cbd5ad0e64cfd240fa34b3ff4caf41d4fbbcc2bc0aa7b30398cbc1",
+            "actual_sha256": "c21c878678cbd5ad0e64cfd240fa34b3ff4caf41d4fbbcc2bc0aa7b30398cbc1",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/START.json",
+            "expected_sha256": "e988d76155672a6febd67fa7ca021498110be8747cf51eee2840ba9aa9189846",
+            "actual_sha256": "e988d76155672a6febd67fa7ca021498110be8747cf51eee2840ba9aa9189846",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/events.jsonl",
+            "expected_sha256": "7d9c73fc3b6383a4ed1afc4a14037863a71b3724076a1d5c9ccde76511a9acce",
+            "actual_sha256": "7d9c73fc3b6383a4ed1afc4a14037863a71b3724076a1d5c9ccde76511a9acce",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/OPERATOR_INTEGRATION_RESULT.json",
+            "expected_sha256": "0dd585592b658628bbdc9c598c3ef02f3e1421c93a633632989cd9c66ec53737",
+            "actual_sha256": "0dd585592b658628bbdc9c598c3ef02f3e1421c93a633632989cd9c66ec53737",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/INDEPENDENT_VERIFICATION.json",
+            "expected_sha256": "0384d9434cdd0187dd943a309db2bc6e618f939e952335cc0a78402301325e5f",
+            "actual_sha256": "0384d9434cdd0187dd943a309db2bc6e618f939e952335cc0a78402301325e5f",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/identity-before-worker.stdout",
+            "expected_sha256": "03f3d2049c05a59aa961a9f9be0adfd53177e3f3b0519aadf2cad1b940322eab",
+            "actual_sha256": "03f3d2049c05a59aa961a9f9be0adfd53177e3f3b0519aadf2cad1b940322eab",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/worker-stderr.txt",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/console.txt",
+            "expected_sha256": "4000fb8d8d76c72dabc35c0bcdd8c28c6227759ebde63dc19c206c3ec4ff6cff",
+            "actual_sha256": "4000fb8d8d76c72dabc35c0bcdd8c28c6227759ebde63dc19c206c3ec4ff6cff",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/boot/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          }
+        ]
+      },
+      "executed_source_pin_checks": [
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/background.py",
+          "expected_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+          "actual_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/guest_worker_trace.py",
+          "expected_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+          "actual_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/qualification_timelines.py",
+          "expected_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+          "actual_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/identity_io.py",
+          "expected_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+          "actual_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/boot_mounts.py",
+          "expected_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+          "actual_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/independent_audit.py",
+          "expected_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+          "actual_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+          "matches": true
+        }
+      ],
+      "qcow2_checks": [
+        {
+          "command": [
+            "qemu-img",
+            "check",
+            "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-trace_category_timelines-00014/overlay.qcow2"
+          ],
+          "returncode": 0,
+          "stdout": "No errors were found on the image.\n445/262144 = 0.17% allocated, 34.16% fragmented, 0.00% compressed clusters\nImage end offset: 29949952\n",
+          "stderr": ""
+        }
+      ],
+      "measurement_started": true,
+      "assigned_fault_executed": false,
+      "system_reset_requested": false,
+      "trace_complete_records": 0,
+      "trace_stop_response_records": 0,
+      "valid_trace_data_records": 0,
+      "nonjson_records": 1124,
+      "trace_emit_blocking_error_recorded": true,
+      "first_trace_write_error_excerpt": "   ^^^^^^^^^^^^^^^^^^\n  File \"/opt/idbv2/venv/lib/python3.12/site-packages/playwright/_impl/_impl_to_api_mapping.py\", line 139, in wrapper_func\n    return handler(\n           ^^^^^^^^\n  File \"/opt/idbv2/trace-worker.py\", line 126, in <lambda>\n    trace_cdp.on('Tracing.dataCollected', lambda v: emit('TRACE_DATA', data=v))\n                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/idbv2/trace-worker.py\", line 23, in emit\n    print(json.dumps({'sequence': sequence, 'kind': kind, 'guest_monotonic_ns': time.monotonic_ns(), 'session': session, **value}), flush=True)\nBlockingIOError: [Errno 11] write could not complete without blocking",
+      "controller_trace_stop_timeout_seconds": 0.4,
+      "guest_tracing_complete_timeout_seconds": 5,
+      "resolution_reason": "Guest trace writes failed and the required trace-stop response was absent; the assigned QMP reset and oracle never ran. Cleanup shut down the VM. Reinterpreting trace fragments cannot reconstruct an unperformed fault/recovery."
+    },
+    {
+      "trial_id": "scientific-trace_category_timelines-00020",
+      "assignment": {
+        "experiment": "trace_category_timelines",
+        "role": "scientific",
+        "trial_id": "scientific-trace_category_timelines-00020",
+        "ordinal": 20,
+        "block": 5,
+        "condition_id": "a9d233c25dff5e51",
+        "optional": false,
+        "tier": 1,
+        "planned_uptime_ms": null,
+        "architecture": "aarch64",
+        "accelerator": "hvf",
+        "browser": "packaged_pinned",
+        "backend_policy": "force_sqlite",
+        "durability": "relaxed",
+        "fault": "qmp_reset",
+        "timing_anchor": "host_ack",
+        "close_ms": null,
+        "fault_after_ack_ms": 15000,
+        "fault_after_close_ms": null,
+        "held": true,
+        "workload": "single_256_bytes",
+        "filesystem": "ext4_commit30",
+        "sysctls": "record_unchanged",
+        "uptime": "ordinary",
+        "instrumentation": "trace_categories",
+        "mapper": "none",
+        "key": "held_fifteen_seconds",
+        "keep_full_overlay_seeded": false
+      },
+      "assignment_matches_frozen": true,
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "result": {
+        "trial_id": "scientific-trace_category_timelines-00020",
+        "role": "scientific",
+        "scientific_denominator": true,
+        "technical_eligible": false,
+        "endpoint": "unknown",
+        "reasons": [
+          "Required guest record missing"
+        ],
+        "wall_seconds": 48.566891833,
+        "allocated_bytes": 39333888,
+        "logical_bytes": 39271603,
+        "free_before": 17044013056,
+        "free_after": 17004150784,
+        "image_sha256": {
+          "overlay.qcow2": "a43ab460f1763bdd49a14eac4dcf94a407dc9427dccc007445b2efb6c2af2a34"
+        },
+        "retry_permitted": false,
+        "technical_hash_lock_complete": false,
+        "scientific_assignments_started": 1
+      },
+      "independent_verification": {
+        "trial_id": "scientific-trace_category_timelines-00020",
+        "independent_pass": false,
+        "error": "StopIteration()"
+      },
+      "event_kinds": {
+        "SSH_PORT_BIND_PREFLIGHT": 1,
+        "VM_START": 1,
+        "HEALTHY_OBSERVATION": 3,
+        "AUXILIARY_MOUNT_IDENTITY": 1,
+        "QMP": 9,
+        "ATTEMPT_IDENTITY": 1,
+        "OPERATOR_WORKER_DEPLOYED": 1,
+        "WORKER_EXECUTABLE_SOURCE": 1,
+        "GUEST_RECORD": 208,
+        "SCHEDULED_FAULT": 1,
+        "WORKER_NON_JSON": 1505,
+        "QUALIFICATION_ERROR": 1,
+        "QUALIFICATION_FINISHED": 1
+      },
+      "qmp_commands": [
+        {
+          "host_ns": 159111182185708,
+          "vm_pid": null,
+          "command": "qmp_capabilities"
+        },
+        {
+          "host_ns": 159111374762875,
+          "vm_pid": null,
+          "command": "query-block"
+        },
+        {
+          "host_ns": 159142453553041,
+          "vm_pid": null,
+          "command": "quit"
+        }
+      ],
+      "oracle_present": false,
+      "preserved_manifest_checks": {
+        "SHA256.json": [
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/ENGINE_START.json",
+            "expected_sha256": "240a0d0ed42abfe9a91d65d2fbbd4ca696873ff55d549314f424badeadf7e97e",
+            "actual_sha256": "240a0d0ed42abfe9a91d65d2fbbd4ca696873ff55d549314f424badeadf7e97e",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/RESULT.json",
+            "expected_sha256": "b72edda5a41255c51059b718db3b2f9a4d9e4f77f8a75c5c29c10663a828105c",
+            "actual_sha256": "b72edda5a41255c51059b718db3b2f9a4d9e4f77f8a75c5c29c10663a828105c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/START.json",
+            "expected_sha256": "3d88da197e4d9995a9d34db2603f1363820298638de65165de791038783f005e",
+            "actual_sha256": "3d88da197e4d9995a9d34db2603f1363820298638de65165de791038783f005e",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/TRACE_START.json",
+            "expected_sha256": "ac50127caf421bdf5f9d10a51aa3460a0e5fbe96b52b652a438ccd2019ec9c49",
+            "actual_sha256": "ac50127caf421bdf5f9d10a51aa3460a0e5fbe96b52b652a438ccd2019ec9c49",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/assignment.json",
+            "expected_sha256": "ec9f47420b288e1188479c56a7c9bb0b6b093300866a0b3db716c128286f615f",
+            "actual_sha256": "ec9f47420b288e1188479c56a7c9bb0b6b093300866a0b3db716c128286f615f",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/console.txt",
+            "expected_sha256": "8e856fa27df15faa8867606f967b605140cd731bc5b8012565a1edf661ceb5b1",
+            "actual_sha256": "8e856fa27df15faa8867606f967b605140cd731bc5b8012565a1edf661ceb5b1",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/events.jsonl",
+            "expected_sha256": "7081bae310a79b0c6dad939b524bff97c9b900a2b3531d855aaed2a2f70b530b",
+            "actual_sha256": "7081bae310a79b0c6dad939b524bff97c9b900a2b3531d855aaed2a2f70b530b",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/guest-filesystem-sysctls.txt",
+            "expected_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "actual_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.response.json",
+            "expected_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "actual_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.stdout",
+            "expected_sha256": "4de4fef52bdde74f944d0715bcb475811af782ed338edd08bf8fe6e91fbfecc9",
+            "actual_sha256": "4de4fef52bdde74f944d0715bcb475811af782ed338edd08bf8fe6e91fbfecc9",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.response.json",
+            "expected_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "actual_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.stdout",
+            "expected_sha256": "84d6e63d3f13a697f0cba20321fba2e59fe0ad14b9dd3c18e4634033c456e0ab",
+            "actual_sha256": "84d6e63d3f13a697f0cba20321fba2e59fe0ad14b9dd3c18e4634033c456e0ab",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/overlay.qcow2",
+            "expected_sha256": "a43ab460f1763bdd49a14eac4dcf94a407dc9427dccc007445b2efb6c2af2a34",
+            "actual_sha256": "a43ab460f1763bdd49a14eac4dcf94a407dc9427dccc007445b2efb6c2af2a34",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/payload_contract.json",
+            "expected_sha256": "4e4b98e93576dace3512e4b9ded14c4faf6ac8dd477d5187fc42aade7fe6fe51",
+            "actual_sha256": "4e4b98e93576dace3512e4b9ded14c4faf6ac8dd477d5187fc42aade7fe6fe51",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/worker-stderr.txt",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          }
+        ],
+        "OPERATOR_SHA256.json": [
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/TRACE_START.json",
+            "expected_sha256": "ac50127caf421bdf5f9d10a51aa3460a0e5fbe96b52b652a438ccd2019ec9c49",
+            "actual_sha256": "ac50127caf421bdf5f9d10a51aa3460a0e5fbe96b52b652a438ccd2019ec9c49",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.response.json",
+            "expected_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "actual_sha256": "84d22d8d349f33f64d63f1ed87b01e55cd57832713e3027571e245e91b2448af",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/overlay.qcow2",
+            "expected_sha256": "a43ab460f1763bdd49a14eac4dcf94a407dc9427dccc007445b2efb6c2af2a34",
+            "actual_sha256": "a43ab460f1763bdd49a14eac4dcf94a407dc9427dccc007445b2efb6c2af2a34",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/payload_contract.json",
+            "expected_sha256": "4e4b98e93576dace3512e4b9ded14c4faf6ac8dd477d5187fc42aade7fe6fe51",
+            "actual_sha256": "4e4b98e93576dace3512e4b9ded14c4faf6ac8dd477d5187fc42aade7fe6fe51",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/RESULT.json",
+            "expected_sha256": "b72edda5a41255c51059b718db3b2f9a4d9e4f77f8a75c5c29c10663a828105c",
+            "actual_sha256": "b72edda5a41255c51059b718db3b2f9a4d9e4f77f8a75c5c29c10663a828105c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/SHA256.json",
+            "expected_sha256": "e9ffcdeea6f97bac950007ecce4c4b303e9d31dd54301de701d4e63cace6888c",
+            "actual_sha256": "e9ffcdeea6f97bac950007ecce4c4b303e9d31dd54301de701d4e63cace6888c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/assignment.json",
+            "expected_sha256": "ec9f47420b288e1188479c56a7c9bb0b6b093300866a0b3db716c128286f615f",
+            "actual_sha256": "ec9f47420b288e1188479c56a7c9bb0b6b093300866a0b3db716c128286f615f",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/ENGINE_START.json",
+            "expected_sha256": "240a0d0ed42abfe9a91d65d2fbbd4ca696873ff55d549314f424badeadf7e97e",
+            "actual_sha256": "240a0d0ed42abfe9a91d65d2fbbd4ca696873ff55d549314f424badeadf7e97e",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/guest-filesystem-sysctls.txt",
+            "expected_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "actual_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-setup.stdout",
+            "expected_sha256": "84d6e63d3f13a697f0cba20321fba2e59fe0ad14b9dd3c18e4634033c456e0ab",
+            "actual_sha256": "84d6e63d3f13a697f0cba20321fba2e59fe0ad14b9dd3c18e4634033c456e0ab",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.response.json",
+            "expected_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "actual_sha256": "d8f5688493d53e19120b455ca5bde25b8ca89f43cd2a34d335da65df4ed280f0",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/backend-console.txt",
+            "expected_sha256": "b72edda5a41255c51059b718db3b2f9a4d9e4f77f8a75c5c29c10663a828105c",
+            "actual_sha256": "b72edda5a41255c51059b718db3b2f9a4d9e4f77f8a75c5c29c10663a828105c",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/REGISTERED_ENDPOINT.json",
+            "expected_sha256": "befa7cb1424f967b2744a0921d07c0144e54cf13917d5f8d4ba2a4c616bc81dc",
+            "actual_sha256": "befa7cb1424f967b2744a0921d07c0144e54cf13917d5f8d4ba2a4c616bc81dc",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/START.json",
+            "expected_sha256": "3d88da197e4d9995a9d34db2603f1363820298638de65165de791038783f005e",
+            "actual_sha256": "3d88da197e4d9995a9d34db2603f1363820298638de65165de791038783f005e",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/events.jsonl",
+            "expected_sha256": "7081bae310a79b0c6dad939b524bff97c9b900a2b3531d855aaed2a2f70b530b",
+            "actual_sha256": "7081bae310a79b0c6dad939b524bff97c9b900a2b3531d855aaed2a2f70b530b",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/OPERATOR_INTEGRATION_RESULT.json",
+            "expected_sha256": "42d934dcf914b7349c2df5826830bf8d3f5aa9a78c4adae1544e60e739a34ad8",
+            "actual_sha256": "42d934dcf914b7349c2df5826830bf8d3f5aa9a78c4adae1544e60e739a34ad8",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/INDEPENDENT_VERIFICATION.json",
+            "expected_sha256": "f3b9a86883df0a7c191aa6e1762591675a20d93a86d128483109692f08943b11",
+            "actual_sha256": "f3b9a86883df0a7c191aa6e1762591675a20d93a86d128483109692f08943b11",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/identity-before-worker.stdout",
+            "expected_sha256": "4de4fef52bdde74f944d0715bcb475811af782ed338edd08bf8fe6e91fbfecc9",
+            "actual_sha256": "4de4fef52bdde74f944d0715bcb475811af782ed338edd08bf8fe6e91fbfecc9",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/worker-stderr.txt",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/console.txt",
+            "expected_sha256": "8e856fa27df15faa8867606f967b605140cd731bc5b8012565a1edf661ceb5b1",
+            "actual_sha256": "8e856fa27df15faa8867606f967b605140cd731bc5b8012565a1edf661ceb5b1",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/boot/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          }
+        ]
+      },
+      "executed_source_pin_checks": [
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/background.py",
+          "expected_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+          "actual_sha256": "bc96bc2c06d30510a715bc27d74350cc8c097c9265e539c8f1606360ceeea044",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/guest_worker_trace.py",
+          "expected_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+          "actual_sha256": "94e2257ca12ff846470753fd71fd05ade156a311b37fdc75d25aaaf198f4b4bd",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/qualification_timelines.py",
+          "expected_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+          "actual_sha256": "f5cd2bbb7bf9648070fe32944ee76ee6cb50d475c33135617574a8cd70c46461",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/identity_io.py",
+          "expected_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+          "actual_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/boot_mounts.py",
+          "expected_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+          "actual_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/011/independent_audit.py",
+          "expected_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+          "actual_sha256": "39923be46b83f3485cfd7687f6c0806615c22a0570e3eab9c8e021c640a504f0",
+          "matches": true
+        }
+      ],
+      "qcow2_checks": [
+        {
+          "command": [
+            "qemu-img",
+            "check",
+            "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-trace_category_timelines-00020/overlay.qcow2"
+          ],
+          "returncode": 0,
+          "stdout": "No errors were found on the image.\n574/262144 = 0.22% allocated, 27.53% fragmented, 0.00% compressed clusters\nImage end offset: 38404096\n",
+          "stderr": ""
+        }
+      ],
+      "measurement_started": true,
+      "assigned_fault_executed": false,
+      "system_reset_requested": false,
+      "trace_complete_records": 0,
+      "trace_stop_response_records": 0,
+      "valid_trace_data_records": 0,
+      "nonjson_records": 1505,
+      "trace_emit_blocking_error_recorded": true,
+      "first_trace_write_error_excerpt": "   ^^^^^^^^^^^^^^^^^^\n  File \"/opt/idbv2/venv/lib/python3.12/site-packages/playwright/_impl/_impl_to_api_mapping.py\", line 139, in wrapper_func\n    return handler(\n           ^^^^^^^^\n  File \"/opt/idbv2/trace-worker.py\", line 126, in <lambda>\n    trace_cdp.on('Tracing.dataCollected', lambda v: emit('TRACE_DATA', data=v))\n                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/idbv2/trace-worker.py\", line 23, in emit\n    print(json.dumps({'sequence': sequence, 'kind': kind, 'guest_monotonic_ns': time.monotonic_ns(), 'session': session, **value}), flush=True)\nBlockingIOError: [Errno 11] write could not complete without blocking",
+      "controller_trace_stop_timeout_seconds": 0.4,
+      "guest_tracing_complete_timeout_seconds": 5,
+      "resolution_reason": "Guest trace writes failed and the required trace-stop response was absent; the assigned QMP reset and oracle never ran. Cleanup shut down the VM. Reinterpreting trace fragments cannot reconstruct an unperformed fault/recovery."
+    },
+    {
+      "trial_id": "scientific-fault_scope_comparison-00020",
+      "assignment": {
+        "experiment": "fault_scope_comparison",
+        "role": "scientific",
+        "trial_id": "scientific-fault_scope_comparison-00020",
+        "ordinal": 20,
+        "block": 2,
+        "condition_id": "7868c1df4bb0da9d",
+        "optional": false,
+        "tier": 2,
+        "planned_uptime_ms": null,
+        "architecture": "aarch64",
+        "accelerator": "hvf",
+        "browser": "packaged_pinned",
+        "backend_policy": "force_sqlite",
+        "durability": "relaxed",
+        "fault": "browser_sigkill",
+        "timing_anchor": "host_ack",
+        "close_ms": null,
+        "fault_after_ack_ms": 15000,
+        "fault_after_close_ms": null,
+        "held": true,
+        "workload": "single_256_bytes",
+        "filesystem": "ext4_commit30",
+        "sysctls": "record_unchanged",
+        "uptime": "ordinary",
+        "instrumentation": "ordinary",
+        "mapper": "none",
+        "key": "held_fifteen_seconds",
+        "keep_full_overlay_seeded": false
+      },
+      "assignment_matches_frozen": true,
+      "original_endpoint_remains": "unknown",
+      "can_recover_eligible_endpoint_from_preserved_evidence": false,
+      "fresh_prospective_assignment_required_for_new_eligible_observation": true,
+      "original_assignment_consumed_no_retry_or_replacement": true,
+      "result": {
+        "trial_id": "scientific-fault_scope_comparison-00020",
+        "role": "scientific",
+        "scientific_denominator": true,
+        "technical_eligible": false,
+        "endpoint": "unknown",
+        "reasons": [
+          "Original extractor failed for a different reason; no substitution"
+        ],
+        "wall_seconds": 56.489056417,
+        "allocated_bytes": 61005824,
+        "logical_bytes": 59633476,
+        "free_before": 13825036288,
+        "free_after": 13760917504,
+        "image_sha256": {
+          "overlay.qcow2": "2ae968da4e9d4624dacc2f2d870cde568af9d84feaa44f5a6209c5a18038f30f",
+          "active-after-snapshot.qcow2": "609cce6957a68ce7c5aa8cb884e0f2aba11e60c2f4effa4f75659445096582f3",
+          "forensic_projection/journal-helper.qcow2": "eb3780b321253aa28bdd1486396afd1b3972f056e7cfc30c5697e79e8868645f"
+        },
+        "retry_permitted": false,
+        "technical_hash_lock_complete": false,
+        "scientific_assignments_started": 1
+      },
+      "independent_verification": {
+        "trial_id": "scientific-fault_scope_comparison-00020",
+        "independent_pass": false,
+        "error": "FileNotFoundError(2, 'No such file or directory')"
+      },
+      "event_kinds": {
+        "VM_START": 2,
+        "HEALTHY_OBSERVATION": 9,
+        "AUXILIARY_MOUNT_IDENTITY": 3,
+        "QMP": 35,
+        "ATTEMPT_IDENTITY": 1,
+        "OPERATOR_WORKER_DEPLOYED": 1,
+        "GUEST_RECORD": 157,
+        "FAULT_AGENT_COMMAND": 3,
+        "FAULT_AGENT_RECORD": 6,
+        "BROWSER_TREE_PREFAULT_PROBE": 1,
+        "SCHEDULED_FAULT": 1,
+        "FAULT_DISPATCH": 1,
+        "HELD_EVIDENCE": 1,
+        "SIGKILL_CLASSIFICATION": 1,
+        "FAULT_IDENTITY": 1,
+        "LIVE_SNAPSHOT_RETAINS_ORIGINAL_GUEST": 1,
+        "EVIDENCE_ATTACHED_AFTER_HELPER_BOOT": 1,
+        "QUALIFICATION_ERROR": 1,
+        "QUALIFICATION_FINISHED": 1
+      },
+      "qmp_commands": [
+        {
+          "host_ns": 161985123076250,
+          "vm_pid": 65619,
+          "command": "qmp_capabilities"
+        },
+        {
+          "host_ns": 161985312181458,
+          "vm_pid": 65619,
+          "command": "query-block"
+        },
+        {
+          "host_ns": 162006974891625,
+          "vm_pid": 65619,
+          "command": "query-status"
+        },
+        {
+          "host_ns": 162007480700958,
+          "vm_pid": 65619,
+          "command": "stop"
+        },
+        {
+          "host_ns": 162007481552416,
+          "vm_pid": 65619,
+          "command": "query-status"
+        },
+        {
+          "host_ns": 162007481802250,
+          "vm_pid": 65619,
+          "command": "query-block"
+        },
+        {
+          "host_ns": 162007482354166,
+          "vm_pid": 65619,
+          "command": "blockdev-snapshot-sync"
+        },
+        {
+          "host_ns": 162007485926666,
+          "vm_pid": 65619,
+          "command": "query-block"
+        },
+        {
+          "host_ns": 162007486457958,
+          "vm_pid": 65619,
+          "command": "query-named-block-nodes"
+        },
+        {
+          "host_ns": 162024728067083,
+          "vm_pid": 65695,
+          "command": "qmp_capabilities"
+        },
+        {
+          "host_ns": 162024780318500,
+          "vm_pid": 65695,
+          "command": "blockdev-add"
+        },
+        {
+          "host_ns": 162024782314208,
+          "vm_pid": 65695,
+          "command": "device_add"
+        },
+        {
+          "host_ns": 162025008395041,
+          "vm_pid": 65695,
+          "command": "query-block"
+        },
+        {
+          "host_ns": 162025093886250,
+          "vm_pid": 65695,
+          "command": "quit"
+        },
+        {
+          "host_ns": 162025105098291,
+          "vm_pid": 65619,
+          "command": "quit"
+        }
+      ],
+      "oracle_present": false,
+      "preserved_manifest_checks": {
+        "SHA256.json": [
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/ENGINE_START.json",
+            "expected_sha256": "5e72e79b564ab614e25700a9a36c4ec590958dba0a34a7579d1a80b8315b6162",
+            "actual_sha256": "5e72e79b564ab614e25700a9a36c4ec590958dba0a34a7579d1a80b8315b6162",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/IMMUTABLE_VIEW.json",
+            "expected_sha256": "881f61fa28a2dc01018f29a04e7945dde701a00eb3cdef256469983e5d8b827e",
+            "actual_sha256": "881f61fa28a2dc01018f29a04e7945dde701a00eb3cdef256469983e5d8b827e",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/LIVE_SNAPSHOT.json",
+            "expected_sha256": "1e04fdb0f540cae992f17f9f4324646d17efdc0f48a26a604fcc3f234a06fc2b",
+            "actual_sha256": "1e04fdb0f540cae992f17f9f4324646d17efdc0f48a26a604fcc3f234a06fc2b",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/RESULT.json",
+            "expected_sha256": "5984ea7f257374b03a8eedc78b77e5ed33fd675aca7d1c31bb35ae11d3fba8a1",
+            "actual_sha256": "5984ea7f257374b03a8eedc78b77e5ed33fd675aca7d1c31bb35ae11d3fba8a1",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/START.json",
+            "expected_sha256": "8978d6fb7e8a2ba6374c4163d5afd01a905d5ebc014f4ad152fea0f9bc41ed29",
+            "actual_sha256": "8978d6fb7e8a2ba6374c4163d5afd01a905d5ebc014f4ad152fea0f9bc41ed29",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/active-after-snapshot.qcow2",
+            "expected_sha256": "609cce6957a68ce7c5aa8cb884e0f2aba11e60c2f4effa4f75659445096582f3",
+            "actual_sha256": "609cce6957a68ce7c5aa8cb884e0f2aba11e60c2f4effa4f75659445096582f3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/assignment.json",
+            "expected_sha256": "6a36a752013715b33e656c57863745bb0eea015859e007222b27de1860cc8bb3",
+            "actual_sha256": "6a36a752013715b33e656c57863745bb0eea015859e007222b27de1860cc8bb3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/console.txt",
+            "expected_sha256": "21b69dc5174a88b58e36f196bee76af3957be53905760a31c854eabba2ed6ce2",
+            "actual_sha256": "21b69dc5174a88b58e36f196bee76af3957be53905760a31c854eabba2ed6ce2",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/events.jsonl",
+            "expected_sha256": "af15f3eb293f783e8217a68f6529a25a502777a8ce90aa2e0d15c8d9ed5dfb6b",
+            "actual_sha256": "af15f3eb293f783e8217a68f6529a25a502777a8ce90aa2e0d15c8d9ed5dfb6b",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/fault-agent.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/ORIGINAL_NO_REPLAY_OBSERVATION.json",
+            "expected_sha256": "b7021bffe3b1c95d500d76a1ea3c96f6933ebb63714e39d37a001b58a18edea0",
+            "actual_sha256": "b7021bffe3b1c95d500d76a1ea3c96f6933ebb63714e39d37a001b58a18edea0",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/console.txt",
+            "expected_sha256": "c571666ed6faae4e057a5ad02c78abb95638731f406e3aeacc0bcfa69b8ccf44",
+            "actual_sha256": "c571666ed6faae4e057a5ad02c78abb95638731f406e3aeacc0bcfa69b8ccf44",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper.qcow2",
+            "expected_sha256": "eb3780b321253aa28bdd1486396afd1b3972f056e7cfc30c5697e79e8868645f",
+            "actual_sha256": "eb3780b321253aa28bdd1486396afd1b3972f056e7cfc30c5697e79e8868645f",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/original-noload.stderr",
+            "expected_sha256": "eb3c2ff909c82ac25047de32629937237a857084097ad726c57b3158bd0a0bbb",
+            "actual_sha256": "eb3c2ff909c82ac25047de32629937237a857084097ad726c57b3158bd0a0bbb",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/original-noload.stdout",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/guest-filesystem-sysctls.txt",
+            "expected_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "actual_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.response.json",
+            "expected_sha256": "82416bbf1d7c91b594de0bfba74460a6962aa2958781bee419064851d769a33a",
+            "actual_sha256": "82416bbf1d7c91b594de0bfba74460a6962aa2958781bee419064851d769a33a",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.stdout",
+            "expected_sha256": "41fa1a04e8e4abbf9c54d7cf69e491627941eb72112212b8c3feab36f7116810",
+            "actual_sha256": "41fa1a04e8e4abbf9c54d7cf69e491627941eb72112212b8c3feab36f7116810",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.response.json",
+            "expected_sha256": "43ba56b3a8c69a1a6b1863239024454521dc7a025d1a4929cffd8900cda48329",
+            "actual_sha256": "43ba56b3a8c69a1a6b1863239024454521dc7a025d1a4929cffd8900cda48329",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.stdout",
+            "expected_sha256": "fbe66b5a5f32e069552da9e7ec54e9fb64769178cb9f0aa0103e7b892467c3ff",
+            "actual_sha256": "fbe66b5a5f32e069552da9e7ec54e9fb64769178cb9f0aa0103e7b892467c3ff",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/overlay.qcow2",
+            "expected_sha256": "2ae968da4e9d4624dacc2f2d870cde568af9d84feaa44f5a6209c5a18038f30f",
+            "actual_sha256": "2ae968da4e9d4624dacc2f2d870cde568af9d84feaa44f5a6209c5a18038f30f",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/payload_contract.json",
+            "expected_sha256": "6f09c5662144edeb7c87867358a25423e76e385b031dcd7f83c397a2397c3dc8",
+            "actual_sha256": "6f09c5662144edeb7c87867358a25423e76e385b031dcd7f83c397a2397c3dc8",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/worker-stderr.txt",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          }
+        ],
+        "OPERATOR_SHA256.json": [
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.response.json",
+            "expected_sha256": "43ba56b3a8c69a1a6b1863239024454521dc7a025d1a4929cffd8900cda48329",
+            "actual_sha256": "43ba56b3a8c69a1a6b1863239024454521dc7a025d1a4929cffd8900cda48329",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/overlay.qcow2",
+            "expected_sha256": "2ae968da4e9d4624dacc2f2d870cde568af9d84feaa44f5a6209c5a18038f30f",
+            "actual_sha256": "2ae968da4e9d4624dacc2f2d870cde568af9d84feaa44f5a6209c5a18038f30f",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/payload_contract.json",
+            "expected_sha256": "6f09c5662144edeb7c87867358a25423e76e385b031dcd7f83c397a2397c3dc8",
+            "actual_sha256": "6f09c5662144edeb7c87867358a25423e76e385b031dcd7f83c397a2397c3dc8",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/RESULT.json",
+            "expected_sha256": "5984ea7f257374b03a8eedc78b77e5ed33fd675aca7d1c31bb35ae11d3fba8a1",
+            "actual_sha256": "5984ea7f257374b03a8eedc78b77e5ed33fd675aca7d1c31bb35ae11d3fba8a1",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/SHA256.json",
+            "expected_sha256": "e5ffa79ee0addb78349408eed7fdd900421377d50cfb2abf595731cf64b61cdf",
+            "actual_sha256": "e5ffa79ee0addb78349408eed7fdd900421377d50cfb2abf595731cf64b61cdf",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/active-after-snapshot.qcow2",
+            "expected_sha256": "609cce6957a68ce7c5aa8cb884e0f2aba11e60c2f4effa4f75659445096582f3",
+            "actual_sha256": "609cce6957a68ce7c5aa8cb884e0f2aba11e60c2f4effa4f75659445096582f3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/assignment.json",
+            "expected_sha256": "6a36a752013715b33e656c57863745bb0eea015859e007222b27de1860cc8bb3",
+            "actual_sha256": "6a36a752013715b33e656c57863745bb0eea015859e007222b27de1860cc8bb3",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/ENGINE_START.json",
+            "expected_sha256": "5e72e79b564ab614e25700a9a36c4ec590958dba0a34a7579d1a80b8315b6162",
+            "actual_sha256": "5e72e79b564ab614e25700a9a36c4ec590958dba0a34a7579d1a80b8315b6162",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/guest-filesystem-sysctls.txt",
+            "expected_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "actual_sha256": "777d872c25bca5abfd7b854a9393b53839a0accf22cbaa755d1b464cd42c8a38",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/fault-agent.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/IMMUTABLE_VIEW.json",
+            "expected_sha256": "881f61fa28a2dc01018f29a04e7945dde701a00eb3cdef256469983e5d8b827e",
+            "actual_sha256": "881f61fa28a2dc01018f29a04e7945dde701a00eb3cdef256469983e5d8b827e",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-setup.stdout",
+            "expected_sha256": "fbe66b5a5f32e069552da9e7ec54e9fb64769178cb9f0aa0103e7b892467c3ff",
+            "actual_sha256": "fbe66b5a5f32e069552da9e7ec54e9fb64769178cb9f0aa0103e7b892467c3ff",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.response.json",
+            "expected_sha256": "82416bbf1d7c91b594de0bfba74460a6962aa2958781bee419064851d769a33a",
+            "actual_sha256": "82416bbf1d7c91b594de0bfba74460a6962aa2958781bee419064851d769a33a",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/backend-console.txt",
+            "expected_sha256": "5984ea7f257374b03a8eedc78b77e5ed33fd675aca7d1c31bb35ae11d3fba8a1",
+            "actual_sha256": "5984ea7f257374b03a8eedc78b77e5ed33fd675aca7d1c31bb35ae11d3fba8a1",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/REGISTERED_ENDPOINT.json",
+            "expected_sha256": "69e9cb6c60cf780f69cfdda15a970f42346246b93f226cd5dbbe23ae9acc60a8",
+            "actual_sha256": "69e9cb6c60cf780f69cfdda15a970f42346246b93f226cd5dbbe23ae9acc60a8",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/START.json",
+            "expected_sha256": "8978d6fb7e8a2ba6374c4163d5afd01a905d5ebc014f4ad152fea0f9bc41ed29",
+            "actual_sha256": "8978d6fb7e8a2ba6374c4163d5afd01a905d5ebc014f4ad152fea0f9bc41ed29",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/LIVE_SNAPSHOT.json",
+            "expected_sha256": "1e04fdb0f540cae992f17f9f4324646d17efdc0f48a26a604fcc3f234a06fc2b",
+            "actual_sha256": "1e04fdb0f540cae992f17f9f4324646d17efdc0f48a26a604fcc3f234a06fc2b",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/events.jsonl",
+            "expected_sha256": "af15f3eb293f783e8217a68f6529a25a502777a8ce90aa2e0d15c8d9ed5dfb6b",
+            "actual_sha256": "af15f3eb293f783e8217a68f6529a25a502777a8ce90aa2e0d15c8d9ed5dfb6b",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/mount-identity-after-fault.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/OPERATOR_INTEGRATION_RESULT.json",
+            "expected_sha256": "7770feec34a7c1f27af74da4e8eb37592ea34c0c325709b72e1800761e7be174",
+            "actual_sha256": "7770feec34a7c1f27af74da4e8eb37592ea34c0c325709b72e1800761e7be174",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/INDEPENDENT_VERIFICATION.json",
+            "expected_sha256": "c2bd9620c13b69a26719d26818725281a1e93524d8732bcb76fbcf6f6d7af455",
+            "actual_sha256": "c2bd9620c13b69a26719d26818725281a1e93524d8732bcb76fbcf6f6d7af455",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/identity-before-worker.stdout",
+            "expected_sha256": "41fa1a04e8e4abbf9c54d7cf69e491627941eb72112212b8c3feab36f7116810",
+            "actual_sha256": "41fa1a04e8e4abbf9c54d7cf69e491627941eb72112212b8c3feab36f7116810",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/worker-stderr.txt",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/console.txt",
+            "expected_sha256": "21b69dc5174a88b58e36f196bee76af3957be53905760a31c854eabba2ed6ce2",
+            "actual_sha256": "21b69dc5174a88b58e36f196bee76af3957be53905760a31c854eabba2ed6ce2",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/boot/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/ORIGINAL_NO_REPLAY_OBSERVATION.json",
+            "expected_sha256": "b7021bffe3b1c95d500d76a1ea3c96f6933ebb63714e39d37a001b58a18edea0",
+            "actual_sha256": "b7021bffe3b1c95d500d76a1ea3c96f6933ebb63714e39d37a001b58a18edea0",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/original-noload.stdout",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/original-noload.stderr",
+            "expected_sha256": "eb3c2ff909c82ac25047de32629937237a857084097ad726c57b3158bd0a0bbb",
+            "actual_sha256": "eb3c2ff909c82ac25047de32629937237a857084097ad726c57b3158bd0a0bbb",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper.qcow2",
+            "expected_sha256": "eb3780b321253aa28bdd1486396afd1b3972f056e7cfc30c5697e79e8868645f",
+            "actual_sha256": "eb3780b321253aa28bdd1486396afd1b3972f056e7cfc30c5697e79e8868645f",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.stderr",
+            "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.stdout",
+            "expected_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "actual_sha256": "2e4ff3a3e22833ec1d997143b1702ae9a32edf7fd6df33d583c5a9bd36f3cf59",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/console.txt",
+            "expected_sha256": "c571666ed6faae4e057a5ad02c78abb95638731f406e3aeacc0bcfa69b8ccf44",
+            "actual_sha256": "c571666ed6faae4e057a5ad02c78abb95638731f406e3aeacc0bcfa69b8ccf44",
+            "matches": true
+          },
+          {
+            "path": "campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper/mount-identity.returncode.json",
+            "expected_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "actual_sha256": "df4d721d233a2334088d2d2e0110346ae9e509ff46bf0b379fbcfa85c715af4d",
+            "matches": true
+          }
+        ]
+      },
+      "executed_source_pin_checks": [
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/projection_qualified.py",
+          "expected_sha256": "66753bcb8b9095685ad4de141eef02000b267263e17d37e2420e3cd7c85e9213",
+          "actual_sha256": "66753bcb8b9095685ad4de141eef02000b267263e17d37e2420e3cd7c85e9213",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/fault_agent.py",
+          "expected_sha256": "226e27c78da6cf186be5ef864201b8b55f13918c5bd64b18e9131de16f5d9c27",
+          "actual_sha256": "226e27c78da6cf186be5ef864201b8b55f13918c5bd64b18e9131de16f5d9c27",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/guest_fault_agent.py",
+          "expected_sha256": "4fa96b7201d9f6874081d32da714ba70afb23df52974fd5fb9848bb0b1d72537",
+          "actual_sha256": "4fa96b7201d9f6874081d32da714ba70afb23df52974fd5fb9848bb0b1d72537",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/qualification_fault_scope.py",
+          "expected_sha256": "d203d312a3c1e6c14c740f4abdb694b0d9db155e1a60dd3df810777d95420a67",
+          "actual_sha256": "d203d312a3c1e6c14c740f4abdb694b0d9db155e1a60dd3df810777d95420a67",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/identity_io.py",
+          "expected_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+          "actual_sha256": "703b85f0df75f23558e76101312b544196a0272944df5f659f592d73c1978ce6",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/boot_mounts.py",
+          "expected_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+          "actual_sha256": "be1ad1e600fbd9b983b59bf8ed1a566738409cd7d17ec0c269fa5ee3c527f32a",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/test_process_selection.py",
+          "expected_sha256": "77100c116c78aa8adb9b5f18dd1a2aac920c3ac0e1cb7f2bcb3e645f9cc31a42",
+          "actual_sha256": "77100c116c78aa8adb9b5f18dd1a2aac920c3ac0e1cb7f2bcb3e645f9cc31a42",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/live_capture.py",
+          "expected_sha256": "bd976c7af08f71b9279cdb576001ee4da36f87d43f6d7384697c4c904bb4989e",
+          "actual_sha256": "bd976c7af08f71b9279cdb576001ee4da36f87d43f6d7384697c4c904bb4989e",
+          "matches": true
+        },
+        {
+          "path": "campaign_v2/operator/backend_v1/engine/repairs/010/independent_audit.py",
+          "expected_sha256": "94c4de988ccb995eacf5dc210530aa0842e2d38357ad5da467e7e9f06ddbcd0a",
+          "actual_sha256": "94c4de988ccb995eacf5dc210530aa0842e2d38357ad5da467e7e9f06ddbcd0a",
+          "matches": true
+        }
+      ],
+      "qcow2_checks": [
+        {
+          "command": [
+            "qemu-img",
+            "check",
+            "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/overlay.qcow2"
+          ],
+          "returncode": 0,
+          "stdout": "No errors were found on the image.\n493/262144 = 0.19% allocated, 34.69% fragmented, 0.00% compressed clusters\nImage end offset: 33095680\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "qemu-img",
+            "check",
+            "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/active-after-snapshot.qcow2"
+          ],
+          "returncode": 0,
+          "stdout": "No errors were found on the image.\nImage end offset: 262144\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "qemu-img",
+            "check",
+            "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/forensic_projection/journal-helper.qcow2"
+          ],
+          "returncode": 0,
+          "stdout": "No errors were found on the image.\n383/262144 = 0.15% allocated, 18.02% fragmented, 0.00% compressed clusters\nImage end offset: 25886720\n",
+          "stderr": ""
+        }
+      ],
+      "measurement_started": true,
+      "assigned_fault_executed": true,
+      "fault_dispatch_overshoot_ms": 4.107167,
+      "sigkill_original_boot_unchanged": true,
+      "snapshot_original_qemu_pid": 65619,
+      "original_vm_quit_recorded": true,
+      "same_guest_oracle_recorded": false,
+      "saved_ram_vm_state_files": [],
+      "kernel_error_lines": [
+        "[   11.398378] EXT4-fs error (device vdc1): ext4_lookup:1864: inode #265000: comm python: iget: checksum invalid"
+      ],
+      "original_extractor_stderr": "Traceback (most recent call last):\n  File \"/opt/idbv2/worker/guest_forensics.py\", line 62, in <module>\n    main()\n  File \"/opt/idbv2/worker/guest_forensics.py\", line 33, in main\n    if not data.is_dir():\n           ^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/pathlib.py\", line 877, in is_dir\n    return S_ISDIR(self.stat().st_mode)\n                   ^^^^^^^^^^^\n  File \"/usr/lib/python3.12/pathlib.py\", line 842, in stat\n    return os.stat(self, follow_symlinks=follow_symlinks)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 74] Bad message: '/mnt/idbv2-evidence/var/lib/idbv2/scientific-fault_scope_comparison-00020/profile/Default/IndexedDB'\n",
+      "backing_chain": {
+        "command": [
+          "qemu-img",
+          "info",
+          "--output=json",
+          "--backing-chain",
+          "/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/overlay.qcow2"
+        ],
+        "returncode": 0,
+        "stdout": "[\n    {\n        \"children\": [\n            {\n                \"name\": \"file\",\n                \"info\": {\n                    \"children\": [\n                    ],\n                    \"virtual-size\": 33095680,\n                    \"filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/overlay.qcow2\",\n                    \"format\": \"file\",\n                    \"actual-size\": 33095680,\n                    \"format-specific\": {\n                        \"type\": \"file\",\n                        \"data\": {\n                        }\n                    },\n                    \"dirty-flag\": false\n                }\n            }\n        ],\n        \"backing-filename-format\": \"qcow2\",\n        \"virtual-size\": 17179869184,\n        \"filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/scientific/attempts/scientific-fault_scope_comparison-00020/overlay.qcow2\",\n        \"cluster-size\": 65536,\n        \"format\": \"qcow2\",\n        \"actual-size\": 33095680,\n        \"format-specific\": {\n            \"type\": \"qcow2\",\n            \"data\": {\n                \"compat\": \"1.1\",\n                \"compression-type\": \"zlib\",\n                \"lazy-refcounts\": false,\n                \"refcount-bits\": 16,\n                \"corrupt\": false,\n                \"extended-l2\": false\n            }\n        },\n        \"full-backing-filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/repairs/003/mount-pinned-base.qcow2\",\n        \"backing-filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/repairs/003/mount-pinned-base.qcow2\",\n        \"dirty-flag\": false\n    },\n    {\n        \"children\": [\n            {\n                \"name\": \"file\",\n                \"info\": {\n                    \"children\": [\n                    ],\n                    \"virtual-size\": 20119552,\n                    \"filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/repairs/003/mount-pinned-base.qcow2\",\n                    \"format\": \"file\",\n                    \"actual-size\": 20119552,\n                    \"format-specific\": {\n                        \"type\": \"file\",\n                        \"data\": {\n                        }\n                    },\n                    \"dirty-flag\": false\n                }\n            }\n        ],\n        \"backing-filename-format\": \"qcow2\",\n        \"virtual-size\": 17179869184,\n        \"filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/repairs/003/mount-pinned-base.qcow2\",\n        \"cluster-size\": 65536,\n        \"format\": \"qcow2\",\n        \"actual-size\": 20119552,\n        \"format-specific\": {\n            \"type\": \"qcow2\",\n            \"data\": {\n                \"compat\": \"1.1\",\n                \"compression-type\": \"zlib\",\n                \"lazy-refcounts\": false,\n                \"refcount-bits\": 16,\n                \"corrupt\": false,\n                \"extended-l2\": false\n            }\n        },\n        \"full-backing-filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/vm/provisioned.qcow2\",\n        \"backing-filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/vm/provisioned.qcow2\",\n        \"dirty-flag\": false\n    },\n    {\n        \"children\": [\n            {\n                \"name\": \"file\",\n                \"info\": {\n                    \"children\": [\n                    ],\n                    \"virtual-size\": 1890844672,\n                    \"filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/vm/provisioned.qcow2\",\n                    \"format\": \"file\",\n                    \"actual-size\": 1890844672,\n                    \"format-specific\": {\n                        \"type\": \"file\",\n                        \"data\": {\n                        }\n                    },\n                    \"dirty-flag\": false\n                }\n            }\n        ],\n        \"backing-filename-format\": \"qcow2\",\n        \"virtual-size\": 17179869184,\n        \"filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/vm/provisioned.qcow2\",\n        \"cluster-size\": 65536,\n        \"format\": \"qcow2\",\n        \"actual-size\": 1890844672,\n        \"format-specific\": {\n            \"type\": \"qcow2\",\n            \"data\": {\n                \"compat\": \"1.1\",\n                \"compression-type\": \"zlib\",\n                \"lazy-refcounts\": false,\n                \"refcount-bits\": 16,\n                \"corrupt\": false,\n                \"extended-l2\": false\n            }\n        },\n        \"full-backing-filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img\",\n        \"backing-filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img\",\n        \"dirty-flag\": false\n    },\n    {\n        \"children\": [\n            {\n                \"name\": \"file\",\n                \"info\": {\n                    \"children\": [\n                    ],\n                    \"virtual-size\": 620224512,\n                    \"filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img\",\n                    \"format\": \"file\",\n                    \"actual-size\": 620224512,\n                    \"format-specific\": {\n                        \"type\": \"file\",\n                        \"data\": {\n                        }\n                    },\n                    \"dirty-flag\": false\n                }\n            }\n        ],\n        \"virtual-size\": 3758096384,\n        \"filename\": \"/Users/omerbinnasir/.codex/worktrees/connection-lifetime-confirmation/research/browser-storage-crash-research/campaign_v2/provision/downloads/ubuntu-24.04-server-cloudimg-arm64.img\",\n        \"cluster-size\": 65536,\n        \"format\": \"qcow2\",\n        \"actual-size\": 620224512,\n        \"format-specific\": {\n            \"type\": \"qcow2\",\n            \"data\": {\n                \"compat\": \"1.1\",\n                \"compression-type\": \"zlib\",\n                \"lazy-refcounts\": false,\n                \"refcount-bits\": 16,\n                \"corrupt\": false,\n                \"extended-l2\": false\n            }\n        },\n        \"dirty-flag\": false\n    }\n]\n",
+        "stderr": ""
+      },
+      "resolution_reason": "The immutable no-replay ext4 view had an inode checksum error. The pinned extractor refused substitution, and the original guest was quit before its same-guest oracle. Preserved disks cannot restore that live kernel/RAM/boot identity. Later replay or boot may support separately labelled forensic diagnosis, but cannot supply this registered SIGKILL endpoint."
+    }
+  ]
+}

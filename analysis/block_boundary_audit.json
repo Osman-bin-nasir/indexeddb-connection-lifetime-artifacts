@@ -1,0 +1,409 @@
+{
+  "log_capture_chronology_verified": 40,
+  "dependent_prefix_units": 40,
+  "known_issue_before_dispatch": 39,
+  "issue_within_uncertainty": 1,
+  "completion_timestamp_available": 0,
+  "details": [
+    {
+      "trial_id": "scientific-block_state_recovery-00001",
+      "last_flush_ordinal": 1822,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 91.841831,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00004",
+      "last_flush_ordinal": 1887,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "within_boundary_uncertainty",
+      "issue_latest_before_dispatch_ms": -0.377049,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00007",
+      "last_flush_ordinal": 1683,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 791.600791,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00010",
+      "last_flush_ordinal": 1707,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 502.597916,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00018",
+      "last_flush_ordinal": 1927,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 124.920785,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00019",
+      "last_flush_ordinal": 1723,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 776.521832,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00020",
+      "last_flush_ordinal": 1790,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 104.013415,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00024",
+      "last_flush_ordinal": 1722,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 496.930457,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00026",
+      "last_flush_ordinal": 1749,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 505.564499,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00033",
+      "last_flush_ordinal": 1839,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 117.058081,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00034",
+      "last_flush_ordinal": 1667,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 796.395374,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00036",
+      "last_flush_ordinal": 1926,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 116.392201,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00040",
+      "last_flush_ordinal": 1899,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 126.929785,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00041",
+      "last_flush_ordinal": 1717,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 120.435831,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00044",
+      "last_flush_ordinal": 1705,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 503.168707,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00045",
+      "last_flush_ordinal": 1731,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 786.781958,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00056",
+      "last_flush_ordinal": 1844,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 125.427327,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00058",
+      "last_flush_ordinal": 1825,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 105.421956,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00059",
+      "last_flush_ordinal": 1738,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 507.671124,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00060",
+      "last_flush_ordinal": 1691,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 778.618665,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00064",
+      "last_flush_ordinal": 1678,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 769.734999,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00067",
+      "last_flush_ordinal": 1900,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 115.42966,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00071",
+      "last_flush_ordinal": 1724,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 499.03,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00072",
+      "last_flush_ordinal": 1770,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 112.769331,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00074",
+      "last_flush_ordinal": 1725,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 506.257167,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00077",
+      "last_flush_ordinal": 1716,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 118.82454,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00079",
+      "last_flush_ordinal": 1650,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 778.635749,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00083",
+      "last_flush_ordinal": 1938,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 120.445327,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00090",
+      "last_flush_ordinal": 1677,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 791.605707,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00092",
+      "last_flush_ordinal": 1706,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 503.690875,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00094",
+      "last_flush_ordinal": 1883,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 110.910868,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00096",
+      "last_flush_ordinal": 1760,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 110.981081,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00097",
+      "last_flush_ordinal": 1705,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 505.757249,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00102",
+      "last_flush_ordinal": 1681,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 765.312666,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00104",
+      "last_flush_ordinal": 1993,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 132.952368,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00108",
+      "last_flush_ordinal": 1682,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 114.483331,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00111",
+      "last_flush_ordinal": 1938,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 101.764827,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00113",
+      "last_flush_ordinal": 1750,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 799.530708,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00114",
+      "last_flush_ordinal": 1749,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 104.473374,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    },
+    {
+      "trial_id": "scientific-block_state_recovery-00118",
+      "last_flush_ordinal": 1709,
+      "flags": 19,
+      "bytes": 0,
+      "last_flush_bio_issue_classification": "before_boundary",
+      "issue_latest_before_dispatch_ms": 501.264832,
+      "guest_completion_by_quiesce": true,
+      "exact_completion_before_dispatch_unknown": true
+    }
+  ]
+}

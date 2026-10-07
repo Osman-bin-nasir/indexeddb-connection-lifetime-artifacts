@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-06T21:17:31.753743+00:00",
+  "vm_stopped": true,
+  "completed_oracle_and_analysis_records_preserved": true,
+  "only_derived_scratch_images": true,
+  "files": {
+    "/tmp/idbv2-revision/a2-derived-remaining-prefixes/reader-root.qcow2": {
+      "sha256": "70529efc8e22b0774db5c5717b129ca9f5dcce3ced7317890b81cfb3fe947502",
+      "logical_bytes": 40435712,
+      "allocated_bytes": 40435712
+    }
+  }
+}

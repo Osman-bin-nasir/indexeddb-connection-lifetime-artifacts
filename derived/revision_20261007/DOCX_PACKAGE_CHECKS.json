@@ -1,0 +1,24 @@
+[
+  {
+    "file": "/Users/omerbinnasir/Desktop/Web Dev/research/Connection_Lifetime_IndexedDB_Research_Paper.docx",
+    "bytes": 636941,
+    "sha256": "6150e16aa61b148b43446a4d02184b3338f3eb163361bf115ccd63d7da80e6a0",
+    "ooxml_integrity_pass": true,
+    "em_dash_count": 0,
+    "tables": 19,
+    "figures": 6,
+    "paragraphs": 208,
+    "no_preregistered_word": true
+  },
+  {
+    "file": "/Users/omerbinnasir/Desktop/Web Dev/research/IndexedDB_Followup_Amendment_Draft.docx",
+    "bytes": 47382,
+    "sha256": "408902a5ccb857b32589578f68ba7129d388b100d68bde76aea1d8c24086bd8c",
+    "ooxml_integrity_pass": true,
+    "em_dash_count": 0,
+    "tables": 4,
+    "figures": 0,
+    "paragraphs": 64,
+    "no_preregistered_word": true
+  }
+]

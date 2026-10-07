@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-05T02:30:57.672351+00:00",
+  "authorization_source": "direct user instruction in this conversation",
+  "user_instruction_verbatim": "why did you stop ?? complete all420",
+  "scope": "Continue the previously authorized fixed scientific assignments through assignment 420, inclusive, despite a completed unknown or technically ineligible trial. Existing unknown/ineligible trials remain consumed, excluded from eligible counts, preserved without retry, and do not replace any assignment. Run only not-yet-started registered assignments in order.",
+  "overrides_prior_stop_rule": "The direct instruction to complete through assignment 420 supersedes the earlier operational stop-on-unknown rule for completed, integrity-verified, technically ineligible attempts.",
+  "unchanged_gates": [
+    "Frozen scientific design, input hashes, assignments, randomization, measurement source, oracle, timing and eligibility rules",
+    "No retry or replacement of assignment 353 or any later consumed assignment",
+    "Stop on incomplete/missing raw evidence, inventory/hash mismatch, source drift, active hold, or disk/storage gate",
+    "Do not start assignments above 420"
+  ],
+  "assignment_353_disposition": "Preserve as unknown and technically ineligible; no retry; do not count as eligible.",
+  "osf_posting": "No OSF post performed in this continuation step."
+}

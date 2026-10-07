@@ -1,0 +1,221 @@
+{
+  "utc": "2026-10-05T00:49:08.894885+00:00",
+  "families": {
+    "close_aligned_recovery_grid": {
+      "assigned": 180,
+      "started": 180,
+      "complete": 180,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "held_connection_recovery_sweep": {
+      "assigned": 70,
+      "started": 70,
+      "complete": 70,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "six_key_conditions": {
+      "assigned": 60,
+      "started": 60,
+      "complete": 60,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 0
+    },
+    "target_byte_diagnostics": {
+      "assigned": 40,
+      "started": 1,
+      "complete": 1,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 39
+    },
+    "trace_category_timelines": {
+      "assigned": 20,
+      "started": 0,
+      "complete": 0,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 20
+    },
+    "fault_scope_comparison": {
+      "assigned": 120,
+      "started": 0,
+      "complete": 0,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 120
+    },
+    "block_state_recovery": {
+      "assigned": 120,
+      "started": 0,
+      "complete": 0,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 120
+    },
+    "environment_sensitivity": {
+      "assigned": 160,
+      "started": 0,
+      "complete": 0,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 160
+    },
+    "application_and_background_activity": {
+      "assigned": 160,
+      "started": 0,
+      "complete": 0,
+      "technically_invalid": 0,
+      "integrity_failure": 0,
+      "unknown": 0,
+      "remaining": 160
+    }
+  },
+  "assigned": 930,
+  "started": 311,
+  "complete": 311,
+  "remaining": 619,
+  "disk_free_bytes": 16604745728,
+  "last_batch": {
+    "utc": "2026-10-04T23:28:46.222062+00:00",
+    "assigned": 20,
+    "finished": 18,
+    "attempts": [
+      {
+        "trial_id": "scientific-six_key_conditions-00043",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00044",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00045",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00046",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00047",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00048",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00049",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00050",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00051",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00052",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00053",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00054",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00055",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00056",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00057",
+        "endpoint": "lost",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00058",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00059",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      },
+      {
+        "trial_id": "scientific-six_key_conditions-00060",
+        "endpoint": "recovered",
+        "technical_eligible": true,
+        "independent_pass": true
+      }
+    ],
+    "passed": false,
+    "error": "RuntimeError('Backend/controller/independent failure; consumed slot, no retry')",
+    "automatic_retry": false,
+    "next_action": "Archive/offload at declared batch boundary; resume only after applicable storage and integrity checks pass."
+  },
+  "eta_seconds": 46426.683410943995,
+  "eta_scope": "observed scientific trial costs only; missing families can invalidate forecast",
+  "overlapping_flags": "complete includes finished unknown/integrity failures; technically_invalid overlaps endpoint categories; directories without a result are started/unknown and never retried",
+  "scientific_acquisition_ready": false,
+  "independent_valid_total": 311,
+  "eligible_scientific_count": 311,
+  "unresolved_independent_failures": [],
+  "historical_validator_rejections": 1,
+  "resolved_validator_rejections": 1,
+  "validator_version": "scientific-worker-pin-audit-v1.0.0",
+  "new_scientific_attempts_this_correction": 0
+}
