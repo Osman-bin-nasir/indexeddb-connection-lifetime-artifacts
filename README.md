@@ -2,6 +2,16 @@
 
 This public artifact package contains data, analysis code, frozen design files, and retained diagnostic evidence for a completed prospective campaign using packaged Chromium 153.0.8010.12 with SQLite explicitly enabled, an ARM64 Ubuntu guest, and one Apple Silicon host. The registered experimental conditions and original evidence are preserved. The package is an evidence and analysis copy, not a relocated runnable VM environment.
 
+## Manuscript and supporting information
+
+The current manuscript and Supporting Information are available as PDF and editable Word files. Supplementary Figures S1 and S2 are included in the Supporting Information. The PDFs were rendered from these Word files and visually checked for figure captions and wide tables.
+
+- [Paper PDF](paper/IndexedDB_Connection_Lifetime_Paper.pdf)
+- [Supporting Information PDF](paper/IndexedDB_Connection_Lifetime_Supporting_Information.pdf)
+- [Paper Word file](paper/IndexedDB_Connection_Lifetime_Paper.docx)
+- [Supporting Information Word file](paper/IndexedDB_Connection_Lifetime_Supporting_Information.docx)
+- [SHA-256 checksums](paper/SHA256SUMS.txt)
+
 ## Current revision supplement
 
 [Version 1.1.0](https://github.com/Osman-bin-nasir/indexeddb-connection-lifetime-artifacts/releases/tag/v1.1.0) adds verified unpublished supporting syscall evidence, acquisition and filesystem context, revised named figures and current manuscript table exports. It is also deposited in [OSF svrjy](https://osf.io/svrjy/). See [the supplement README](supplements/round4_20261007/README.md) for byte verification, reproduction commands, separate denominators and limits. The original v1.0.0 complete campaign assets remain unchanged and are still required for all-930 reproduction.
