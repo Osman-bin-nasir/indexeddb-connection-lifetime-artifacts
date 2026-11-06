@@ -2,6 +2,13 @@
 
 This public artifact package contains data, analysis code, frozen design files, and retained diagnostic evidence for a completed prospective campaign using packaged Chromium 153.0.8010.12 with SQLite explicitly enabled, an ARM64 Ubuntu guest, and one Apple Silicon host. The registered experimental conditions and original evidence are preserved. The package is an evidence and analysis copy, not a relocated runnable VM environment.
 
+## Zenodo publication
+
+The preprint and its Supporting Information are published together on Zenodo.
+
+- Version DOI: [10.5281/zenodo.24021256](https://doi.org/10.5281/zenodo.24021256)
+- Concept DOI: [10.5281/zenodo.24021255](https://doi.org/10.5281/zenodo.24021255)
+
 ## Manuscript and supporting information
 
 The current manuscript and Supporting Information are available as PDF and editable Word files. Supplementary Figures S1 and S2 are included in the Supporting Information. The PDFs were rendered from these Word files and visually checked for figure captions and wide tables.
